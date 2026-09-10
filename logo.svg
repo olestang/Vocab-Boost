@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Vocational English icon</title>
+  <desc id="desc">A speech bubble combined with a medical cross.</desc>
+  <rect width="180" height="180" rx="36" fill="#ffffff"/>
+  <path d="M32 44c0-10 8-18 18-18h80c10 0 18 8 18 18v54c0 10-8 18-18 18H82l-30 24 8-24H50c-10 0-18-8-18-18V44z" fill="#0d6efd"/>
+  <rect x="80" y="48" width="20" height="48" rx="4" fill="#ffffff"/>
+  <rect x="66" y="62" width="48" height="20" rx="4" fill="#ffffff"/>
+  <path d="M54 129h72" stroke="#0d6efd" stroke-width="10" stroke-linecap="round" opacity=".22"/>
+</svg>

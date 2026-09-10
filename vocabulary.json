@@ -1,0 +1,970 @@
+{
+  "app": {
+    "title": "Vocational English",
+    "school": "Lukas VGS",
+    "programme": "VG1 Helse og oppvekst"
+  },
+  
+  "modules": [
+    {
+      "id": "symptoms",
+      "titleNo": "Symptomer",
+      "titleEn": "Symptoms",
+      "description": "Vanlige symptomer og hvordan de beskrives på engelsk.",
+      "accent": "#d95c63",
+      "order": 1
+    },
+    {
+      "id": "body",
+      "titleNo": "Kroppen",
+      "titleEn": "The body",
+      "description": "Kroppsdeler og ord du trenger når du spør hvor noe gjør vondt.",
+      "accent": "#3478c5",
+      "order": 2
+    },
+    {
+      "id": "care",
+      "titleNo": "Pasientkontakt",
+      "titleEn": "Patient communication",
+      "description": "Utstyr, målinger og nyttige uttrykk i møte med pasienter og brukere.",
+      "accent": "#2b8a78",
+      "order": 3
+    }
+  ],
+  
+  "words": [
+    {
+      "id": "symptoms_001",
+      "module": "symptoms",
+      "english": "fever",
+      "norwegian": "feber",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an unusually high body temperature",
+      "example": "The patient has a fever.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "naturalSentence",
+          "prompt": "Hvilken setning høres mest naturlig ut?",
+          "options": [
+            "She has a fever.",
+            "She is having a fever."
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "symptoms_002",
+      "module": "symptoms",
+      "english": "cough",
+      "norwegian": "hoste",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an action that forces air out of the lungs with a sudden sound",
+      "example": "He has had a bad cough for three days.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "The patient has a persistent _____.",
+          "answer": "cough"
+        }
+      ]
+    },
+    {
+      "id": "symptoms_003",
+      "module": "symptoms",
+      "english": "headache",
+      "norwegian": "hodepine",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "pain in the head",
+      "example": "She has a headache and needs to rest.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "I have a terrible _____.",
+          "answer": "headache"
+        }
+      ]
+    },
+    {
+      "id": "symptoms_004",
+      "module": "symptoms",
+      "english": "dizziness",
+      "norwegian": "svimmelhet",
+      "acceptedEnglish": [
+        "vertigo"
+      ],
+      "acceptedNorwegian": [
+        "svimmel"
+      ],
+      "definition": "the feeling that you or the room are moving or spinning",
+      "example": "Dizziness can make it difficult to stand.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_005",
+      "module": "symptoms",
+      "english": "nausea",
+      "norwegian": "kvalme",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the feeling that you may vomit",
+      "example": "The medication may cause nausea.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_006",
+      "module": "symptoms",
+      "english": "vomiting",
+      "norwegian": "oppkast",
+      "acceptedEnglish": [
+        "being sick"
+      ],
+      "acceptedNorwegian": [
+        "brekninger"
+      ],
+      "definition": "the act of bringing food or liquid up from the stomach",
+      "example": "The child has been vomiting since last night.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_007",
+      "module": "symptoms",
+      "english": "swelling",
+      "norwegian": "hevelse",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an area becoming larger because of injury, inflammation or illness",
+      "example": "There is swelling around the ankle.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "There is some _____ around the injured ankle.",
+          "answer": "swelling"
+        }
+      ]
+    },
+    {
+      "id": "symptoms_008",
+      "module": "symptoms",
+      "english": "rash",
+      "norwegian": "utslett",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an area of irritated or inflamed skin",
+      "example": "The patient has a red rash on both arms.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_009",
+      "module": "symptoms",
+      "english": "pain",
+      "norwegian": "smerte",
+      "acceptedEnglish": [
+        "ache"
+      ],
+      "acceptedNorwegian": [
+        "smerter"
+      ],
+      "definition": "an unpleasant physical feeling caused by injury or illness",
+      "example": "Please tell me where you feel pain.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_010",
+      "module": "symptoms",
+      "english": "sore throat",
+      "norwegian": "sår hals",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "pain or irritation in the throat, especially when swallowing",
+      "example": "A sore throat can be a symptom of an infection.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_011",
+      "module": "symptoms",
+      "english": "shortness of breath",
+      "norwegian": "tungpustethet",
+      "acceptedEnglish": [
+        "breathlessness"
+      ],
+      "acceptedNorwegian": [
+        "pustevansker",
+        "kortpustethet"
+      ],
+      "definition": "difficulty breathing or the feeling that you cannot get enough air",
+      "example": "Call for help if the patient develops shortness of breath.",
+      "confusions": [
+        {
+          "answer": "shortness of breathe",
+          "feedback": "Use «breath» here. «Breathe» is the verb; «breath» is the noun."
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "symptoms_012",
+      "module": "symptoms",
+      "english": "fatigue",
+      "norwegian": "utmattelse",
+      "acceptedEnglish": [
+        "tiredness"
+      ],
+      "acceptedNorwegian": [
+        "tretthet",
+        "slapphet"
+      ],
+      "definition": "a strong feeling of physical or mental tiredness",
+      "example": "Fatigue can continue after an illness.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_013",
+      "module": "symptoms",
+      "english": "chills",
+      "norwegian": "frysninger",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a feeling of cold with shaking, sometimes with fever",
+      "example": "The patient has fever and chills.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_014",
+      "module": "symptoms",
+      "english": "bleeding",
+      "norwegian": "blødning",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "blødninger"
+      ],
+      "definition": "the loss of blood from the body",
+      "example": "Apply pressure to stop the bleeding.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_015",
+      "module": "symptoms",
+      "english": "fainting",
+      "norwegian": "besvimelse",
+      "acceptedEnglish": [
+        "passing out"
+      ],
+      "acceptedNorwegian": [
+        "svime av"
+      ],
+      "definition": "a short loss of consciousness",
+      "example": "Fainting can happen if a person is dehydrated.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_016",
+      "module": "symptoms",
+      "english": "diarrhoea",
+      "norwegian": "diaré",
+      "acceptedEnglish": [
+        "diarrhea"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "frequent loose or watery bowel movements",
+      "example": "The patient has had diarrhoea since yesterday.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_017",
+      "module": "symptoms",
+      "english": "constipation",
+      "norwegian": "forstoppelse",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "difficulty emptying the bowels",
+      "example": "Drinking enough water can help prevent constipation.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_018",
+      "module": "symptoms",
+      "english": "infection",
+      "norwegian": "infeksjon",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an illness caused by harmful microorganisms entering the body",
+      "example": "The wound shows signs of infection.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "The wound may have an _____.",
+          "answer": "infection"
+        }
+      ]
+    },
+    {
+      "id": "symptoms_019",
+      "module": "symptoms",
+      "english": "allergic reaction",
+      "norwegian": "allergisk reaksjon",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the body's harmful response to a substance it is sensitive to",
+      "example": "She developed an allergic reaction after taking the medicine.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_020",
+      "module": "symptoms",
+      "english": "unconscious",
+      "norwegian": "bevisstløs",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "not awake and not aware of what is happening",
+      "example": "The patient is unconscious but breathing.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_001",
+      "module": "body",
+      "english": "head",
+      "norwegian": "hode",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the upper part of the body containing the brain, eyes, ears, nose and mouth",
+      "example": "He hit his head when he fell.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_002",
+      "module": "body",
+      "english": "neck",
+      "norwegian": "nakke",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the part of the body connecting the head to the shoulders",
+      "example": "She has pain in her neck.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_003",
+      "module": "body",
+      "english": "shoulder",
+      "norwegian": "skulder",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the joint where the arm connects to the body",
+      "example": "Can you move your shoulder?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_004",
+      "module": "body",
+      "english": "chest",
+      "norwegian": "brystkasse",
+      "acceptedEnglish": [
+        "thorax"
+      ],
+      "acceptedNorwegian": [
+        "bryst",
+        "brystet"
+      ],
+      "definition": "the front upper part of the body between the neck and abdomen",
+      "example": "The patient reports pain in the chest.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "I have pain in my _____.",
+          "answer": "chest"
+        }
+      ]
+    },
+    {
+      "id": "body_005",
+      "module": "body",
+      "english": "back",
+      "norwegian": "rygg",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the rear part of the body from the neck to the pelvis",
+      "example": "He has lower back pain.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_006",
+      "module": "body",
+      "english": "stomach",
+      "norwegian": "mage",
+      "acceptedEnglish": [
+        "belly"
+      ],
+      "acceptedNorwegian": [
+        "magen"
+      ],
+      "definition": "the organ that receives food, also commonly used for the front of the abdomen",
+      "example": "My stomach hurts.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "naturalSentence",
+          "prompt": "Hvilken setning er naturlig hverdagsspråk?",
+          "options": [
+            "My stomach hurts.",
+            "My abdomen is hurting me bodily."
+          ],
+          "correct": 0
+        }
+      ],
+      "registerPair": {
+        "everyday": "tummy / stomach",
+        "professional": "abdomen"
+      }
+    },
+    {
+      "id": "body_007",
+      "module": "body",
+      "english": "abdomen",
+      "norwegian": "buk",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "magen"
+      ],
+      "definition": "the area of the body between the chest and pelvis",
+      "example": "The nurse examined the patient's abdomen.",
+      "confusions": [],
+      "questions": [],
+      "registerPair": {
+        "everyday": "tummy / stomach",
+        "professional": "abdomen"
+      }
+    },
+    {
+      "id": "body_008",
+      "module": "body",
+      "english": "arm",
+      "norwegian": "arm",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the upper limb from the shoulder to the hand",
+      "example": "Raise your left arm, please.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_009",
+      "module": "body",
+      "english": "elbow",
+      "norwegian": "albue",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the joint in the middle of the arm",
+      "example": "She has a small cut on her elbow.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_010",
+      "module": "body",
+      "english": "wrist",
+      "norwegian": "håndledd",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the joint connecting the hand and forearm",
+      "example": "His wrist is swollen after the fall.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_011",
+      "module": "body",
+      "english": "hand",
+      "norwegian": "hånd",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the part at the end of the arm used for holding and touching",
+      "example": "Wash your hands before and after patient contact.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_012",
+      "module": "body",
+      "english": "finger",
+      "norwegian": "finger",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "one of the five digits of the hand",
+      "example": "He cut his finger while cooking.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_013",
+      "module": "body",
+      "english": "hip",
+      "norwegian": "hofte",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the joint connecting the leg to the pelvis",
+      "example": "The patient has pain in her right hip.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_014",
+      "module": "body",
+      "english": "knee",
+      "norwegian": "kne",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the joint between the upper and lower leg",
+      "example": "Bend your knee slowly.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_015",
+      "module": "body",
+      "english": "ankle",
+      "norwegian": "ankel",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the joint connecting the foot and lower leg",
+      "example": "Her ankle is swollen.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "The swelling is around the _____.",
+          "answer": "ankle"
+        }
+      ]
+    },
+    {
+      "id": "body_016",
+      "module": "body",
+      "english": "foot",
+      "norwegian": "fot",
+      "acceptedEnglish": [
+        "feet"
+      ],
+      "acceptedNorwegian": [
+        "foten"
+      ],
+      "definition": "the part at the end of the leg used for standing and walking",
+      "example": "Do you have any pain in your foot?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_017",
+      "module": "body",
+      "english": "lungs",
+      "norwegian": "lunger",
+      "acceptedEnglish": [
+        "lung"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "the organs used for breathing",
+      "example": "The lungs take oxygen into the body.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_018",
+      "module": "body",
+      "english": "heart",
+      "norwegian": "hjerte",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the organ that pumps blood around the body",
+      "example": "The heart pumps blood through the body.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_019",
+      "module": "body",
+      "english": "throat",
+      "norwegian": "hals",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the passage inside the neck used for swallowing and breathing",
+      "example": "Open your mouth so I can look at your throat.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_020",
+      "module": "body",
+      "english": "skin",
+      "norwegian": "hud",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the outer covering of the body",
+      "example": "Check the skin for redness or a rash.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_001",
+      "module": "care",
+      "english": "blood pressure",
+      "norwegian": "blodtrykk",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the pressure of blood against the walls of the blood vessels",
+      "example": "I am going to check your blood pressure.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "I need to measure your blood _____.",
+          "answer": "pressure",
+          "accepted": [
+            "blood pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "care_002",
+      "module": "care",
+      "english": "pulse",
+      "norwegian": "puls",
+      "acceptedEnglish": [
+        "heart rate"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "the regular beat that can be felt as the heart pumps blood",
+      "example": "Your pulse is a little fast.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_003",
+      "module": "care",
+      "english": "temperature",
+      "norwegian": "temperatur",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a measurement of how hot or cold the body is",
+      "example": "I am going to take your temperature.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "The patient has a high _____.",
+          "answer": "temperature"
+        }
+      ]
+    },
+    {
+      "id": "care_004",
+      "module": "care",
+      "english": "bandage",
+      "norwegian": "bandasje",
+      "acceptedEnglish": [
+        "dressing"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a strip or piece of material used to cover or support an injury",
+      "example": "The nurse put a clean bandage on the wound.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_005",
+      "module": "care",
+      "english": "wound",
+      "norwegian": "sår",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an injury in which the skin or other tissue is damaged",
+      "example": "Keep the wound clean and dry.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_006",
+      "module": "care",
+      "english": "medication",
+      "norwegian": "medisin",
+      "acceptedEnglish": [
+        "medicine"
+      ],
+      "acceptedNorwegian": [
+        "medikament",
+        "medisiner"
+      ],
+      "definition": "a medicine used to treat or prevent illness",
+      "example": "Are you taking any medication?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_007",
+      "module": "care",
+      "english": "appointment",
+      "norwegian": "timeavtale",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "avtale",
+        "legetime"
+      ],
+      "definition": "an arranged time to meet a healthcare professional",
+      "example": "Your next appointment is on Monday.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_008",
+      "module": "care",
+      "english": "wheelchair",
+      "norwegian": "rullestol",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a chair with wheels used by a person who has difficulty walking",
+      "example": "Would you like me to bring a wheelchair?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_009",
+      "module": "care",
+      "english": "crutches",
+      "norwegian": "krykker",
+      "acceptedEnglish": [
+        "crutch"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "supports used under the arms or hands to help a person walk",
+      "example": "He is using crutches after his ankle injury.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_010",
+      "module": "care",
+      "english": "gloves",
+      "norwegian": "hansker",
+      "acceptedEnglish": [
+        "protective gloves"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "protective coverings worn on the hands",
+      "example": "Put on clean gloves before dressing the wound.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_011",
+      "module": "care",
+      "english": "wash your hands",
+      "norwegian": "vask hendene",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "to clean the hands with soap and water",
+      "example": "Please wash your hands before preparing food.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_012",
+      "module": "care",
+      "english": "take a seat",
+      "norwegian": "sett deg ned",
+      "acceptedEnglish": [
+        "sit down"
+      ],
+      "acceptedNorwegian": [
+        "sett deg",
+        "sitt ned"
+      ],
+      "definition": "a polite way to ask someone to sit down",
+      "example": "Please take a seat while you wait.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_013",
+      "module": "care",
+      "english": "breathe deeply",
+      "norwegian": "pust dypt",
+      "acceptedEnglish": [
+        "take a deep breath"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "to take slow, deep breaths",
+      "example": "Breathe deeply and try to relax.",
+      "confusions": [
+        {
+          "answer": "breath deeply",
+          "feedback": "Use «breathe» as the verb: «Breathe deeply». «Breath» is the noun."
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "care_014",
+      "module": "care",
+      "english": "describe your pain",
+      "norwegian": "beskriv smerten din",
+      "acceptedEnglish": [
+        "describe the pain"
+      ],
+      "acceptedNorwegian": [
+        "beskriv smertene dine"
+      ],
+      "definition": "to explain what pain feels like and where it is",
+      "example": "Can you describe your pain for me?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_015",
+      "module": "care",
+      "english": "Are you allergic to any medication?",
+      "norwegian": "Er du allergisk mot noen medisiner?",
+      "acceptedEnglish": [
+        "Are you allergic to any medicine?"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a question used to check for medication allergies",
+      "example": "Are you allergic to any medication?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_016",
+      "module": "care",
+      "english": "Where does it hurt?",
+      "norwegian": "Hvor gjør det vondt?",
+      "acceptedEnglish": [
+        "Where are you in pain?"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a simple patient-friendly question about the location of pain",
+      "example": "Where does it hurt?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_017",
+      "module": "care",
+      "english": "I am going to check your temperature.",
+      "norwegian": "Jeg skal måle temperaturen din.",
+      "acceptedEnglish": [
+        "I'm going to check your temperature."
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a sentence used to explain a routine observation to a patient",
+      "example": "I am going to check your temperature.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_018",
+      "module": "care",
+      "english": "Do you need help?",
+      "norwegian": "Trenger du hjelp?",
+      "acceptedEnglish": [
+        "Do you need any help?"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a simple question offering assistance",
+      "example": "Do you need help getting up?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_019",
+      "module": "care",
+      "english": "Please tell me if this hurts.",
+      "norwegian": "Si fra hvis dette gjør vondt.",
+      "acceptedEnglish": [
+        "Tell me if this hurts."
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a sentence used while examining or helping a patient",
+      "example": "Please tell me if this hurts.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "care_020",
+      "module": "care",
+      "english": "You are safe here.",
+      "norwegian": "Du er trygg her.",
+      "acceptedEnglish": [
+        "You're safe here."
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a reassuring sentence used to help someone feel secure",
+      "example": "You are safe here. We are going to help you.",
+      "confusions": [],
+      "questions": []
+    }
+  ],
+  "challenges": {
+    "symptoms-week-1": {
+      "title": "Symptoms — Week 1",
+      "mode": "challenge",
+      "questionCount": 10,
+      "words": [
+        "symptoms_001",
+        "symptoms_002",
+        "symptoms_003",
+        "symptoms_004",
+        "symptoms_005",
+        "symptoms_006",
+        "symptoms_007",
+        "symptoms_008",
+        "symptoms_009",
+        "symptoms_010"
+      ]
+    },
+    "patient-basics": {
+      "title": "Patient basics",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "care_001",
+        "care_002",
+        "care_003",
+        "care_006",
+        "care_012",
+        "care_013",
+        "care_015",
+        "care_016",
+        "care_017",
+        "care_018",
+        "care_019",
+        "care_020"
+      ]
+    }
+  }
+}

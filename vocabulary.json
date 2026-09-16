@@ -6,74 +6,106 @@
   },
   "modules": [
     {
-      "id": "anatomy",
+      "id": "body_anatomy",
       "titleNo": "Kroppen og anatomi",
-      "titleEn": "Body and basic anatomy",
-      "description": "Kroppsdeler, organer og grunnleggende anatomi du trenger for å beskrive kroppen.",
+      "titleEn": "Body and Anatomy",
+      "description": "Kroppsdeler og grunnleggende anatomi som er nyttig i helse- og omsorgssituasjoner.",
       "accent": "#3478c5",
       "order": 1
     },
     {
-      "id": "health_conditions",
-      "titleNo": "Symptomer, sykdom og helse",
-      "titleEn": "Symptoms, illness and health conditions",
-      "description": "Vanlige symptomer, skader, sykdommer og helseplager.",
+      "id": "symptoms_common_illness",
+      "titleNo": "Symptomer og vanlige plager",
+      "titleEn": "Symptoms and Common Illness",
+      "description": "Vanlige symptomer, plager og sykdomstegn du kan møte i helse- og omsorgsarbeid.",
       "accent": "#d95c63",
       "order": 2
     },
     {
-      "id": "daily_care",
-      "titleNo": "Pleie, hygiene og daglige rutiner",
-      "titleEn": "Care, hygiene and daily routines",
-      "description": "Personlig pleie, hygiene, mat, søvn og hjelp i daglige aktiviteter.",
-      "accent": "#2f9c95",
+      "id": "injuries_health_conditions",
+      "titleNo": "Skader og helsetilstander",
+      "titleEn": "Injuries and Health Conditions",
+      "description": "Skader, kroniske tilstander og andre helseproblemer som er viktige å kunne beskrive.",
+      "accent": "#b84a62",
       "order": 3
     },
     {
-      "id": "communication",
-      "titleNo": "Kommunikasjon med pasienter og brukere",
-      "titleEn": "Communication with patients and service users",
-      "description": "Nyttige spørsmål, beskjeder og uttrykk i møte med pasienter, barn og brukere.",
-      "accent": "#7b61b3",
+      "id": "personal_care_hygiene",
+      "titleNo": "Personlig stell og hygiene",
+      "titleEn": "Personal Care and Hygiene",
+      "description": "Ord og uttrykk for personlig stell, hygiene, smittevern og daglige omsorgsoppgaver.",
+      "accent": "#2f9c95",
       "order": 4
     },
     {
-      "id": "workplace_equipment",
-      "titleNo": "Arbeidsplass, utstyr og yrkesroller",
-      "titleEn": "Workplace, equipment and professional roles",
-      "description": "Yrkesroller, arbeidssteder, utstyr og dokumentasjon i helse- og oppvekstfag.",
-      "accent": "#d38a2c",
+      "id": "food_sleep_mobility_toileting",
+      "titleNo": "Mat, søvn, bevegelse og toalett",
+      "titleEn": "Food, Sleep, Mobility and Toileting",
+      "description": "Ord for ernæring, væske, søvn, mobilitet, forflytning og toalettbehov.",
+      "accent": "#4f8f5b",
       "order": 5
     },
     {
-      "id": "safety_observation",
-      "titleNo": "Sikkerhet, nødsituasjoner og observasjon",
-      "titleEn": "Safety, emergencies and observation",
-      "description": "Førstehjelp, sikkerhet, observasjon og rapportering av endringer.",
-      "accent": "#b84a62",
+      "id": "basic_communication",
+      "titleNo": "Grunnleggende kommunikasjon",
+      "titleEn": "Basic Communication",
+      "description": "Enkle og nyttige spørsmål og beskjeder i møte med pasienter, brukere og barn.",
+      "accent": "#7b61b3",
       "order": 6
+    },
+    {
+      "id": "asking_explaining_reassuring",
+      "titleNo": "Spørsmål, forklaring og trygging",
+      "titleEn": "Asking, Explaining and Reassuring",
+      "description": "Uttrykk for å spørre, forklare, innhente samtykke og skape trygghet.",
+      "accent": "#8f6bb8",
+      "order": 7
+    },
+    {
+      "id": "childcare_development_safeguarding",
+      "titleNo": "Barn, utvikling og omsorg",
+      "titleEn": "Childcare, Development and Safeguarding",
+      "description": "Ord og uttrykk om barn, utvikling, trivsel, støtte og beskyttelse mot skade og omsorgssvikt.",
+      "accent": "#d38a2c",
+      "order": 8
+    },
+    {
+      "id": "workplace_roles_equipment",
+      "titleNo": "Arbeidsplass, yrkesroller og utstyr",
+      "titleEn": "Workplace, Roles and Equipment",
+      "description": "Yrkesroller, arbeidssteder og vanlig utstyr i helse-, omsorgs- og oppvekstsektoren.",
+      "accent": "#6f7f9b",
+      "order": 9
+    },
+    {
+      "id": "professional_care_ethics",
+      "titleNo": "Profesjonell omsorg og yrkesetikk",
+      "titleEn": "Professional Care and Ethics",
+      "description": "Sentrale begreper om profesjonell omsorg, etikk, dokumentasjon og samarbeid.",
+      "accent": "#8a6a4a",
+      "order": 10
+    },
+    {
+      "id": "safety_first_aid",
+      "titleNo": "Sikkerhet og førstehjelp",
+      "titleEn": "Safety and First Aid",
+      "description": "Ord og uttrykk for sikkerhet, førstehjelp og handling i akutte situasjoner.",
+      "accent": "#c04f5f",
+      "order": 11
+    },
+    {
+      "id": "observation_medication",
+      "titleNo": "Observasjon og legemidler",
+      "titleEn": "Observation and Medication",
+      "description": "Ord for observasjon, vitale tegn, rapportering og grunnleggende legemiddelrelatert språk.",
+      "accent": "#527a83",
+      "order": 12
     }
   ],
   "words": [
     {
-      "id": "anatomy_001",
-      "module": "anatomy",
-      "english": "body",
-      "norwegian": "kropp",
-      "acceptedEnglish": [
-        "the body"
-      ],
-      "acceptedNorwegian": [
-        "kroppen"
-      ],
-      "definition": "the whole physical structure of a person",
-      "example": "The human body has many different organs.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_002",
-      "module": "anatomy",
+      "id": "body_anatomy_001",
+      "module": "body_anatomy",
       "english": "head",
       "norwegian": "hode",
       "acceptedEnglish": [
@@ -88,24 +120,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_003",
-      "module": "anatomy",
-      "english": "face",
-      "norwegian": "ansikt",
-      "acceptedEnglish": [
-        "the face"
-      ],
-      "acceptedNorwegian": [
-        "ansiktet"
-      ],
-      "definition": "the front part of the head",
-      "example": "Wash the patient’s face gently.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_004",
-      "module": "anatomy",
+      "id": "body_anatomy_002",
+      "module": "body_anatomy",
       "english": "eye",
       "norwegian": "øye",
       "acceptedEnglish": [
@@ -123,43 +139,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_005",
-      "module": "anatomy",
-      "english": "ear",
-      "norwegian": "øre",
-      "acceptedEnglish": [
-        "ears",
-        "the ear"
-      ],
-      "acceptedNorwegian": [
-        "øret",
-        "ører",
-        "ørene"
-      ],
-      "definition": "the organ used for hearing",
-      "example": "She has pain in her right ear.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_006",
-      "module": "anatomy",
-      "english": "nose",
-      "norwegian": "nese",
-      "acceptedEnglish": [
-        "the nose"
-      ],
-      "acceptedNorwegian": [
-        "nesen"
-      ],
-      "definition": "the part of the face used for smelling and breathing",
-      "example": "His nose is blocked.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_007",
-      "module": "anatomy",
+      "id": "body_anatomy_003",
+      "module": "body_anatomy",
       "english": "mouth",
       "norwegian": "munn",
       "acceptedEnglish": [
@@ -174,52 +155,18 @@
       "questions": []
     },
     {
-      "id": "anatomy_008",
-      "module": "anatomy",
-      "english": "tooth",
-      "norwegian": "tann",
-      "acceptedEnglish": [
-        "teeth",
-        "the tooth"
-      ],
-      "acceptedNorwegian": [
-        "tannen",
-        "tenner",
-        "tennene"
-      ],
-      "definition": "one of the hard structures in the mouth used for biting and chewing",
-      "example": "The child has a loose tooth.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_009",
-      "module": "anatomy",
-      "english": "tongue",
-      "norwegian": "tunge",
-      "acceptedEnglish": [
-        "the tongue"
-      ],
-      "acceptedNorwegian": [
-        "tungen"
-      ],
-      "definition": "the muscle in the mouth used for tasting, speaking and swallowing",
-      "example": "Stick out your tongue, please.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_010",
-      "module": "anatomy",
+      "id": "body_anatomy_004",
+      "module": "body_anatomy",
       "english": "throat",
-      "norwegian": "hals",
+      "norwegian": "hals / svelg",
       "acceptedEnglish": [
         "the throat"
       ],
       "acceptedNorwegian": [
         "halsen",
         "svelg",
-        "svelget"
+        "svelget",
+        "hals"
       ],
       "definition": "the passage at the back of the mouth leading down to the lungs and stomach",
       "example": "Her throat feels sore.",
@@ -227,26 +174,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_011",
-      "module": "anatomy",
-      "english": "neck",
-      "norwegian": "nakke",
-      "acceptedEnglish": [
-        "the neck"
-      ],
-      "acceptedNorwegian": [
-        "nakken",
-        "hals",
-        "halsen"
-      ],
-      "definition": "the part connecting the head to the shoulders",
-      "example": "He has a stiff neck.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_012",
-      "module": "anatomy",
+      "id": "body_anatomy_005",
+      "module": "body_anatomy",
       "english": "shoulder",
       "norwegian": "skulder",
       "acceptedEnglish": [
@@ -264,8 +193,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_013",
-      "module": "anatomy",
+      "id": "body_anatomy_006",
+      "module": "body_anatomy",
       "english": "arm",
       "norwegian": "arm",
       "acceptedEnglish": [
@@ -283,44 +212,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_014",
-      "module": "anatomy",
-      "english": "elbow",
-      "norwegian": "albue",
-      "acceptedEnglish": [
-        "elbows",
-        "the elbow"
-      ],
-      "acceptedNorwegian": [
-        "albuen",
-        "albuer",
-        "albuene"
-      ],
-      "definition": "the joint in the middle of the arm",
-      "example": "He injured his elbow.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_015",
-      "module": "anatomy",
-      "english": "wrist",
-      "norwegian": "håndledd",
-      "acceptedEnglish": [
-        "wrists",
-        "the wrist"
-      ],
-      "acceptedNorwegian": [
-        "håndleddet"
-      ],
-      "definition": "the joint between the hand and the arm",
-      "example": "Her wrist is swollen.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_016",
-      "module": "anatomy",
+      "id": "body_anatomy_007",
+      "module": "body_anatomy",
       "english": "hand",
       "norwegian": "hånd",
       "acceptedEnglish": [
@@ -338,34 +231,17 @@
       "questions": []
     },
     {
-      "id": "anatomy_017",
-      "module": "anatomy",
-      "english": "finger",
-      "norwegian": "finger",
-      "acceptedEnglish": [
-        "fingers",
-        "the finger"
-      ],
-      "acceptedNorwegian": [
-        "fingeren",
-        "fingre",
-        "fingrene"
-      ],
-      "definition": "one of the five parts at the end of a hand",
-      "example": "He cut his finger.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_018",
-      "module": "anatomy",
+      "id": "body_anatomy_008",
+      "module": "body_anatomy",
       "english": "chest",
-      "norwegian": "bryst",
+      "norwegian": "bryst / brystkasse",
       "acceptedEnglish": [
         "the chest"
       ],
       "acceptedNorwegian": [
-        "brystet"
+        "brystet",
+        "bryst",
+        "brystkasse"
       ],
       "definition": "the front of the upper body between the neck and abdomen",
       "example": "She has pain in her chest.",
@@ -373,8 +249,29 @@
       "questions": []
     },
     {
-      "id": "anatomy_019",
-      "module": "anatomy",
+      "id": "body_anatomy_009",
+      "module": "body_anatomy",
+      "english": "abdomen",
+      "norwegian": "buk / mageområde",
+      "acceptedEnglish": [
+        "belly",
+        "abdominal area"
+      ],
+      "acceptedNorwegian": [
+        "buken",
+        "mageområde",
+        "mageområdet",
+        "abdomen",
+        "buk"
+      ],
+      "definition": "the area of the body between the chest and the pelvis",
+      "example": "The nurse checked the patient’s abdomen.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_anatomy_010",
+      "module": "body_anatomy",
       "english": "back",
       "norwegian": "rygg",
       "acceptedEnglish": [
@@ -389,45 +286,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_020",
-      "module": "anatomy",
-      "english": "abdomen",
-      "norwegian": "buk",
-      "acceptedEnglish": [
-        "belly",
-        "abdominal area"
-      ],
-      "acceptedNorwegian": [
-        "buken",
-        "mageområde",
-        "mageområdet",
-        "abdomen"
-      ],
-      "definition": "the area of the body between the chest and the pelvis",
-      "example": "The nurse checked the patient’s abdomen.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_021",
-      "module": "anatomy",
-      "english": "stomach",
-      "norwegian": "magesekk",
-      "acceptedEnglish": [
-        "the stomach"
-      ],
-      "acceptedNorwegian": [
-        "magesekken",
-        "mage"
-      ],
-      "definition": "the organ that receives food after it is swallowed",
-      "example": "Food passes into the stomach after you swallow.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_022",
-      "module": "anatomy",
+      "id": "body_anatomy_011",
+      "module": "body_anatomy",
       "english": "hip",
       "norwegian": "hofte",
       "acceptedEnglish": [
@@ -445,8 +305,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_023",
-      "module": "anatomy",
+      "id": "body_anatomy_012",
+      "module": "body_anatomy",
       "english": "leg",
       "norwegian": "bein",
       "acceptedEnglish": [
@@ -466,8 +326,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_024",
-      "module": "anatomy",
+      "id": "body_anatomy_013",
+      "module": "body_anatomy",
       "english": "knee",
       "norwegian": "kne",
       "acceptedEnglish": [
@@ -485,27 +345,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_025",
-      "module": "anatomy",
-      "english": "ankle",
-      "norwegian": "ankel",
-      "acceptedEnglish": [
-        "ankles",
-        "the ankle"
-      ],
-      "acceptedNorwegian": [
-        "ankelen",
-        "ankler",
-        "anklene"
-      ],
-      "definition": "the joint between the leg and the foot",
-      "example": "Her ankle is swollen.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_026",
-      "module": "anatomy",
+      "id": "body_anatomy_014",
+      "module": "body_anatomy",
       "english": "foot",
       "norwegian": "fot",
       "acceptedEnglish": [
@@ -523,27 +364,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_027",
-      "module": "anatomy",
-      "english": "toe",
-      "norwegian": "tå",
-      "acceptedEnglish": [
-        "toes",
-        "the toe"
-      ],
-      "acceptedNorwegian": [
-        "tåen",
-        "tær",
-        "tærne"
-      ],
-      "definition": "one of the five small parts at the end of a foot",
-      "example": "He hurt his big toe.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_028",
-      "module": "anatomy",
+      "id": "body_anatomy_015",
+      "module": "body_anatomy",
       "english": "skin",
       "norwegian": "hud",
       "acceptedEnglish": [
@@ -558,48 +380,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_029",
-      "module": "anatomy",
-      "english": "muscle",
-      "norwegian": "muskel",
-      "acceptedEnglish": [
-        "muscles",
-        "the muscle"
-      ],
-      "acceptedNorwegian": [
-        "muskelen",
-        "muskler",
-        "musklene"
-      ],
-      "definition": "body tissue that contracts to create movement",
-      "example": "Exercise can strengthen your muscles.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_030",
-      "module": "anatomy",
-      "english": "bone",
-      "norwegian": "knokkel",
-      "acceptedEnglish": [
-        "bones",
-        "the bone"
-      ],
-      "acceptedNorwegian": [
-        "knokkelen",
-        "knokler",
-        "knoklene",
-        "bein",
-        "ben"
-      ],
-      "definition": "one of the hard structures that form the skeleton",
-      "example": "The X-ray showed a broken bone.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_031",
-      "module": "anatomy",
+      "id": "body_anatomy_016",
+      "module": "body_anatomy",
       "english": "joint",
       "norwegian": "ledd",
       "acceptedEnglish": [
@@ -615,8 +397,20 @@
       "questions": []
     },
     {
-      "id": "anatomy_032",
-      "module": "anatomy",
+      "id": "body_anatomy_017",
+      "module": "body_anatomy",
+      "english": "spine",
+      "norwegian": "ryggrad",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the column of bones running down the back that supports the body and protects the spinal cord",
+      "example": "The patient reports pain along the lower part of the spine.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "body_anatomy_018",
+      "module": "body_anatomy",
       "english": "heart",
       "norwegian": "hjerte",
       "acceptedEnglish": [
@@ -631,8 +425,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_033",
-      "module": "anatomy",
+      "id": "body_anatomy_019",
+      "module": "body_anatomy",
       "english": "lungs",
       "norwegian": "lunger",
       "acceptedEnglish": [
@@ -650,8 +444,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_034",
-      "module": "anatomy",
+      "id": "body_anatomy_020",
+      "module": "body_anatomy",
       "english": "brain",
       "norwegian": "hjerne",
       "acceptedEnglish": [
@@ -666,78 +460,8 @@
       "questions": []
     },
     {
-      "id": "anatomy_035",
-      "module": "anatomy",
-      "english": "blood",
-      "norwegian": "blod",
-      "acceptedEnglish": [
-        "the blood"
-      ],
-      "acceptedNorwegian": [
-        "blodet"
-      ],
-      "definition": "the red liquid that circulates around the body",
-      "example": "The heart pumps blood around the body.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_036",
-      "module": "anatomy",
-      "english": "liver",
-      "norwegian": "lever",
-      "acceptedEnglish": [
-        "the liver"
-      ],
-      "acceptedNorwegian": [
-        "leveren"
-      ],
-      "definition": "a large organ that processes nutrients and removes harmful substances",
-      "example": "The liver has many important functions.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_037",
-      "module": "anatomy",
-      "english": "kidney",
-      "norwegian": "nyre",
-      "acceptedEnglish": [
-        "kidneys",
-        "the kidney"
-      ],
-      "acceptedNorwegian": [
-        "nyren",
-        "nyrer",
-        "nyrene"
-      ],
-      "definition": "one of two organs that filter the blood and produce urine",
-      "example": "The kidneys filter waste from the blood.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "anatomy_038",
-      "module": "anatomy",
-      "english": "bladder",
-      "norwegian": "blære",
-      "acceptedEnglish": [
-        "urinary bladder",
-        "the bladder"
-      ],
-      "acceptedNorwegian": [
-        "blæren",
-        "urinblære",
-        "urinblæren"
-      ],
-      "definition": "the organ that stores urine",
-      "example": "The bladder stores urine before it leaves the body.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_001",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_001",
+      "module": "symptoms_common_illness",
       "english": "symptom",
       "norwegian": "symptom",
       "acceptedEnglish": [
@@ -754,8 +478,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_002",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_002",
+      "module": "symptoms_common_illness",
       "english": "illness",
       "norwegian": "sykdom",
       "acceptedEnglish": [
@@ -772,28 +496,10 @@
       "questions": []
     },
     {
-      "id": "health_conditions_003",
-      "module": "health_conditions",
-      "english": "injury",
-      "norwegian": "skade",
-      "acceptedEnglish": [
-        "injuries",
-        "physical injury"
-      ],
-      "acceptedNorwegian": [
-        "skaden",
-        "personskade"
-      ],
-      "definition": "physical damage to the body caused by an accident or other event",
-      "example": "The patient has an injury to the ankle.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_004",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_003",
+      "module": "symptoms_common_illness",
       "english": "pain",
-      "norwegian": "smerte",
+      "norwegian": "smerte / vondt",
       "acceptedEnglish": [
         "painful feeling",
         "ache"
@@ -801,7 +507,8 @@
       "acceptedNorwegian": [
         "smerter",
         "vondt",
-        "verk"
+        "verk",
+        "smerte"
       ],
       "definition": "an unpleasant physical feeling caused by illness or injury",
       "example": "Tell me where you feel pain.",
@@ -809,8 +516,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_005",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_004",
+      "module": "symptoms_common_illness",
       "english": "fever",
       "norwegian": "feber",
       "acceptedEnglish": [
@@ -838,8 +545,8 @@
       ]
     },
     {
-      "id": "health_conditions_006",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_005",
+      "module": "symptoms_common_illness",
       "english": "cough",
       "norwegian": "hoste",
       "acceptedEnglish": [
@@ -856,48 +563,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_007",
-      "module": "health_conditions",
-      "english": "headache",
-      "norwegian": "hodepine",
-      "acceptedEnglish": [
-        "head ache",
-        "a headache"
-      ],
-      "acceptedNorwegian": [
-        "vondt i hodet",
-        "hodeverk"
-      ],
-      "definition": "pain in the head",
-      "example": "She has a headache and needs to rest.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_008",
-      "module": "health_conditions",
-      "english": "stomach ache",
-      "norwegian": "magesmerter",
-      "acceptedEnglish": [
-        "stomachache",
-        "stomach pain",
-        "abdominal pain",
-        "tummy ache"
-      ],
-      "acceptedNorwegian": [
-        "vondt i magen",
-        "magevondt",
-        "magesmerte",
-        "magepine"
-      ],
-      "definition": "pain in the stomach or abdominal area",
-      "example": "The child says she has a stomach ache.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_009",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_006",
+      "module": "symptoms_common_illness",
       "english": "sore throat",
       "norwegian": "sår hals",
       "acceptedEnglish": [
@@ -915,8 +582,49 @@
       "questions": []
     },
     {
-      "id": "health_conditions_010",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_007",
+      "module": "symptoms_common_illness",
+      "english": "headache",
+      "norwegian": "hodepine",
+      "acceptedEnglish": [
+        "head ache",
+        "a headache"
+      ],
+      "acceptedNorwegian": [
+        "vondt i hodet",
+        "hodeverk"
+      ],
+      "definition": "pain in the head",
+      "example": "She has a headache and needs to rest.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_008",
+      "module": "symptoms_common_illness",
+      "english": "stomachache",
+      "norwegian": "vondt i magen / magesmerter",
+      "acceptedEnglish": [
+        "stomach pain",
+        "abdominal pain",
+        "tummy ache",
+        "stomach ache"
+      ],
+      "acceptedNorwegian": [
+        "vondt i magen",
+        "magevondt",
+        "magesmerte",
+        "magepine",
+        "magesmerter"
+      ],
+      "definition": "pain or discomfort in the stomach or abdominal area",
+      "example": "The child says she has a stomachache.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_009",
+      "module": "symptoms_common_illness",
       "english": "cold",
       "norwegian": "forkjølelse",
       "acceptedEnglish": [
@@ -933,58 +641,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_011",
-      "module": "health_conditions",
-      "english": "flu",
-      "norwegian": "influensa",
-      "acceptedEnglish": [
-        "influenza",
-        "the flu"
-      ],
-      "acceptedNorwegian": [
-        "influensaen"
-      ],
-      "definition": "a viral illness that often causes fever, aches and tiredness",
-      "example": "He is at home with the flu.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_012",
-      "module": "health_conditions",
-      "english": "infection",
-      "norwegian": "infeksjon",
-      "acceptedEnglish": [
-        "an infection"
-      ],
-      "acceptedNorwegian": [
-        "infeksjonen"
-      ],
-      "definition": "an illness caused by harmful microorganisms entering the body",
-      "example": "The wound shows signs of infection.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_013",
-      "module": "health_conditions",
-      "english": "inflammation",
-      "norwegian": "betennelse",
-      "acceptedEnglish": [
-        "inflammatory reaction"
-      ],
-      "acceptedNorwegian": [
-        "betennelsen",
-        "inflammasjon"
-      ],
-      "definition": "the body’s response to injury or infection, often causing redness, heat, swelling or pain",
-      "example": "Inflammation can cause swelling and pain.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_014",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_010",
+      "module": "symptoms_common_illness",
       "english": "nausea",
       "norwegian": "kvalme",
       "acceptedEnglish": [
@@ -1002,10 +660,10 @@
       "questions": []
     },
     {
-      "id": "health_conditions_015",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_011",
+      "module": "symptoms_common_illness",
       "english": "vomiting",
-      "norwegian": "oppkast",
+      "norwegian": "oppkast / å kaste opp",
       "acceptedEnglish": [
         "vomit",
         "throwing up",
@@ -1016,7 +674,9 @@
         "oppkastet",
         "å kaste opp",
         "kaster opp",
-        "brekninger"
+        "brekninger",
+        "oppkast",
+        "kaste opp"
       ],
       "definition": "bringing food or liquid up from the stomach and out through the mouth",
       "example": "Vomiting can lead to dehydration.",
@@ -1024,14 +684,15 @@
       "questions": []
     },
     {
-      "id": "health_conditions_016",
-      "module": "health_conditions",
-      "english": "diarrhoea",
+      "id": "symptoms_common_illness_012",
+      "module": "symptoms_common_illness",
+      "english": "diarrhea",
       "norwegian": "diaré",
       "acceptedEnglish": [
-        "diarrhea",
         "loose stools",
-        "runny stools"
+        "runny stools",
+        "diarrhoea",
+        "watery stools"
       ],
       "acceptedNorwegian": [
         "diaréen",
@@ -1039,13 +700,13 @@
         "løs avføring"
       ],
       "definition": "frequent loose or watery bowel movements",
-      "example": "The patient has had diarrhoea since yesterday.",
+      "example": "The patient has had diarrhea since yesterday.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "health_conditions_017",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_013",
+      "module": "symptoms_common_illness",
       "english": "constipation",
       "norwegian": "forstoppelse",
       "acceptedEnglish": [
@@ -1062,8 +723,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_018",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_014",
+      "module": "symptoms_common_illness",
       "english": "dizziness",
       "norwegian": "svimmelhet",
       "acceptedEnglish": [
@@ -1083,128 +744,31 @@
       "questions": []
     },
     {
-      "id": "health_conditions_019",
-      "module": "health_conditions",
-      "english": "fainting",
-      "norwegian": "besvimelse",
-      "acceptedEnglish": [
-        "faint",
-        "passing out",
-        "pass out",
-        "loss of consciousness"
-      ],
-      "acceptedNorwegian": [
-        "besvime",
-        "besvimte",
-        "å besvime",
-        "besvimelsen"
-      ],
-      "definition": "briefly losing consciousness because not enough blood reaches the brain",
-      "example": "Fainting can happen if a person becomes very weak or dehydrated.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_020",
-      "module": "health_conditions",
-      "english": "fatigue",
-      "norwegian": "utmattelse",
+      "id": "symptoms_common_illness_015",
+      "module": "symptoms_common_illness",
+      "english": "tiredness / fatigue",
+      "norwegian": "tretthet / utmattelse",
       "acceptedEnglish": [
         "tiredness",
         "extreme tiredness",
-        "exhaustion"
+        "exhaustion",
+        "fatigue"
       ],
       "acceptedNorwegian": [
         "tretthet",
         "slitenhet",
         "utmattet",
-        "veldig trøtt"
+        "veldig trøtt",
+        "utmattelse"
       ],
-      "definition": "a strong feeling of physical or mental tiredness",
-      "example": "Fatigue is common during some illnesses.",
+      "definition": "a feeling of being tired or lacking physical or mental energy",
+      "example": "Tiredness or fatigue can occur during illness.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "health_conditions_021",
-      "module": "health_conditions",
-      "english": "weakness",
-      "norwegian": "svakhet",
-      "acceptedEnglish": [
-        "feeling weak",
-        "lack of strength"
-      ],
-      "acceptedNorwegian": [
-        "svak",
-        "kraftløshet",
-        "kraftløs"
-      ],
-      "definition": "a lack of physical strength or energy",
-      "example": "The patient reports weakness in both legs.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_022",
-      "module": "health_conditions",
-      "english": "shortness of breath",
-      "norwegian": "tungpustethet",
-      "acceptedEnglish": [
-        "breathlessness",
-        "difficulty breathing",
-        "short of breath",
-        "breathing difficulty",
-        "breathing difficulties"
-      ],
-      "acceptedNorwegian": [
-        "tungpust",
-        "pustevansker",
-        "kortpustethet",
-        "vanskelig for å puste",
-        "problemer med å puste"
-      ],
-      "definition": "difficulty breathing or the feeling that you cannot get enough air",
-      "example": "Call for help if the patient develops shortness of breath.",
-      "confusions": [
-        {
-          "answer": "shortness of breathe",
-          "feedback": "Use «breath» here. «Breathe» is the verb; «breath» is the noun."
-        }
-      ],
-      "questions": [
-        {
-          "type": "fillBlank",
-          "prompt": "The patient has _____ and needs to stop walking.",
-          "answer": "shortness of breath",
-          "accepted": [
-            "breathlessness",
-            "difficulty breathing"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "health_conditions_023",
-      "module": "health_conditions",
-      "english": "chest pain",
-      "norwegian": "brystsmerter",
-      "acceptedEnglish": [
-        "pain in the chest",
-        "chest ache"
-      ],
-      "acceptedNorwegian": [
-        "brystsmerte",
-        "vondt i brystet",
-        "smerter i brystet"
-      ],
-      "definition": "pain or discomfort in the chest",
-      "example": "Sudden chest pain can require urgent assessment.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_024",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_016",
+      "module": "symptoms_common_illness",
       "english": "rash",
       "norwegian": "utslett",
       "acceptedEnglish": [
@@ -1221,8 +785,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_025",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_017",
+      "module": "symptoms_common_illness",
       "english": "itching",
       "norwegian": "kløe",
       "acceptedEnglish": [
@@ -1241,8 +805,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_026",
-      "module": "health_conditions",
+      "id": "symptoms_common_illness_018",
+      "module": "symptoms_common_illness",
       "english": "swelling",
       "norwegian": "hevelse",
       "acceptedEnglish": [
@@ -1267,46 +831,59 @@
       ]
     },
     {
-      "id": "health_conditions_027",
-      "module": "health_conditions",
-      "english": "redness",
-      "norwegian": "rødhet",
+      "id": "symptoms_common_illness_019",
+      "module": "symptoms_common_illness",
+      "english": "infection",
+      "norwegian": "infeksjon",
       "acceptedEnglish": [
-        "red skin"
+        "an infection"
       ],
       "acceptedNorwegian": [
-        "rødheten",
-        "rød hud"
+        "infeksjonen"
       ],
-      "definition": "a red colour of the skin that may be caused by irritation or inflammation",
-      "example": "Check the wound for redness.",
+      "definition": "an illness caused by harmful microorganisms entering the body",
+      "example": "The wound shows signs of infection.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "health_conditions_028",
-      "module": "health_conditions",
-      "english": "bleeding",
-      "norwegian": "blødning",
-      "acceptedEnglish": [
-        "to bleed",
-        "bleed",
-        "blood loss"
-      ],
+      "id": "symptoms_common_illness_020",
+      "module": "symptoms_common_illness",
+      "english": "feeling unwell",
+      "norwegian": "føle seg uvel / dårlig",
+      "acceptedEnglish": [],
       "acceptedNorwegian": [
-        "blør",
-        "å blø",
-        "blodtap",
-        "blødningen"
+        "føle seg uvel",
+        "dårlig",
+        "føle seg dårlig",
+        "uvel"
       ],
-      "definition": "blood coming out of a damaged blood vessel",
-      "example": "Apply pressure to stop the bleeding.",
+      "definition": "feeling sick, weak, or not as healthy as usual",
+      "example": "Tell a colleague if a resident is feeling unwell.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "health_conditions_029",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_001",
+      "module": "injuries_health_conditions",
+      "english": "injury",
+      "norwegian": "skade",
+      "acceptedEnglish": [
+        "injuries",
+        "physical injury"
+      ],
+      "acceptedNorwegian": [
+        "skaden",
+        "personskade"
+      ],
+      "definition": "physical damage to the body caused by an accident or other event",
+      "example": "The patient has an injury to the ankle.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_002",
+      "module": "injuries_health_conditions",
       "english": "wound",
       "norwegian": "sår",
       "acceptedEnglish": [
@@ -1323,28 +900,30 @@
       "questions": []
     },
     {
-      "id": "health_conditions_030",
-      "module": "health_conditions",
-      "english": "cut",
-      "norwegian": "kutt",
+      "id": "injuries_health_conditions_003",
+      "module": "injuries_health_conditions",
+      "english": "bleeding",
+      "norwegian": "blødning / å blø",
       "acceptedEnglish": [
-        "cuts",
-        "a cut",
-        "laceration"
+        "to bleed",
+        "bleed",
+        "blood loss"
       ],
       "acceptedNorwegian": [
-        "kuttet",
-        "kuttskade",
-        "skjæresår"
+        "blør",
+        "å blø",
+        "blodtap",
+        "blødningen",
+        "blødning"
       ],
-      "definition": "a wound made by something sharp",
-      "example": "Wash the small cut with clean water.",
+      "definition": "blood coming out of a damaged blood vessel",
+      "example": "Apply pressure to stop the bleeding.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "health_conditions_031",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_004",
+      "module": "injuries_health_conditions",
       "english": "bruise",
       "norwegian": "blåmerke",
       "acceptedEnglish": [
@@ -1361,8 +940,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_032",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_005",
+      "module": "injuries_health_conditions",
       "english": "burn",
       "norwegian": "brannskade",
       "acceptedEnglish": [
@@ -1380,28 +959,30 @@
       "questions": []
     },
     {
-      "id": "health_conditions_033",
-      "module": "health_conditions",
-      "english": "fracture",
-      "norwegian": "brudd",
+      "id": "injuries_health_conditions_006",
+      "module": "injuries_health_conditions",
+      "english": "fracture / broken bone",
+      "norwegian": "brudd / beinbrudd",
       "acceptedEnglish": [
         "broken bone",
-        "bone fracture"
+        "bone fracture",
+        "fracture"
       ],
       "acceptedNorwegian": [
         "beinbrudd",
         "benbrudd",
         "knokkelbrudd",
-        "bruddet"
+        "bruddet",
+        "brudd"
       ],
       "definition": "a crack or break in a bone",
-      "example": "The X-ray confirmed a fracture.",
+      "example": "The X-ray confirmed a fracture, or broken bone.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "health_conditions_034",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_007",
+      "module": "injuries_health_conditions",
       "english": "sprain",
       "norwegian": "forstuing",
       "acceptedEnglish": [
@@ -1419,8 +1000,109 @@
       "questions": []
     },
     {
-      "id": "health_conditions_035",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_008",
+      "module": "injuries_health_conditions",
+      "english": "shortness of breath",
+      "norwegian": "tungpust / pustevansker",
+      "acceptedEnglish": [
+        "breathlessness",
+        "difficulty breathing",
+        "short of breath",
+        "breathing difficulty",
+        "breathing difficulties"
+      ],
+      "acceptedNorwegian": [
+        "tungpust",
+        "pustevansker",
+        "kortpustethet",
+        "vanskelig for å puste",
+        "problemer med å puste",
+        "tungpustethet"
+      ],
+      "definition": "difficulty breathing or the feeling that you cannot get enough air",
+      "example": "Call for help if the patient develops shortness of breath.",
+      "confusions": [
+        {
+          "answer": "shortness of breathe",
+          "feedback": "Use «breath» here. «Breathe» is the verb; «breath» is the noun."
+        }
+      ],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "The patient has _____ and needs to stop walking.",
+          "answer": "shortness of breath",
+          "accepted": [
+            "breathlessness",
+            "difficulty breathing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "injuries_health_conditions_009",
+      "module": "injuries_health_conditions",
+      "english": "chest pain",
+      "norwegian": "brystsmerter",
+      "acceptedEnglish": [
+        "pain in the chest",
+        "chest ache"
+      ],
+      "acceptedNorwegian": [
+        "brystsmerte",
+        "vondt i brystet",
+        "smerter i brystet"
+      ],
+      "definition": "pain or discomfort in the chest",
+      "example": "Sudden chest pain can require urgent assessment.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_010",
+      "module": "injuries_health_conditions",
+      "english": "fainting",
+      "norwegian": "besvimelse",
+      "acceptedEnglish": [
+        "faint",
+        "passing out",
+        "pass out",
+        "loss of consciousness"
+      ],
+      "acceptedNorwegian": [
+        "besvime",
+        "besvimte",
+        "å besvime",
+        "besvimelsen"
+      ],
+      "definition": "briefly losing consciousness because not enough blood reaches the brain",
+      "example": "Fainting can happen if a person becomes very weak or dehydrated.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_011",
+      "module": "injuries_health_conditions",
+      "english": "dehydration",
+      "norwegian": "dehydrering / væskemangel",
+      "acceptedEnglish": [
+        "being dehydrated",
+        "dehydrated"
+      ],
+      "acceptedNorwegian": [
+        "væskemangel",
+        "uttørking",
+        "dehydrert",
+        "dehydrering"
+      ],
+      "definition": "a condition caused by losing more fluid than the body takes in",
+      "example": "Vomiting and diarrhea can cause dehydration.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_012",
+      "module": "injuries_health_conditions",
       "english": "allergy",
       "norwegian": "allergi",
       "acceptedEnglish": [
@@ -1437,8 +1119,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_036",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_013",
+      "module": "injuries_health_conditions",
       "english": "allergic reaction",
       "norwegian": "allergisk reaksjon",
       "acceptedEnglish": [
@@ -1453,27 +1135,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_037",
-      "module": "health_conditions",
-      "english": "dehydration",
-      "norwegian": "dehydrering",
-      "acceptedEnglish": [
-        "being dehydrated",
-        "dehydrated"
-      ],
-      "acceptedNorwegian": [
-        "væskemangel",
-        "uttørking",
-        "dehydrert"
-      ],
-      "definition": "a condition caused by losing more fluid than the body takes in",
-      "example": "Vomiting and diarrhoea can cause dehydration.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "health_conditions_038",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_014",
+      "module": "injuries_health_conditions",
       "english": "asthma",
       "norwegian": "astma",
       "acceptedEnglish": [
@@ -1488,8 +1151,24 @@
       "questions": []
     },
     {
-      "id": "health_conditions_039",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_015",
+      "module": "injuries_health_conditions",
+      "english": "diabetes",
+      "norwegian": "diabetes",
+      "acceptedEnglish": [
+        "diabetes mellitus"
+      ],
+      "acceptedNorwegian": [
+        "sukkersyke"
+      ],
+      "definition": "a condition that affects how the body controls blood sugar",
+      "example": "People with diabetes may need to monitor their blood sugar.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_016",
+      "module": "injuries_health_conditions",
       "english": "high blood pressure",
       "norwegian": "høyt blodtrykk",
       "acceptedEnglish": [
@@ -1505,26 +1184,42 @@
       "questions": []
     },
     {
-      "id": "health_conditions_040",
-      "module": "health_conditions",
-      "english": "diabetes",
-      "norwegian": "diabetes",
+      "id": "injuries_health_conditions_017",
+      "module": "injuries_health_conditions",
+      "english": "seizure",
+      "norwegian": "krampeanfall",
       "acceptedEnglish": [
-        "diabetes mellitus"
+        "epileptic seizure",
+        "convulsion",
+        "fit"
       ],
       "acceptedNorwegian": [
-        "sukkersyke"
+        "epileptisk anfall",
+        "kramper",
+        "anfall"
       ],
-      "definition": "a condition that affects how the body controls blood sugar",
-      "example": "People with diabetes may need to monitor their blood sugar.",
+      "definition": "a sudden episode of abnormal electrical activity in the brain that may affect movement or awareness",
+      "example": "Protect the person from injury during a seizure.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "health_conditions_041",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_018",
+      "module": "injuries_health_conditions",
+      "english": "dementia",
+      "norwegian": "demens",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a group of conditions that affect memory, thinking, behavior, and the ability to manage daily life",
+      "example": "A person with dementia may need extra time and clear communication.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_019",
+      "module": "injuries_health_conditions",
       "english": "anxiety",
-      "norwegian": "angst",
+      "norwegian": "angst / uro",
       "acceptedEnglish": [
         "anxiousness",
         "feeling anxious"
@@ -1532,7 +1227,8 @@
       "acceptedNorwegian": [
         "engstelse",
         "uro",
-        "engstelig"
+        "engstelig",
+        "angst"
       ],
       "definition": "strong worry or fear that can affect daily life",
       "example": "The patient feels anxiety before the procedure.",
@@ -1540,8 +1236,8 @@
       "questions": []
     },
     {
-      "id": "health_conditions_042",
-      "module": "health_conditions",
+      "id": "injuries_health_conditions_020",
+      "module": "injuries_health_conditions",
       "english": "depression",
       "norwegian": "depresjon",
       "acceptedEnglish": [
@@ -1557,36 +1253,18 @@
       "questions": []
     },
     {
-      "id": "daily_care_001",
-      "module": "daily_care",
-      "english": "care",
-      "norwegian": "omsorg",
-      "acceptedEnglish": [
-        "caring",
-        "caregiving"
-      ],
-      "acceptedNorwegian": [
-        "pleie",
-        "ivaretakelse"
-      ],
-      "definition": "help and support given to meet a person’s needs",
-      "example": "Good care includes respect, safety and communication.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_002",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_001",
+      "module": "personal_care_hygiene",
       "english": "personal care",
-      "norwegian": "personlig pleie",
+      "norwegian": "personlig stell",
       "acceptedEnglish": [
         "personal hygiene care",
         "personal assistance"
       ],
       "acceptedNorwegian": [
-        "personlig stell",
         "stell",
-        "kroppsstell"
+        "kroppsstell",
+        "personlig pleie"
       ],
       "definition": "help with washing, dressing, toileting and other personal needs",
       "example": "The resident needs help with personal care in the morning.",
@@ -1594,24 +1272,8 @@
       "questions": []
     },
     {
-      "id": "daily_care_003",
-      "module": "daily_care",
-      "english": "hygiene",
-      "norwegian": "hygiene",
-      "acceptedEnglish": [
-        "good hygiene"
-      ],
-      "acceptedNorwegian": [
-        "renslighet"
-      ],
-      "definition": "practices that help keep people and surroundings clean and healthy",
-      "example": "Good hygiene helps prevent infection.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_004",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_002",
+      "module": "personal_care_hygiene",
       "english": "hand hygiene",
       "norwegian": "håndhygiene",
       "acceptedEnglish": [
@@ -1639,8 +1301,8 @@
       ]
     },
     {
-      "id": "daily_care_005",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_003",
+      "module": "personal_care_hygiene",
       "english": "wash your hands",
       "norwegian": "vaske hendene",
       "acceptedEnglish": [
@@ -1659,48 +1321,43 @@
       "questions": []
     },
     {
-      "id": "daily_care_006",
-      "module": "daily_care",
-      "english": "shower",
-      "norwegian": "dusj",
+      "id": "personal_care_hygiene_004",
+      "module": "personal_care_hygiene",
+      "english": "hand sanitizer",
+      "norwegian": "hånddesinfeksjon",
       "acceptedEnglish": [
-        "take a shower",
-        "to shower",
-        "have a shower"
+        "hand sanitiser",
+        "alcohol-based hand rub",
+        "hand rub"
       ],
-      "acceptedNorwegian": [
-        "dusje",
-        "å dusje",
-        "ta en dusj"
-      ],
-      "definition": "washing the body under running water from a shower",
-      "example": "The patient would like to take a shower.",
+      "acceptedNorwegian": [],
+      "definition": "a hand-cleaning product, usually alcohol-based, used when appropriate to reduce microorganisms",
+      "example": "Use hand sanitizer according to the workplace hygiene routine.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_007",
-      "module": "daily_care",
-      "english": "bath",
-      "norwegian": "bad",
+      "id": "personal_care_hygiene_005",
+      "module": "personal_care_hygiene",
+      "english": "disinfect",
+      "norwegian": "desinfisere",
       "acceptedEnglish": [
-        "take a bath",
-        "have a bath",
-        "bathe"
+        "to disinfect",
+        "sanitise",
+        "sanitize"
       ],
       "acceptedNorwegian": [
-        "bade",
-        "å bade",
-        "ta et bad"
+        "å desinfisere",
+        "desinfeksjon"
       ],
-      "definition": "washing the body while sitting or lying in water",
-      "example": "The child needs help getting ready for a bath.",
+      "definition": "use a method or chemical to kill many harmful microorganisms",
+      "example": "Disinfect the surface according to the routine.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_008",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_006",
+      "module": "personal_care_hygiene",
       "english": "oral care",
       "norwegian": "munnstell",
       "acceptedEnglish": [
@@ -1717,8 +1374,8 @@
       "questions": []
     },
     {
-      "id": "daily_care_009",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_007",
+      "module": "personal_care_hygiene",
       "english": "brush your teeth",
       "norwegian": "pusse tennene",
       "acceptedEnglish": [
@@ -1736,8 +1393,41 @@
       "questions": []
     },
     {
-      "id": "daily_care_011",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_008",
+      "module": "personal_care_hygiene",
+      "english": "take a shower",
+      "norwegian": "dusje / ta en dusj",
+      "acceptedEnglish": [
+        "to shower",
+        "have a shower",
+        "shower"
+      ],
+      "acceptedNorwegian": [
+        "dusje",
+        "å dusje",
+        "ta en dusj",
+        "dusj"
+      ],
+      "definition": "wash the body under running water from a shower",
+      "example": "The resident would like to take a shower.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_009",
+      "module": "personal_care_hygiene",
+      "english": "wash your face",
+      "norwegian": "vaske ansiktet",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "clean the face with water and, when appropriate, soap or another suitable product",
+      "example": "The child can wash their face independently.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_010",
+      "module": "personal_care_hygiene",
       "english": "get dressed",
       "norwegian": "kle på seg",
       "acceptedEnglish": [
@@ -1756,14 +1446,14 @@
       "questions": []
     },
     {
-      "id": "daily_care_012",
-      "module": "daily_care",
-      "english": "undress",
+      "id": "personal_care_hygiene_011",
+      "module": "personal_care_hygiene",
+      "english": "get undressed",
       "norwegian": "kle av seg",
       "acceptedEnglish": [
-        "get undressed",
         "to undress",
-        "take off clothes"
+        "take off clothes",
+        "undress"
       ],
       "acceptedNorwegian": [
         "kle av",
@@ -1771,13 +1461,13 @@
         "ta av klær"
       ],
       "definition": "remove clothes from the body",
-      "example": "Help the patient undress if needed.",
+      "example": "The patient may need help to get undressed.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_013",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_012",
+      "module": "personal_care_hygiene",
       "english": "change clothes",
       "norwegian": "skifte klær",
       "acceptedEnglish": [
@@ -1796,8 +1486,132 @@
       "questions": []
     },
     {
-      "id": "daily_care_014",
-      "module": "daily_care",
+      "id": "personal_care_hygiene_013",
+      "module": "personal_care_hygiene",
+      "english": "change a diaper",
+      "norwegian": "skifte bleie",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "remove a used diaper, clean the person, and put on a clean diaper",
+      "example": "Wash your hands before and after you change a diaper.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_014",
+      "module": "personal_care_hygiene",
+      "english": "skin care",
+      "norwegian": "hudpleie",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "care that helps keep the skin clean, protected, and healthy",
+      "example": "Good skin care can help prevent irritation.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_015",
+      "module": "personal_care_hygiene",
+      "english": "change the bed linens",
+      "norwegian": "skifte sengetøy",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "remove used sheets and other bed linens and replace them with clean ones",
+      "example": "We need to change the bed linens this morning.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_016",
+      "module": "personal_care_hygiene",
+      "english": "toileting",
+      "norwegian": "toalettbesøk / toaletthjelp",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "toalettbesøk",
+        "toaletthjelp",
+        "toalettstell"
+      ],
+      "definition": "help or routines related to using the toilet and managing personal hygiene",
+      "example": "Some residents need assistance with toileting.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_017",
+      "module": "personal_care_hygiene",
+      "english": "self-care",
+      "norwegian": "egenomsorg",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "activities a person does to maintain their own health, hygiene, and well-being",
+      "example": "Encourage self-care when the person can manage tasks safely.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_018",
+      "module": "personal_care_hygiene",
+      "english": "infection control",
+      "norwegian": "smittevern",
+      "acceptedEnglish": [
+        "infection prevention",
+        "infection prevention and control",
+        "IPC"
+      ],
+      "acceptedNorwegian": [
+        "infeksjonskontroll",
+        "smitteverntiltak"
+      ],
+      "definition": "measures used to prevent infections from spreading",
+      "example": "Hand hygiene is a central part of infection control.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_019",
+      "module": "personal_care_hygiene",
+      "english": "personal protective equipment / PPE",
+      "norwegian": "personlig verneutstyr",
+      "acceptedEnglish": [
+        "personal protective equipment",
+        "PPE",
+        "protective equipment"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "equipment worn to reduce exposure to infection or other hazards",
+      "example": "Use personal protective equipment when the task requires it.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "personal_care_hygiene_020",
+      "module": "personal_care_hygiene",
+      "english": "privacy",
+      "norwegian": "privatliv / skjerming",
+      "acceptedEnglish": [
+        "personal privacy"
+      ],
+      "acceptedNorwegian": [
+        "personvern",
+        "privatsfære",
+        "skjerming",
+        "privatliv"
+      ],
+      "definition": "a person’s right to personal space and control over private matters",
+      "example": "Close the door to protect the patient’s privacy.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "Close the door to protect the patient’s _____.",
+          "answer": "privacy"
+        }
+      ]
+    },
+    {
+      "id": "food_sleep_mobility_toileting_001",
+      "module": "food_sleep_mobility_toileting",
       "english": "meal",
       "norwegian": "måltid",
       "acceptedEnglish": [
@@ -1814,25 +1628,8 @@
       "questions": []
     },
     {
-      "id": "daily_care_015",
-      "module": "daily_care",
-      "english": "nutrition",
-      "norwegian": "ernæring",
-      "acceptedEnglish": [
-        "nourishment"
-      ],
-      "acceptedNorwegian": [
-        "kosthold",
-        "næring"
-      ],
-      "definition": "the food and nutrients a person needs for health and growth",
-      "example": "Good nutrition is important for health and recovery.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_016",
-      "module": "daily_care",
+      "id": "food_sleep_mobility_toileting_002",
+      "module": "food_sleep_mobility_toileting",
       "english": "appetite",
       "norwegian": "matlyst",
       "acceptedEnglish": [
@@ -1848,52 +1645,83 @@
       "questions": []
     },
     {
-      "id": "daily_care_017",
-      "module": "daily_care",
-      "english": "fluids",
-      "norwegian": "væske",
+      "id": "food_sleep_mobility_toileting_003",
+      "module": "food_sleep_mobility_toileting",
+      "english": "nutrition",
+      "norwegian": "ernæring",
       "acceptedEnglish": [
-        "fluid",
-        "drinks",
-        "liquids",
-        "fluid"
+        "nourishment"
       ],
       "acceptedNorwegian": [
-        "væsker",
-        "drikke",
-        "drikkevarer",
-        "væskeinntak"
+        "kosthold",
+        "næring"
       ],
-      "definition": "liquids that a person drinks or receives",
-      "example": "Offer plenty of fluids during the day.",
+      "definition": "the food and nutrients a person needs for health and growth",
+      "example": "Good nutrition is important for health and recovery.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_018",
-      "module": "daily_care",
-      "english": "hydration",
-      "norwegian": "væskebalanse",
+      "id": "food_sleep_mobility_toileting_004",
+      "module": "food_sleep_mobility_toileting",
+      "english": "fluid intake",
+      "norwegian": "væskeinntak",
       "acceptedEnglish": [
         "being hydrated",
-        "fluid intake",
-        "adequate fluids"
+        "adequate fluids",
+        "hydration"
       ],
       "acceptedNorwegian": [
-        "væskeinntak",
         "nok væske",
-        "hydrering"
+        "hydrering",
+        "væskebalanse"
       ],
-      "definition": "having enough fluid in the body",
-      "example": "Good hydration is especially important during hot weather.",
+      "definition": "the amount of fluid a person drinks or receives over a period of time",
+      "example": "Record the resident's fluid intake if required.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_019",
-      "module": "daily_care",
+      "id": "food_sleep_mobility_toileting_005",
+      "module": "food_sleep_mobility_toileting",
+      "english": "drink enough fluids",
+      "norwegian": "drikke nok væske",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "take in enough water and other suitable drinks to maintain hydration",
+      "example": "Encourage the resident to drink enough fluids during the day.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "food_sleep_mobility_toileting_006",
+      "module": "food_sleep_mobility_toileting",
+      "english": "difficulty swallowing",
+      "norwegian": "svelgevansker",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "problems or discomfort when moving food, drink, or saliva from the mouth to the stomach",
+      "example": "Report any new difficulty swallowing.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "food_sleep_mobility_toileting_007",
+      "module": "food_sleep_mobility_toileting",
+      "english": "help with eating",
+      "norwegian": "hjelpe med å spise",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "assistance given to a person who needs support during a meal",
+      "example": "The resident needs help with eating at lunchtime.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "food_sleep_mobility_toileting_008",
+      "module": "food_sleep_mobility_toileting",
       "english": "sleep",
-      "norwegian": "søvn",
+      "norwegian": "søvn / sove",
       "acceptedEnglish": [
         "to sleep",
         "sleeping"
@@ -1901,7 +1729,8 @@
       "acceptedNorwegian": [
         "sove",
         "å sove",
-        "søvnen"
+        "søvnen",
+        "søvn"
       ],
       "definition": "the natural state of rest when the body and mind recover",
       "example": "Most people need regular sleep to function well.",
@@ -1909,8 +1738,8 @@
       "questions": []
     },
     {
-      "id": "daily_care_020",
-      "module": "daily_care",
+      "id": "food_sleep_mobility_toileting_009",
+      "module": "food_sleep_mobility_toileting",
       "english": "rest",
       "norwegian": "hvile",
       "acceptedEnglish": [
@@ -1928,53 +1757,34 @@
       "questions": []
     },
     {
-      "id": "daily_care_021",
-      "module": "daily_care",
-      "english": "bedtime",
-      "norwegian": "leggetid",
-      "acceptedEnglish": [
-        "time for bed"
-      ],
+      "id": "food_sleep_mobility_toileting_010",
+      "module": "food_sleep_mobility_toileting",
+      "english": "bedtime routine",
+      "norwegian": "leggerutine / kveldsrutine",
+      "acceptedEnglish": [],
       "acceptedNorwegian": [
-        "sengetid",
-        "leggetiden"
+        "leggerutine",
+        "kveldsrutine",
+        "leggetidsrutine"
       ],
-      "definition": "the usual time when a person goes to bed",
-      "example": "Keep a calm routine around bedtime.",
+      "definition": "the usual sequence of activities that helps a person prepare for sleep",
+      "example": "A calm bedtime routine can help children settle.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_022",
-      "module": "daily_care",
-      "english": "daily routine",
-      "norwegian": "daglig rutine",
-      "acceptedEnglish": [
-        "everyday routine",
-        "daily schedule"
-      ],
-      "acceptedNorwegian": [
-        "dagsrutine",
-        "daglige rutiner",
-        "hverdagsrutine"
-      ],
-      "definition": "the usual activities a person does each day",
-      "example": "A predictable daily routine can provide security for children.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_023",
-      "module": "daily_care",
+      "id": "food_sleep_mobility_toileting_011",
+      "module": "food_sleep_mobility_toileting",
       "english": "mobility",
-      "norwegian": "bevegelighet",
+      "norwegian": "bevegelighet / mobilitet",
       "acceptedEnglish": [
         "movement ability",
         "ability to move"
       ],
       "acceptedNorwegian": [
         "mobilitet",
-        "evne til å bevege seg"
+        "evne til å bevege seg",
+        "bevegelighet"
       ],
       "definition": "a person’s ability to move around safely",
       "example": "Assess the patient’s mobility before helping them stand.",
@@ -1982,86 +1792,8 @@
       "questions": []
     },
     {
-      "id": "daily_care_024",
-      "module": "daily_care",
-      "english": "walk",
-      "norwegian": "gå",
-      "acceptedEnglish": [
-        "to walk",
-        "walking"
-      ],
-      "acceptedNorwegian": [
-        "å gå",
-        "gåing"
-      ],
-      "definition": "move forward on foot",
-      "example": "Walk beside the resident and offer support if needed.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_025",
-      "module": "daily_care",
-      "english": "stand up",
-      "norwegian": "reise seg",
-      "acceptedEnglish": [
-        "stand",
-        "to stand up",
-        "get up"
-      ],
-      "acceptedNorwegian": [
-        "stå opp",
-        "reise seg opp",
-        "å reise seg"
-      ],
-      "definition": "move from sitting or lying to a standing position",
-      "example": "Please stand up slowly.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_026",
-      "module": "daily_care",
-      "english": "sit down",
-      "norwegian": "sette seg",
-      "acceptedEnglish": [
-        "sit",
-        "to sit down",
-        "take a seat"
-      ],
-      "acceptedNorwegian": [
-        "sitt ned",
-        "sette seg ned",
-        "å sette seg"
-      ],
-      "definition": "move into a seated position",
-      "example": "Please sit down if you feel dizzy.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_027",
-      "module": "daily_care",
-      "english": "lie down",
-      "norwegian": "legge seg ned",
-      "acceptedEnglish": [
-        "lie",
-        "to lie down",
-        "lay down"
-      ],
-      "acceptedNorwegian": [
-        "legg deg ned",
-        "legge seg",
-        "å legge seg ned"
-      ],
-      "definition": "move into a position with the body supported horizontally",
-      "example": "Lie down and rest for a few minutes.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "daily_care_028",
-      "module": "daily_care",
+      "id": "food_sleep_mobility_toileting_012",
+      "module": "food_sleep_mobility_toileting",
       "english": "transfer",
       "norwegian": "forflytning",
       "acceptedEnglish": [
@@ -2080,204 +1812,135 @@
       "questions": []
     },
     {
-      "id": "daily_care_029",
-      "module": "daily_care",
-      "english": "assist",
-      "norwegian": "hjelpe",
-      "acceptedEnglish": [
-        "help",
-        "to help",
-        "to assist",
-        "support"
-      ],
+      "id": "food_sleep_mobility_toileting_013",
+      "module": "food_sleep_mobility_toileting",
+      "english": "positioning",
+      "norwegian": "leiring / posisjonering",
+      "acceptedEnglish": [],
       "acceptedNorwegian": [
-        "å hjelpe",
-        "bistå",
-        "assistere",
-        "støtte"
+        "leiring",
+        "posisjonering"
       ],
-      "definition": "give another person help with a task or activity",
-      "example": "Assist the resident when they get out of bed.",
+      "definition": "placing or supporting a person's body in a safe and comfortable position",
+      "example": "Correct positioning can improve comfort and reduce pressure on the skin.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_030",
-      "module": "daily_care",
-      "english": "privacy",
-      "norwegian": "privatliv",
-      "acceptedEnglish": [
-        "personal privacy"
-      ],
-      "acceptedNorwegian": [
-        "personvern",
-        "privatsfære",
-        "skjerming"
-      ],
-      "definition": "a person’s right to personal space and control over private matters",
-      "example": "Close the door to protect the patient’s privacy.",
-      "confusions": [],
-      "questions": [
-        {
-          "type": "fillBlank",
-          "prompt": "Close the door to protect the patient’s _____.",
-          "answer": "privacy"
-        }
-      ]
-    },
-    {
-      "id": "daily_care_031",
-      "module": "daily_care",
-      "english": "dignity",
-      "norwegian": "verdighet",
-      "acceptedEnglish": [
-        "human dignity",
-        "personal dignity"
-      ],
-      "acceptedNorwegian": [
-        "respekt for personen"
-      ],
-      "definition": "the quality of being treated as a person of value and respect",
-      "example": "Always protect the resident’s dignity during personal care.",
+      "id": "food_sleep_mobility_toileting_014",
+      "module": "food_sleep_mobility_toileting",
+      "english": "walking assistance",
+      "norwegian": "hjelp til å gå",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "support or equipment that helps a person walk safely",
+      "example": "The patient needs walking assistance after the operation.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_032",
-      "module": "daily_care",
-      "english": "clean",
-      "norwegian": "rengjøre",
-      "acceptedEnglish": [
-        "to clean",
-        "cleaning",
-        "wash"
-      ],
-      "acceptedNorwegian": [
-        "vaske",
-        "å rengjøre",
-        "gjøre rent"
-      ],
-      "definition": "remove dirt or unwanted material from something",
-      "example": "Clean the equipment after use.",
+      "id": "food_sleep_mobility_toileting_015",
+      "module": "food_sleep_mobility_toileting",
+      "english": "help someone stand up",
+      "norwegian": "hjelpe noen å reise seg",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "support a person as they move from sitting or lying to a standing position",
+      "example": "Ask before you help someone stand up.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_033",
-      "module": "daily_care",
-      "english": "disinfect",
-      "norwegian": "desinfisere",
-      "acceptedEnglish": [
-        "to disinfect",
-        "sanitise",
-        "sanitize"
-      ],
-      "acceptedNorwegian": [
-        "å desinfisere",
-        "desinfeksjon"
-      ],
-      "definition": "use a method or chemical to kill many harmful microorganisms",
-      "example": "Disinfect the surface according to the routine.",
+      "id": "food_sleep_mobility_toileting_016",
+      "module": "food_sleep_mobility_toileting",
+      "english": "incontinence",
+      "norwegian": "inkontinens",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "difficulty controlling the bladder or bowels",
+      "example": "Incontinence can affect a person's comfort, skin, and dignity.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_034",
-      "module": "daily_care",
-      "english": "change the bed linen",
-      "norwegian": "skifte sengetøy",
-      "acceptedEnglish": [
-        "change bed linen",
-        "change the sheets",
-        "change bedding"
-      ],
+      "id": "food_sleep_mobility_toileting_017",
+      "module": "food_sleep_mobility_toileting",
+      "english": "incontinence pad",
+      "norwegian": "inkontinensbind / bleie",
+      "acceptedEnglish": [],
       "acceptedNorwegian": [
-        "bytte sengetøy",
-        "skifte på sengen",
-        "skifte laken"
+        "inkontinensbind",
+        "bleie",
+        "inkontinensbleie"
       ],
-      "definition": "remove used bedding and put clean bedding on a bed",
-      "example": "Change the bed linen when it is dirty or wet.",
+      "definition": "an absorbent pad used to manage urinary or bowel leakage",
+      "example": "Change the incontinence pad when needed and protect the person's privacy.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_035",
-      "module": "daily_care",
-      "english": "laundry",
-      "norwegian": "klesvask",
-      "acceptedEnglish": [
-        "washing clothes",
-        "dirty laundry"
-      ],
-      "acceptedNorwegian": [
-        "vaskketøy",
-        "skittentøy",
-        "vaske klær"
-      ],
-      "definition": "clothes and textiles that need to be washed or have been washed",
-      "example": "Put the dirty laundry in the correct bag.",
+      "id": "food_sleep_mobility_toileting_018",
+      "module": "food_sleep_mobility_toileting",
+      "english": "urine",
+      "norwegian": "urin",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "liquid waste produced by the kidneys and passed from the body",
+      "example": "Changes in urine can sometimes be important to report.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "daily_care_037",
-      "module": "daily_care",
-      "english": "nappy",
-      "norwegian": "bleie",
+      "id": "food_sleep_mobility_toileting_019",
+      "module": "food_sleep_mobility_toileting",
+      "english": "stool / feces",
+      "norwegian": "avføring",
       "acceptedEnglish": [
-        "diaper",
-        "a nappy",
-        "a diaper"
+        "stool",
+        "feces",
+        "stools",
+        "faeces"
       ],
       "acceptedNorwegian": [
-        "bleien",
-        "bleier"
+        "avføringen"
       ],
-      "definition": "an absorbent item worn by babies or people who need continence support",
-      "example": "Change the nappy when it is wet or soiled.",
+      "definition": "solid waste passed from the bowels",
+      "example": "Observe changes in stool when this is part of the care plan.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_001",
-      "module": "communication",
-      "english": "hello",
-      "norwegian": "hei",
+      "id": "food_sleep_mobility_toileting_020",
+      "module": "food_sleep_mobility_toileting",
+      "english": "urinary tract infection / UTI",
+      "norwegian": "urinveisinfeksjon",
       "acceptedEnglish": [
-        "hi",
-        "hello there"
+        "urinary tract infection",
+        "UTI"
       ],
-      "acceptedNorwegian": [
-        "hallo",
-        "hei på deg"
-      ],
-      "definition": "a common greeting used when meeting someone",
-      "example": "Hello, my name is Sara.",
+      "acceptedNorwegian": [],
+      "definition": "an infection affecting part of the urinary system, such as the bladder",
+      "example": "A urinary tract infection can cause pain, fever, or confusion.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_002",
-      "module": "communication",
-      "english": "good morning",
-      "norwegian": "god morgen",
-      "acceptedEnglish": [
-        "morning"
-      ],
-      "acceptedNorwegian": [
-        "morgen"
-      ],
-      "definition": "a polite greeting used in the morning",
-      "example": "Good morning. How are you feeling today?",
+      "id": "basic_communication_001",
+      "module": "basic_communication",
+      "english": "Hello, my name is …",
+      "norwegian": "Hei, jeg heter …",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase used to introduce yourself politely",
+      "example": "Hello, my name is Alex. I am a healthcare worker.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_003",
-      "module": "communication",
+      "id": "basic_communication_002",
+      "module": "basic_communication",
       "english": "How are you feeling?",
-      "norwegian": "Hvordan føler du deg?",
+      "norwegian": "Hvordan føler du deg? / Hvordan har du det?",
       "acceptedEnglish": [
         "how do you feel",
         "how are you feeling today",
@@ -2286,7 +1949,8 @@
       "acceptedNorwegian": [
         "hvordan har du det",
         "hvordan føler du deg i dag",
-        "hvordan har du det i dag"
+        "hvordan har du det i dag",
+        "Hvordan føler du deg?"
       ],
       "definition": "a question used to ask about someone’s physical or emotional state",
       "example": "How are you feeling today?",
@@ -2294,27 +1958,20 @@
       "questions": []
     },
     {
-      "id": "communication_004",
-      "module": "communication",
-      "english": "What is your name?",
-      "norwegian": "Hva heter du?",
-      "acceptedEnglish": [
-        "what's your name",
-        "may I ask your name",
-        "can you tell me your name"
-      ],
-      "acceptedNorwegian": [
-        "hva er navnet ditt",
-        "kan du si hva du heter"
-      ],
-      "definition": "a basic question used to identify a person",
-      "example": "What is your name?",
+      "id": "basic_communication_003",
+      "module": "basic_communication",
+      "english": "Are you okay?",
+      "norwegian": "Går det bra?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a simple question used to check a person's condition or well-being",
+      "example": "Are you okay? You look a little pale.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_005",
-      "module": "communication",
+      "id": "basic_communication_004",
+      "module": "basic_communication",
       "english": "Can you tell me what happened?",
       "norwegian": "Kan du fortelle meg hva som skjedde?",
       "acceptedEnglish": [
@@ -2332,8 +1989,8 @@
       "questions": []
     },
     {
-      "id": "communication_006",
-      "module": "communication",
+      "id": "basic_communication_005",
+      "module": "basic_communication",
       "english": "Where does it hurt?",
       "norwegian": "Hvor gjør det vondt?",
       "acceptedEnglish": [
@@ -2362,8 +2019,8 @@
       ]
     },
     {
-      "id": "communication_007",
-      "module": "communication",
+      "id": "basic_communication_006",
+      "module": "basic_communication",
       "english": "When did it start?",
       "norwegian": "Når begynte det?",
       "acceptedEnglish": [
@@ -2382,49 +2039,44 @@
       "questions": []
     },
     {
-      "id": "communication_008",
-      "module": "communication",
-      "english": "How bad is the pain?",
-      "norwegian": "Hvor sterke er smertene?",
-      "acceptedEnglish": [
-        "how severe is the pain",
-        "how much pain are you in",
-        "how painful is it"
-      ],
-      "acceptedNorwegian": [
-        "hvor vondt gjør det",
-        "hvor sterke smerter har du",
-        "hvor ille er smerten"
-      ],
-      "definition": "a question used to assess the intensity of pain",
-      "example": "How bad is the pain?",
+      "id": "basic_communication_007",
+      "module": "basic_communication",
+      "english": "Are you in pain?",
+      "norwegian": "Har du vondt?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to ask whether someone is experiencing pain",
+      "example": "Are you in pain right now?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_009",
-      "module": "communication",
-      "english": "on a scale from zero to ten",
-      "norwegian": "på en skala fra null til ti",
-      "acceptedEnglish": [
-        "on a scale of zero to ten",
-        "from zero to ten",
-        "on a 0 to 10 scale",
-        "on a scale from 0 to 10"
-      ],
-      "acceptedNorwegian": [
-        "på en skala fra 0 til 10",
-        "fra null til ti",
-        "fra 0 til 10"
-      ],
-      "definition": "a common way to ask someone to rate pain or another symptom",
-      "example": "Rate the pain on a scale from zero to ten.",
+      "id": "basic_communication_008",
+      "module": "basic_communication",
+      "english": "Do you feel dizzy?",
+      "norwegian": "Føler du deg svimmel?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to check whether someone feels dizzy or unsteady",
+      "example": "Do you feel dizzy when you stand up?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_010",
-      "module": "communication",
+      "id": "basic_communication_009",
+      "module": "basic_communication",
+      "english": "Are you having trouble breathing?",
+      "norwegian": "Har du problemer med å puste?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to check whether someone is having difficulty breathing",
+      "example": "Are you having trouble breathing?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "basic_communication_010",
+      "module": "basic_communication",
       "english": "Do you need help?",
       "norwegian": "Trenger du hjelp?",
       "acceptedEnglish": [
@@ -2443,20 +2095,40 @@
       "questions": []
     },
     {
-      "id": "communication_011",
-      "module": "communication",
+      "id": "basic_communication_011",
+      "module": "basic_communication",
+      "english": "Can I help you?",
+      "norwegian": "Kan jeg hjelpe deg?",
+      "acceptedEnglish": [
+        "do you need any help",
+        "would you like some help",
+        "Do you need help?"
+      ],
+      "acceptedNorwegian": [
+        "trenger du noe hjelp",
+        "vil du ha hjelp",
+        "Trenger du hjelp?"
+      ],
+      "definition": "a polite question used to offer assistance",
+      "example": "Can I help you get out of the chair?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "basic_communication_012",
+      "module": "basic_communication",
       "english": "Are you comfortable?",
-      "norwegian": "Ligger eller sitter du godt?",
+      "norwegian": "Har du det behagelig?",
       "acceptedEnglish": [
         "are you comfortable here",
         "do you feel comfortable",
         "is this comfortable"
       ],
       "acceptedNorwegian": [
-        "har du det behagelig",
         "sitter du godt",
         "ligger du godt",
-        "er du komfortabel"
+        "er du komfortabel",
+        "Ligger eller sitter du godt?"
       ],
       "definition": "a question checking whether someone is physically comfortable",
       "example": "Are you comfortable, or should I adjust the pillow?",
@@ -2464,45 +2136,8 @@
       "questions": []
     },
     {
-      "id": "communication_012",
-      "module": "communication",
-      "english": "Are you cold?",
-      "norwegian": "Fryser du?",
-      "acceptedEnglish": [
-        "do you feel cold",
-        "are you feeling cold"
-      ],
-      "acceptedNorwegian": [
-        "er du kald",
-        "føler du deg kald"
-      ],
-      "definition": "a question checking whether someone feels too cold",
-      "example": "Are you cold? I can get you a blanket.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_013",
-      "module": "communication",
-      "english": "Are you hot?",
-      "norwegian": "Er du varm?",
-      "acceptedEnglish": [
-        "do you feel hot",
-        "are you feeling hot",
-        "are you too warm"
-      ],
-      "acceptedNorwegian": [
-        "er du for varm",
-        "føler du deg varm"
-      ],
-      "definition": "a question checking whether someone feels too warm",
-      "example": "Are you hot? I can open the window.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_014",
-      "module": "communication",
+      "id": "basic_communication_013",
+      "module": "basic_communication",
       "english": "Are you hungry?",
       "norwegian": "Er du sulten?",
       "acceptedEnglish": [
@@ -2517,8 +2152,8 @@
       "questions": []
     },
     {
-      "id": "communication_015",
-      "module": "communication",
+      "id": "basic_communication_014",
+      "module": "basic_communication",
       "english": "Are you thirsty?",
       "norwegian": "Er du tørst?",
       "acceptedEnglish": [
@@ -2533,8 +2168,8 @@
       "questions": []
     },
     {
-      "id": "communication_016",
-      "module": "communication",
+      "id": "basic_communication_015",
+      "module": "basic_communication",
       "english": "Would you like some water?",
       "norwegian": "Vil du ha litt vann?",
       "acceptedEnglish": [
@@ -2553,10 +2188,10 @@
       "questions": []
     },
     {
-      "id": "communication_017",
-      "module": "communication",
+      "id": "basic_communication_016",
+      "module": "basic_communication",
       "english": "Please sit down.",
-      "norwegian": "Vennligst sett deg ned.",
+      "norwegian": "Sett deg ned, takk.",
       "acceptedEnglish": [
         "sit down please",
         "please take a seat",
@@ -2566,7 +2201,8 @@
       "acceptedNorwegian": [
         "sett deg ned",
         "sitt ned",
-        "vær så snill og sett deg"
+        "vær så snill og sett deg",
+        "Vennligst sett deg ned."
       ],
       "definition": "a polite instruction asking someone to sit",
       "example": "Please sit down if you feel dizzy.",
@@ -2574,37 +2210,30 @@
       "questions": []
     },
     {
-      "id": "communication_018",
-      "module": "communication",
-      "english": "Please stand up.",
-      "norwegian": "Vennligst reis deg.",
-      "acceptedEnglish": [
-        "stand up please",
-        "please stand",
-        "stand up"
-      ],
-      "acceptedNorwegian": [
-        "reis deg",
-        "stå opp",
-        "vær så snill og reis deg"
-      ],
-      "definition": "a polite instruction asking someone to stand",
-      "example": "Please stand up slowly.",
+      "id": "basic_communication_017",
+      "module": "basic_communication",
+      "english": "Please stand up slowly.",
+      "norwegian": "Reis deg sakte, takk.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a polite instruction asking someone to rise carefully and slowly",
+      "example": "Please stand up slowly and hold on to the walker.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_019",
-      "module": "communication",
+      "id": "basic_communication_018",
+      "module": "basic_communication",
       "english": "Please lie down.",
-      "norwegian": "Vennligst legg deg ned.",
+      "norwegian": "Legg deg ned, takk.",
       "acceptedEnglish": [
         "lie down please",
         "lie down"
       ],
       "acceptedNorwegian": [
         "legg deg ned",
-        "vær så snill og legg deg ned"
+        "vær så snill og legg deg ned",
+        "Vennligst legg deg ned."
       ],
       "definition": "a polite instruction asking someone to lie down",
       "example": "Please lie down on the bed.",
@@ -2612,8 +2241,8 @@
       "questions": []
     },
     {
-      "id": "communication_020",
-      "module": "communication",
+      "id": "basic_communication_019",
+      "module": "basic_communication",
       "english": "Take your time.",
       "norwegian": "Ta den tiden du trenger.",
       "acceptedEnglish": [
@@ -2632,149 +2261,20 @@
       "questions": []
     },
     {
-      "id": "communication_021",
-      "module": "communication",
-      "english": "I can help you.",
-      "norwegian": "Jeg kan hjelpe deg.",
-      "acceptedEnglish": [
-        "I can assist you",
-        "let me help you",
-        "I can give you a hand"
-      ],
-      "acceptedNorwegian": [
-        "jeg kan hjelpe",
-        "la meg hjelpe deg",
-        "jeg kan bistå deg"
-      ],
-      "definition": "a phrase offering practical help",
-      "example": "I can help you put on your jacket.",
+      "id": "basic_communication_020",
+      "module": "basic_communication",
+      "english": "Show me where it hurts.",
+      "norwegian": "Vis meg hvor det gjør vondt.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase asking someone to indicate the location of pain",
+      "example": "Show me where it hurts.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_022",
-      "module": "communication",
-      "english": "I am going to help you.",
-      "norwegian": "Jeg skal hjelpe deg.",
-      "acceptedEnglish": [
-        "I’m going to help you",
-        "I will help you",
-        "I’ll help you"
-      ],
-      "acceptedNorwegian": [
-        "jeg vil hjelpe deg",
-        "jeg kommer til å hjelpe deg"
-      ],
-      "definition": "a phrase explaining what you are about to do",
-      "example": "I am going to help you stand up now.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_023",
-      "module": "communication",
-      "english": "Is that okay?",
-      "norwegian": "Er det greit?",
-      "acceptedEnglish": [
-        "is this okay",
-        "is that all right",
-        "is this all right",
-        "is that alright",
-        "is this alright"
-      ],
-      "acceptedNorwegian": [
-        "går det bra",
-        "er dette greit",
-        "er det ok",
-        "er dette ok"
-      ],
-      "definition": "a question checking agreement or comfort",
-      "example": "I am going to check your temperature. Is that okay?",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_024",
-      "module": "communication",
-      "english": "May I help you?",
-      "norwegian": "Kan jeg hjelpe deg?",
-      "acceptedEnglish": [
-        "can I help you",
-        "may I assist you",
-        "would you like me to help"
-      ],
-      "acceptedNorwegian": [
-        "kan jeg hjelpe",
-        "skal jeg hjelpe deg",
-        "ønsker du hjelp"
-      ],
-      "definition": "a polite way to ask permission before helping",
-      "example": "May I help you with your coat?",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_025",
-      "module": "communication",
-      "english": "Do you understand?",
-      "norwegian": "Forstår du?",
-      "acceptedEnglish": [
-        "do you understand me",
-        "is that clear",
-        "does that make sense"
-      ],
-      "acceptedNorwegian": [
-        "skjønner du",
-        "forstår du det",
-        "er det forståelig"
-      ],
-      "definition": "a question checking whether information has been understood",
-      "example": "Do you understand what I mean?",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_026",
-      "module": "communication",
-      "english": "I understand.",
-      "norwegian": "Jeg forstår.",
-      "acceptedEnglish": [
-        "I understand you",
-        "I see",
-        "I get it"
-      ],
-      "acceptedNorwegian": [
-        "jeg skjønner",
-        "skjønner"
-      ],
-      "definition": "a phrase showing that you have understood",
-      "example": "I understand. Thank you for explaining.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_027",
-      "module": "communication",
-      "english": "I don't understand.",
-      "norwegian": "Jeg forstår ikke.",
-      "acceptedEnglish": [
-        "I do not understand",
-        "I don't get it",
-        "I’m not sure I understand",
-        "I'm not sure I understand"
-      ],
-      "acceptedNorwegian": [
-        "jeg skjønner ikke",
-        "forstår ikke"
-      ],
-      "definition": "a phrase used when you need clarification",
-      "example": "I don’t understand. Could you explain it again?",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "communication_028",
-      "module": "communication",
+      "id": "asking_explaining_reassuring_001",
+      "module": "asking_explaining_reassuring",
       "english": "Could you repeat that?",
       "norwegian": "Kan du gjenta det?",
       "acceptedEnglish": [
@@ -2805,8 +2305,8 @@
       ]
     },
     {
-      "id": "communication_029",
-      "module": "communication",
+      "id": "asking_explaining_reassuring_002",
+      "module": "asking_explaining_reassuring",
       "english": "Could you speak more slowly?",
       "norwegian": "Kan du snakke saktere?",
       "acceptedEnglish": [
@@ -2826,295 +2326,252 @@
       "questions": []
     },
     {
-      "id": "communication_030",
-      "module": "communication",
-      "english": "Please wait.",
-      "norwegian": "Vennligst vent.",
+      "id": "asking_explaining_reassuring_003",
+      "module": "asking_explaining_reassuring",
+      "english": "I don't understand.",
+      "norwegian": "Jeg forstår ikke.",
       "acceptedEnglish": [
-        "please wait a moment",
-        "wait please",
-        "wait a moment",
-        "just a moment"
+        "I do not understand",
+        "I don't get it",
+        "I’m not sure I understand"
       ],
       "acceptedNorwegian": [
-        "vent litt",
-        "vennligst vent litt",
-        "ett øyeblikk"
+        "jeg skjønner ikke",
+        "forstår ikke"
       ],
-      "definition": "a polite request asking someone to wait",
-      "example": "Please wait here for a moment.",
+      "definition": "a phrase used when you need clarification",
+      "example": "I don’t understand. Could you explain it again?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_031",
-      "module": "communication",
-      "english": "explain",
-      "norwegian": "forklare",
-      "acceptedEnglish": [
-        "to explain",
-        "describe"
-      ],
-      "acceptedNorwegian": [
-        "å forklare",
-        "gjøre rede for"
-      ],
-      "definition": "make something clear by giving information or details",
-      "example": "Explain what you are going to do before you begin.",
+      "id": "asking_explaining_reassuring_004",
+      "module": "asking_explaining_reassuring",
+      "english": "Let me explain.",
+      "norwegian": "La meg forklare.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase used before giving information or instructions",
+      "example": "Let me explain what is going to happen.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_032",
-      "module": "communication",
-      "english": "ask",
-      "norwegian": "spørre",
-      "acceptedEnglish": [
-        "to ask",
-        "ask a question"
-      ],
-      "acceptedNorwegian": [
-        "å spørre",
-        "stille et spørsmål"
-      ],
-      "definition": "say or write a question in order to get information",
-      "example": "Ask the patient how they are feeling.",
+      "id": "asking_explaining_reassuring_005",
+      "module": "asking_explaining_reassuring",
+      "english": "I need to ask you a few questions.",
+      "norwegian": "Jeg må stille deg noen spørsmål.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a polite phrase used before collecting important information",
+      "example": "I need to ask you a few questions about how you are feeling.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_033",
-      "module": "communication",
-      "english": "answer",
-      "norwegian": "svare",
+      "id": "asking_explaining_reassuring_006",
+      "module": "asking_explaining_reassuring",
+      "english": "I am going to help you.",
+      "norwegian": "Jeg skal hjelpe deg.",
       "acceptedEnglish": [
-        "to answer",
-        "reply",
-        "respond"
+        "I’m going to help you",
+        "I will help you",
+        "I’ll help you"
       ],
       "acceptedNorwegian": [
-        "å svare",
-        "besvare"
+        "jeg vil hjelpe deg",
+        "jeg kommer til å hjelpe deg"
       ],
-      "definition": "give a response to a question or statement",
-      "example": "Give the person time to answer.",
+      "definition": "a phrase explaining what you are about to do",
+      "example": "I am going to help you stand up now.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_034",
-      "module": "communication",
-      "english": "show me",
-      "norwegian": "vis meg",
+      "id": "asking_explaining_reassuring_007",
+      "module": "asking_explaining_reassuring",
+      "english": "Is that okay?",
+      "norwegian": "Er det greit?",
       "acceptedEnglish": [
-        "please show me",
-        "can you show me"
+        "is this okay",
+        "is that all right",
+        "is this all right",
+        "is that alright",
+        "is this alright"
       ],
       "acceptedNorwegian": [
-        "kan du vise meg",
-        "vis meg hvor"
+        "går det bra",
+        "er dette greit",
+        "er det ok",
+        "er dette ok"
       ],
-      "definition": "a phrase asking someone to demonstrate or indicate something",
-      "example": "Show me where it hurts.",
+      "definition": "a question checking agreement or comfort",
+      "example": "I am going to check your temperature. Is that okay?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_035",
-      "module": "communication",
-      "english": "point to",
-      "norwegian": "peke på",
-      "acceptedEnglish": [
-        "to point to",
-        "point at"
-      ],
-      "acceptedNorwegian": [
-        "å peke på",
-        "pek på"
-      ],
-      "definition": "use a finger to indicate a person, place or thing",
-      "example": "Point to the picture that shows how you feel.",
+      "id": "asking_explaining_reassuring_008",
+      "module": "asking_explaining_reassuring",
+      "english": "Do I have your consent?",
+      "norwegian": "Har jeg ditt samtykke?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to check that a person agrees to what is being proposed",
+      "example": "Do I have your consent to help you with personal care?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "communication_036",
-      "module": "communication",
-      "english": "consent",
-      "norwegian": "samtykke",
-      "acceptedEnglish": [
-        "permission",
-        "informed consent",
-        "agreement"
-      ],
-      "acceptedNorwegian": [
-        "tillatelse",
-        "godkjenning",
-        "informert samtykke"
-      ],
-      "definition": "permission or agreement for something to happen after receiving relevant information",
-      "example": "Ask for consent before carrying out personal care.",
+      "id": "asking_explaining_reassuring_009",
+      "module": "asking_explaining_reassuring",
+      "english": "May I touch your arm?",
+      "norwegian": "Kan jeg ta på armen din?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a polite question used to ask permission before physical contact",
+      "example": "May I touch your arm to help you stand?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_001",
-      "module": "workplace_equipment",
-      "english": "healthcare worker",
-      "norwegian": "helsefagarbeider",
-      "acceptedEnglish": [
-        "health care worker",
-        "healthcare assistant",
-        "health care assistant",
-        "care worker",
-        "health worker"
-      ],
-      "acceptedNorwegian": [
-        "helsearbeider",
-        "pleiemedarbeider"
-      ],
-      "definition": "a worker who provides practical health and care services",
-      "example": "The healthcare worker helps residents with daily activities.",
+      "id": "asking_explaining_reassuring_010",
+      "module": "asking_explaining_reassuring",
+      "english": "On a scale from zero to ten …",
+      "norwegian": "På en skala fra null til ti …",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase used to ask someone to rate pain or another symptom",
+      "example": "On a scale from zero to ten, how bad is the pain?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_002",
-      "module": "workplace_equipment",
-      "english": "nurse",
-      "norwegian": "sykepleier",
-      "acceptedEnglish": [
-        "registered nurse",
-        "a nurse"
-      ],
-      "acceptedNorwegian": [
-        "sykepleieren"
-      ],
-      "definition": "a healthcare professional trained to care for patients and perform clinical tasks",
-      "example": "The nurse checked the patient’s blood pressure.",
+      "id": "asking_explaining_reassuring_011",
+      "module": "asking_explaining_reassuring",
+      "english": "Do you have any allergies?",
+      "norwegian": "Har du noen allergier?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to ask whether a person has known allergies",
+      "example": "Do you have any allergies to food or medication?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_003",
-      "module": "workplace_equipment",
-      "english": "doctor",
-      "norwegian": "lege",
-      "acceptedEnglish": [
-        "physician",
-        "medical doctor",
-        "a doctor"
-      ],
-      "acceptedNorwegian": [
-        "legen",
-        "doktor"
-      ],
-      "definition": "a medical professional who diagnoses and treats illness",
-      "example": "The doctor examined the patient.",
+      "id": "asking_explaining_reassuring_012",
+      "module": "asking_explaining_reassuring",
+      "english": "Do you take any medication?",
+      "norwegian": "Bruker du noen medisiner?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to ask whether someone regularly uses medication",
+      "example": "Do you take any medication every day?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_004",
-      "module": "workplace_equipment",
-      "english": "care assistant",
-      "norwegian": "pleieassistent",
-      "acceptedEnglish": [
-        "care worker",
-        "healthcare assistant",
-        "health care assistant",
-        "nursing assistant",
-        "care aide"
-      ],
-      "acceptedNorwegian": [
-        "pleiemedarbeider",
-        "omsorgsarbeider",
-        "assistent i pleie"
-      ],
-      "definition": "a worker who assists people with care and daily activities",
-      "example": "The care assistant helped the resident get dressed.",
+      "id": "asking_explaining_reassuring_013",
+      "module": "asking_explaining_reassuring",
+      "english": "What do you need?",
+      "norwegian": "Hva trenger du?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an open question used to find out what help or support a person needs",
+      "example": "What do you need right now?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_005",
-      "module": "workplace_equipment",
-      "english": "childcare worker",
-      "norwegian": "barne- og ungdomsarbeider",
-      "acceptedEnglish": [
-        "child care worker",
-        "childcare assistant",
-        "child care assistant",
-        "youth worker"
-      ],
+      "id": "asking_explaining_reassuring_014",
+      "module": "asking_explaining_reassuring",
+      "english": "What would you prefer?",
+      "norwegian": "Hva foretrekker du? / Hva ønsker du?",
+      "acceptedEnglish": [],
       "acceptedNorwegian": [
-        "barnearbeider",
-        "ungdomsarbeider",
-        "barne- og ungdomsarbeiderfag"
+        "Hva foretrekker du?",
+        "Hva ønsker du?"
       ],
-      "definition": "a worker who supports children and young people in everyday activities and development",
-      "example": "The childcare worker planned an outdoor activity for the children.",
+      "definition": "a question used to ask about a person's choice or preference",
+      "example": "What would you prefer to drink?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_006",
-      "module": "workplace_equipment",
-      "english": "kindergarten assistant",
-      "norwegian": "barnehageassistent",
-      "acceptedEnglish": [
-        "nursery assistant",
-        "preschool assistant",
-        "daycare assistant",
-        "childcare assistant"
-      ],
-      "acceptedNorwegian": [
-        "assistent i barnehage",
-        "barnehagemedarbeider"
-      ],
-      "definition": "a worker who assists children and staff in a kindergarten or preschool setting",
-      "example": "The kindergarten assistant helped the children put on outdoor clothes.",
+      "id": "asking_explaining_reassuring_015",
+      "module": "asking_explaining_reassuring",
+      "english": "Tell me if anything changes.",
+      "norwegian": "Si fra hvis noe endrer seg.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase asking someone to report a change in symptoms or condition",
+      "example": "Tell me if anything changes while you are waiting.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_007",
-      "module": "workplace_equipment",
-      "english": "patient",
-      "norwegian": "pasient",
-      "acceptedEnglish": [
-        "a patient"
-      ],
-      "acceptedNorwegian": [
-        "pasienten"
-      ],
-      "definition": "a person receiving medical treatment or healthcare",
-      "example": "The patient is waiting for the nurse.",
+      "id": "asking_explaining_reassuring_016",
+      "module": "asking_explaining_reassuring",
+      "english": "Does that feel better?",
+      "norwegian": "Føles det bedre?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to check whether an action has improved comfort or symptoms",
+      "example": "I moved the pillow. Does that feel better?",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_008",
-      "module": "workplace_equipment",
-      "english": "resident",
-      "norwegian": "beboer",
-      "acceptedEnglish": [
-        "a resident",
-        "care-home resident",
-        "nursing home resident"
-      ],
-      "acceptedNorwegian": [
-        "beboeren",
-        "bruker på institusjon"
-      ],
-      "definition": "a person who lives in a care home or other residential setting",
-      "example": "The resident prefers to eat breakfast early.",
+      "id": "asking_explaining_reassuring_017",
+      "module": "asking_explaining_reassuring",
+      "english": "Please tell me if it hurts.",
+      "norwegian": "Si fra hvis det gjør vondt.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase asking someone to report pain during care or movement",
+      "example": "Please tell me if it hurts when I move your arm.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_010",
-      "module": "workplace_equipment",
+      "id": "asking_explaining_reassuring_018",
+      "module": "asking_explaining_reassuring",
+      "english": "You are safe here.",
+      "norwegian": "Du er trygg her.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a reassuring phrase used to help a person feel secure",
+      "example": "You are safe here. I will stay with you.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "asking_explaining_reassuring_019",
+      "module": "asking_explaining_reassuring",
+      "english": "Is there someone you would like me to call?",
+      "norwegian": "Er det noen du vil at jeg skal ringe?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question offering to contact a relative, friend, or other support person",
+      "example": "Is there someone you would like me to call?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "asking_explaining_reassuring_020",
+      "module": "asking_explaining_reassuring",
+      "english": "I'll be back in a moment.",
+      "norwegian": "Jeg kommer tilbake om et øyeblikk.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase used to tell someone that you will return shortly",
+      "example": "I'll be back in a moment with some water.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_001",
+      "module": "childcare_development_safeguarding",
       "english": "child",
       "norwegian": "barn",
       "acceptedEnglish": [
@@ -3131,8 +2588,8 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_011",
-      "module": "workplace_equipment",
+      "id": "childcare_development_safeguarding_002",
+      "module": "childcare_development_safeguarding",
       "english": "parent or guardian",
       "norwegian": "forelder eller foresatt",
       "acceptedEnglish": [
@@ -3153,29 +2610,422 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_012",
-      "module": "workplace_equipment",
-      "english": "colleague",
+      "id": "childcare_development_safeguarding_003",
+      "module": "childcare_development_safeguarding",
+      "english": "preschool / daycare",
+      "norwegian": "barnehage",
+      "acceptedEnglish": [
+        "nursery",
+        "preschool",
+        "daycare",
+        "day care",
+        "pre-school",
+        "kindergarten"
+      ],
+      "acceptedNorwegian": [
+        "barnehagen"
+      ],
+      "definition": "a place or program where young children are cared for, learn, and play before elementary school",
+      "example": "The child attends preschool during the week.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_004",
+      "module": "childcare_development_safeguarding",
+      "english": "after-school program",
+      "norwegian": "skolefritidsordning / SFO",
+      "acceptedEnglish": [
+        "after-school programme",
+        "after school program",
+        "after school programme"
+      ],
+      "acceptedNorwegian": [
+        "skolefritidsordning",
+        "SFO"
+      ],
+      "definition": "a supervised program for school-age children before or after the school day",
+      "example": "She works in an after-school program.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_005",
+      "module": "childcare_development_safeguarding",
+      "english": "play",
+      "norwegian": "lek / leke",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "lek",
+        "leke"
+      ],
+      "definition": "an activity children do for enjoyment, learning, and development",
+      "example": "Children learn important skills through play.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_006",
+      "module": "childcare_development_safeguarding",
+      "english": "behavior",
+      "norwegian": "atferd",
+      "acceptedEnglish": [
+        "behaviour"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "the way a person acts or responds in a situation",
+      "example": "Observe changes in a child's behavior.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_007",
+      "module": "childcare_development_safeguarding",
+      "english": "development",
+      "norwegian": "utvikling",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the process of growing and gaining physical, cognitive, emotional, and social abilities",
+      "example": "Children develop at different rates.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_008",
+      "module": "childcare_development_safeguarding",
+      "english": "language development",
+      "norwegian": "språkutvikling",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the process of learning to understand and use language",
+      "example": "Reading and conversation can support language development.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_009",
+      "module": "childcare_development_safeguarding",
+      "english": "social skills",
+      "norwegian": "sosiale ferdigheter",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "skills used to communicate, cooperate, and interact with other people",
+      "example": "Group activities can help children practice social skills.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_010",
+      "module": "childcare_development_safeguarding",
+      "english": "well-being",
+      "norwegian": "trivsel / velvære",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "trivsel",
+        "velvære"
+      ],
+      "definition": "a person's overall state of comfort, health, safety, and quality of life",
+      "example": "Good relationships can support a child's well-being.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_011",
+      "module": "childcare_development_safeguarding",
+      "english": "emotional support",
+      "norwegian": "emosjonell støtte",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "help that provides reassurance, understanding, and comfort",
+      "example": "The child may need emotional support after a difficult experience.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_012",
+      "module": "childcare_development_safeguarding",
+      "english": "support",
+      "norwegian": "støtte / bistand",
+      "acceptedEnglish": [
+        "help",
+        "to help",
+        "to assist",
+        "assist"
+      ],
+      "acceptedNorwegian": [
+        "å hjelpe",
+        "bistå",
+        "assistere",
+        "støtte",
+        "hjelpe",
+        "bistand"
+      ],
+      "definition": "help, encouragement, or practical assistance given to someone",
+      "example": "The child needs extra support during the activity.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_013",
+      "module": "childcare_development_safeguarding",
+      "english": "needs",
+      "norwegian": "behov",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "things a person requires for health, safety, development, or well-being",
+      "example": "Care should be adapted to the person's needs.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_014",
+      "module": "childcare_development_safeguarding",
+      "english": "disability",
+      "norwegian": "funksjonsnedsettelse",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a physical, sensory, intellectual, or mental condition that may affect activities or participation",
+      "example": "A disability may create different support needs.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_015",
+      "module": "childcare_development_safeguarding",
+      "english": "respect",
+      "norwegian": "respekt",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "consideration for a person's dignity, wishes, rights, and boundaries",
+      "example": "Treat every patient and child with respect.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_016",
+      "module": "childcare_development_safeguarding",
+      "english": "safeguarding",
+      "norwegian": "beskyttelse / ivaretakelse",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "beskyttelse",
+        "ivaretakelse"
+      ],
+      "definition": "actions taken to protect children and vulnerable people from abuse, neglect, and harm",
+      "example": "Safeguarding concerns must be handled according to workplace procedures.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_017",
+      "module": "childcare_development_safeguarding",
+      "english": "neglect",
+      "norwegian": "omsorgssvikt",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "failure to provide necessary care, protection, supervision, or support",
+      "example": "Signs of neglect should be reported according to workplace procedures.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_018",
+      "module": "childcare_development_safeguarding",
+      "english": "Please stay with the group.",
+      "norwegian": "Hold deg sammen med gruppen, takk.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a polite instruction asking someone not to leave the group",
+      "example": "Please stay with the group while we cross the road.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_019",
+      "module": "childcare_development_safeguarding",
+      "english": "Tell me if you need a break.",
+      "norwegian": "Si fra hvis du trenger en pause.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a phrase encouraging someone to say when they need to rest",
+      "example": "Tell me if you need a break during the activity.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "childcare_development_safeguarding_020",
+      "module": "childcare_development_safeguarding",
+      "english": "Would you like me to call your parent or guardian?",
+      "norwegian": "Vil du at jeg skal ringe forelderen eller den foresatte din?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question offering to contact the adult responsible for a child or young person",
+      "example": "Would you like me to call your parent or guardian?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_001",
+      "module": "workplace_roles_equipment",
+      "english": "healthcare worker",
+      "norwegian": "helsearbeider / helsefagarbeider",
+      "acceptedEnglish": [
+        "health care worker",
+        "healthcare assistant",
+        "health care assistant",
+        "care worker",
+        "health worker"
+      ],
+      "acceptedNorwegian": [
+        "helsearbeider",
+        "pleiemedarbeider",
+        "helsefagarbeider"
+      ],
+      "definition": "a worker who provides practical health and care services",
+      "example": "The healthcare worker helps residents with daily activities.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_002",
+      "module": "workplace_roles_equipment",
+      "english": "nurse",
+      "norwegian": "sykepleier",
+      "acceptedEnglish": [
+        "registered nurse",
+        "a nurse"
+      ],
+      "acceptedNorwegian": [
+        "sykepleieren"
+      ],
+      "definition": "a healthcare professional trained to care for patients and perform clinical tasks",
+      "example": "The nurse checked the patient’s blood pressure.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_003",
+      "module": "workplace_roles_equipment",
+      "english": "doctor",
+      "norwegian": "lege",
+      "acceptedEnglish": [
+        "physician",
+        "medical doctor",
+        "a doctor"
+      ],
+      "acceptedNorwegian": [
+        "legen",
+        "doktor"
+      ],
+      "definition": "a medical professional who diagnoses and treats illness",
+      "example": "The doctor examined the patient.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_004",
+      "module": "workplace_roles_equipment",
+      "english": "care assistant",
+      "norwegian": "pleieassistent / omsorgsarbeider",
+      "acceptedEnglish": [
+        "care worker",
+        "healthcare assistant",
+        "health care assistant",
+        "nursing assistant",
+        "care aide"
+      ],
+      "acceptedNorwegian": [
+        "pleiemedarbeider",
+        "omsorgsarbeider",
+        "assistent i pleie",
+        "pleieassistent"
+      ],
+      "definition": "a worker who assists people with care and daily activities",
+      "example": "The care assistant helped the resident get dressed.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_005",
+      "module": "workplace_roles_equipment",
+      "english": "childcare worker",
+      "norwegian": "barne- og ungdomsarbeider",
+      "acceptedEnglish": [
+        "child care worker",
+        "childcare assistant",
+        "child care assistant",
+        "youth worker"
+      ],
+      "acceptedNorwegian": [
+        "barnearbeider",
+        "ungdomsarbeider",
+        "barne- og ungdomsarbeiderfag"
+      ],
+      "definition": "a worker who supports children and young people in everyday activities and development",
+      "example": "The childcare worker planned an outdoor activity for the children.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_006",
+      "module": "workplace_roles_equipment",
+      "english": "patient",
+      "norwegian": "pasient",
+      "acceptedEnglish": [
+        "a patient"
+      ],
+      "acceptedNorwegian": [
+        "pasienten"
+      ],
+      "definition": "a person receiving medical treatment or healthcare",
+      "example": "The patient is waiting for the nurse.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_007",
+      "module": "workplace_roles_equipment",
+      "english": "resident",
+      "norwegian": "beboer",
+      "acceptedEnglish": [
+        "a resident",
+        "care-home resident",
+        "nursing home resident"
+      ],
+      "acceptedNorwegian": [
+        "beboeren",
+        "bruker på institusjon"
+      ],
+      "definition": "a person who lives in a care home or other residential setting",
+      "example": "The resident prefers to eat breakfast early.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "workplace_roles_equipment_008",
+      "module": "workplace_roles_equipment",
+      "english": "colleague / coworker",
       "norwegian": "kollega",
       "acceptedEnglish": [
         "coworker",
         "co-worker",
-        "workmate"
+        "workmate",
+        "colleague"
       ],
       "acceptedNorwegian": [
         "arbeidskollega",
         "medarbeider"
       ],
       "definition": "a person you work with",
-      "example": "Ask a colleague for help if you are unsure.",
+      "example": "Ask a colleague or coworker for help if you are unsure.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_013",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_009",
+      "module": "workplace_roles_equipment",
       "english": "supervisor",
-      "norwegian": "veileder",
+      "norwegian": "veileder / arbeidsleder",
       "acceptedEnglish": [
         "manager",
         "team leader",
@@ -3184,7 +3034,8 @@
       "acceptedNorwegian": [
         "arbeidsleder",
         "leder",
-        "praksisveileder"
+        "praksisveileder",
+        "veileder"
       ],
       "definition": "a person responsible for guiding or overseeing your work",
       "example": "Tell your supervisor if you notice a safety problem.",
@@ -3192,76 +3043,8 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_014",
-      "module": "workplace_equipment",
-      "english": "shift",
-      "norwegian": "vakt",
-      "acceptedEnglish": [
-        "work shift",
-        "a shift"
-      ],
-      "acceptedNorwegian": [
-        "arbeidsvakt",
-        "vakten"
-      ],
-      "definition": "a scheduled period of time at work",
-      "example": "My shift starts at seven o’clock.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_015",
-      "module": "workplace_equipment",
-      "english": "day shift",
-      "norwegian": "dagvakt",
-      "acceptedEnglish": [
-        "daytime shift"
-      ],
-      "acceptedNorwegian": [
-        "dagvakten"
-      ],
-      "definition": "a work shift that takes place mainly during the day",
-      "example": "She is working the day shift today.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_016",
-      "module": "workplace_equipment",
-      "english": "night shift",
-      "norwegian": "nattevakt",
-      "acceptedEnglish": [
-        "night duty",
-        "overnight shift"
-      ],
-      "acceptedNorwegian": [
-        "nattevakten"
-      ],
-      "definition": "a work shift that takes place mainly during the night",
-      "example": "The night shift begins at ten o’clock.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_017",
-      "module": "workplace_equipment",
-      "english": "workplace",
-      "norwegian": "arbeidsplass",
-      "acceptedEnglish": [
-        "place of work",
-        "work place"
-      ],
-      "acceptedNorwegian": [
-        "arbeidsplassen"
-      ],
-      "definition": "the place where a person works",
-      "example": "Follow the safety routines at your workplace.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_018",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_010",
+      "module": "workplace_roles_equipment",
       "english": "hospital",
       "norwegian": "sykehus",
       "acceptedEnglish": [
@@ -3276,8 +3059,8 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_019",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_011",
+      "module": "workplace_roles_equipment",
       "english": "nursing home",
       "norwegian": "sykehjem",
       "acceptedEnglish": [
@@ -3296,84 +3079,66 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_020",
-      "module": "workplace_equipment",
-      "english": "kindergarten",
-      "norwegian": "barnehage",
+      "id": "workplace_roles_equipment_012",
+      "module": "workplace_roles_equipment",
+      "english": "home care services",
+      "norwegian": "hjemmetjeneste / hjemmesykepleie",
       "acceptedEnglish": [
-        "nursery",
-        "preschool",
-        "daycare",
-        "day care",
-        "pre-school"
+        "home care",
+        "home healthcare",
+        "home health care"
       ],
       "acceptedNorwegian": [
-        "barnehagen"
+        "hjemmetjeneste",
+        "hjemmesykepleie"
       ],
-      "definition": "a place where young children are cared for and learn through play and activities",
-      "example": "The children eat lunch together at kindergarten.",
+      "definition": "health and care services provided to people in their own homes",
+      "example": "She receives home care services twice a day.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_021",
-      "module": "workplace_equipment",
-      "english": "clinic",
-      "norwegian": "klinikk",
-      "acceptedEnglish": [
-        "medical clinic",
-        "health clinic"
-      ],
-      "acceptedNorwegian": [
-        "klinikken"
-      ],
-      "definition": "a place where people receive medical advice, examination or treatment",
-      "example": "The patient has an appointment at the clinic.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_022",
-      "module": "workplace_equipment",
-      "english": "ward",
+      "id": "workplace_roles_equipment_013",
+      "module": "workplace_roles_equipment",
+      "english": "hospital unit / ward",
       "norwegian": "avdeling",
       "acceptedEnglish": [
         "hospital ward",
         "unit",
         "hospital unit",
-        "department"
+        "department",
+        "ward"
       ],
       "acceptedNorwegian": [
         "avdelingen",
         "post"
       ],
-      "definition": "a section of a hospital or care institution for a particular group of patients",
-      "example": "She works on a medical ward.",
+      "definition": "a section of a hospital organized for a particular type of care or group of patients",
+      "example": "She works on a medical hospital unit.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_023",
-      "module": "workplace_equipment",
-      "english": "patient room",
-      "norwegian": "pasientrom",
+      "id": "workplace_roles_equipment_014",
+      "module": "workplace_roles_equipment",
+      "english": "shift",
+      "norwegian": "vakt",
       "acceptedEnglish": [
-        "patient’s room",
-        "hospital room",
-        "resident room"
+        "work shift",
+        "a shift"
       ],
       "acceptedNorwegian": [
-        "pasientrommet",
-        "beboerrom"
+        "arbeidsvakt",
+        "vakten"
       ],
-      "definition": "a room used by a patient or resident",
-      "example": "Knock before entering the patient room.",
+      "definition": "a scheduled period of time at work",
+      "example": "My shift starts at seven o’clock.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_024",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_015",
+      "module": "workplace_roles_equipment",
       "english": "thermometer",
       "norwegian": "termometer",
       "acceptedEnglish": [
@@ -3394,8 +3159,8 @@
       ]
     },
     {
-      "id": "workplace_equipment_025",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_016",
+      "module": "workplace_roles_equipment",
       "english": "blood pressure monitor",
       "norwegian": "blodtrykksapparat",
       "acceptedEnglish": [
@@ -3414,8 +3179,8 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_026",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_017",
+      "module": "workplace_roles_equipment",
       "english": "stethoscope",
       "norwegian": "stetoskop",
       "acceptedEnglish": [
@@ -3430,105 +3195,8 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_027",
-      "module": "workplace_equipment",
-      "english": "disposable gloves",
-      "norwegian": "engangshansker",
-      "acceptedEnglish": [
-        "single-use gloves",
-        "single use gloves",
-        "medical gloves",
-        "protective gloves",
-        "gloves"
-      ],
-      "acceptedNorwegian": [
-        "engangshanske",
-        "hansker",
-        "beskyttelseshansker"
-      ],
-      "definition": "gloves intended to be used once to reduce contamination",
-      "example": "Put on disposable gloves when the task requires them.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_028",
-      "module": "workplace_equipment",
-      "english": "face mask",
-      "norwegian": "munnbind",
-      "acceptedEnglish": [
-        "surgical mask",
-        "medical mask",
-        "mask"
-      ],
-      "acceptedNorwegian": [
-        "ansiktsmaske",
-        "munnbindet"
-      ],
-      "definition": "a covering worn over the nose and mouth for protection or infection control",
-      "example": "Wear a face mask when required by the infection-control routine.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_029",
-      "module": "workplace_equipment",
-      "english": "apron",
-      "norwegian": "forkle",
-      "acceptedEnglish": [
-        "protective apron",
-        "disposable apron"
-      ],
-      "acceptedNorwegian": [
-        "beskyttelsesforkle",
-        "engangsforkle"
-      ],
-      "definition": "a protective garment worn over clothing",
-      "example": "Wear an apron if your clothes may become contaminated.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_030",
-      "module": "workplace_equipment",
-      "english": "bandage",
-      "norwegian": "bandasje",
-      "acceptedEnglish": [
-        "a bandage",
-        "wrap"
-      ],
-      "acceptedNorwegian": [
-        "bandasjen",
-        "støttebandasje"
-      ],
-      "definition": "material wrapped around part of the body to support or protect it",
-      "example": "Wrap the bandage firmly but not too tightly.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_032",
-      "module": "workplace_equipment",
-      "english": "plaster",
-      "norwegian": "plaster",
-      "acceptedEnglish": [
-        "band-aid",
-        "band aid",
-        "adhesive bandage",
-        "sticking plaster"
-      ],
-      "acceptedNorwegian": [
-        "plasteret",
-        "sårplaster"
-      ],
-      "definition": "a small adhesive covering used for a minor cut or wound",
-      "example": "Put a plaster on the small cut.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_033",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_018",
+      "module": "workplace_roles_equipment",
       "english": "wheelchair",
       "norwegian": "rullestol",
       "acceptedEnglish": [
@@ -3550,10 +3218,10 @@
       ]
     },
     {
-      "id": "workplace_equipment_034",
-      "module": "workplace_equipment",
+      "id": "workplace_roles_equipment_019",
+      "module": "workplace_roles_equipment",
       "english": "walker",
-      "norwegian": "rullator",
+      "norwegian": "rullator / gåstativ",
       "acceptedEnglish": [
         "walking frame",
         "walking aid",
@@ -3561,7 +3229,9 @@
       ],
       "acceptedNorwegian": [
         "gåstol",
-        "rullatoren"
+        "rullatoren",
+        "rullator",
+        "gåstativ"
       ],
       "definition": "a frame with handles that supports a person while walking",
       "example": "The resident uses a walker indoors.",
@@ -3569,32 +3239,14 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_035",
-      "module": "workplace_equipment",
-      "english": "crutches",
-      "norwegian": "krykker",
-      "acceptedEnglish": [
-        "crutch",
-        "walking crutches"
-      ],
-      "acceptedNorwegian": [
-        "krykke",
-        "krykkene"
-      ],
-      "definition": "supports used under the arms or with the hands when a person cannot put full weight on a leg",
-      "example": "He uses crutches after the ankle injury.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "workplace_equipment_036",
-      "module": "workplace_equipment",
-      "english": "hoist",
+      "id": "workplace_roles_equipment_020",
+      "module": "workplace_roles_equipment",
+      "english": "patient lift",
       "norwegian": "personløfter",
       "acceptedEnglish": [
-        "patient lift",
         "patient hoist",
-        "lift"
+        "lift",
+        "hoist"
       ],
       "acceptedNorwegian": [
         "løfter",
@@ -3602,57 +3254,254 @@
         "personheis"
       ],
       "definition": "equipment used to lift or transfer a person safely",
-      "example": "Use the hoist according to the workplace procedure.",
+      "example": "Use the patient lift according to the workplace procedure.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_037",
-      "module": "workplace_equipment",
-      "english": "medication",
-      "norwegian": "medisin",
+      "id": "professional_care_ethics_001",
+      "module": "professional_care_ethics",
+      "english": "health condition",
+      "norwegian": "helsetilstand",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an illness, disorder, injury, or other state that affects a person's health",
+      "example": "Tell the healthcare worker about any health condition that may affect your care.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_002",
+      "module": "professional_care_ethics",
+      "english": "mental health",
+      "norwegian": "psykisk helse",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "mental helse"
+      ],
+      "definition": "a person's emotional, psychological, and social well-being",
+      "example": "Sleep and social support can affect mental health.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_003",
+      "module": "professional_care_ethics",
+      "english": "next of kin",
+      "norwegian": "pårørende",
       "acceptedEnglish": [
-        "medicine",
-        "medications",
-        "medicines",
-        "drug"
+        "family contact",
+        "next-of-kin"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a close relative or other person recorded as the main family contact",
+      "example": "The nurse contacted the patient's next of kin.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_004",
+      "module": "professional_care_ethics",
+      "english": "caregiver",
+      "norwegian": "omsorgsperson",
+      "acceptedEnglish": [
+        "carer"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a person who provides practical or personal care and support",
+      "example": "The caregiver helps with daily activities.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_005",
+      "module": "professional_care_ethics",
+      "english": "quality of life",
+      "norwegian": "livskvalitet",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a person's overall well-being and satisfaction with daily life",
+      "example": "Good care should support the person's quality of life.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_006",
+      "module": "professional_care_ethics",
+      "english": "independence",
+      "norwegian": "selvstendighet",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the ability to make choices and do as much as possible without unnecessary help",
+      "example": "Encourage independence when it is safe to do so.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_007",
+      "module": "professional_care_ethics",
+      "english": "dignity",
+      "norwegian": "verdighet",
+      "acceptedEnglish": [
+        "human dignity",
+        "personal dignity"
       ],
       "acceptedNorwegian": [
-        "legemiddel",
-        "legemidler",
-        "medisiner"
+        "respekt for personen"
       ],
-      "definition": "a substance used to prevent, treat or relieve illness or symptoms",
-      "example": "Medication must be handled according to workplace routines.",
+      "definition": "the quality of being treated as a person of value and respect",
+      "example": "Always protect the resident’s dignity during personal care.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_038",
-      "module": "workplace_equipment",
-      "english": "patient record",
+      "id": "professional_care_ethics_008",
+      "module": "professional_care_ethics",
+      "english": "confidentiality",
+      "norwegian": "taushetsplikt / konfidensialitet",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "taushetsplikt",
+        "konfidensialitet"
+      ],
+      "definition": "the duty to protect private information and share it only when appropriate",
+      "example": "Confidentiality is important when handling patient information.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_009",
+      "module": "professional_care_ethics",
+      "english": "person-centered care",
+      "norwegian": "personsentrert omsorg",
+      "acceptedEnglish": [
+        "person-centred care"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "care planned around the individual person's needs, values, preferences, and goals",
+      "example": "Person-centered care includes listening to what matters to the patient.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_010",
+      "module": "professional_care_ethics",
+      "english": "activities of daily living / ADLs",
+      "norwegian": "daglige aktiviteter / ADL",
+      "acceptedEnglish": [
+        "activities of daily living",
+        "ADLs",
+        "ADL"
+      ],
+      "acceptedNorwegian": [
+        "daglige aktiviteter",
+        "ADL",
+        "aktiviteter i dagliglivet"
+      ],
+      "definition": "basic everyday tasks such as washing, dressing, eating, and using the toilet",
+      "example": "The care plan describes which activities of daily living the resident needs help with.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_011",
+      "module": "professional_care_ethics",
+      "english": "rehabilitation",
+      "norwegian": "rehabilitering",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "support and treatment that help a person regain or improve function and independence",
+      "example": "Rehabilitation may help a patient walk safely again.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_012",
+      "module": "professional_care_ethics",
+      "english": "prevention",
+      "norwegian": "forebygging",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "action taken to reduce the chance of illness, injury, or other problems",
+      "example": "Hand hygiene is important for infection prevention.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_013",
+      "module": "professional_care_ethics",
+      "english": "health promotion",
+      "norwegian": "helsefremmende arbeid",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "work that helps people improve and maintain their health and well-being",
+      "example": "Physical activity can be part of health promotion.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_014",
+      "module": "professional_care_ethics",
+      "english": "consent",
+      "norwegian": "samtykke",
+      "acceptedEnglish": [
+        "permission",
+        "informed consent",
+        "agreement"
+      ],
+      "acceptedNorwegian": [
+        "tillatelse",
+        "godkjenning",
+        "informert samtykke"
+      ],
+      "definition": "permission or agreement for something to happen after receiving relevant information",
+      "example": "Ask for consent before carrying out personal care.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_015",
+      "module": "professional_care_ethics",
+      "english": "risk",
+      "norwegian": "risiko",
+      "acceptedEnglish": [
+        "a risk"
+      ],
+      "acceptedNorwegian": [
+        "risikoen"
+      ],
+      "definition": "the chance that harm or an unwanted event may occur",
+      "example": "Assess the risk before moving the patient.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_016",
+      "module": "professional_care_ethics",
+      "english": "patient record / medical record",
       "norwegian": "pasientjournal",
       "acceptedEnglish": [
         "medical record",
         "health record",
         "patient chart",
-        "medical chart"
+        "medical chart",
+        "patient record"
       ],
       "acceptedNorwegian": [
         "journal",
         "pasientjournalen",
         "helsejournal"
       ],
-      "definition": "a record containing information about a patient’s health and care",
+      "definition": "a written or digital record containing information about a patient's health and care",
       "example": "Important observations must be entered in the patient record.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "workplace_equipment_039",
-      "module": "workplace_equipment",
+      "id": "professional_care_ethics_017",
+      "module": "professional_care_ethics",
       "english": "care plan",
-      "norwegian": "pleieplan",
+      "norwegian": "pleieplan / tiltaksplan",
       "acceptedEnglish": [
         "care-plan",
         "plan of care",
@@ -3661,7 +3510,8 @@
       "acceptedNorwegian": [
         "tiltaksplan",
         "omsorgsplan",
-        "pleieplanen"
+        "pleieplanen",
+        "pleieplan"
       ],
       "definition": "a written plan describing a person’s needs, goals and agreed care",
       "example": "Follow the care plan when helping the resident.",
@@ -3669,8 +3519,8 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_040",
-      "module": "workplace_equipment",
+      "id": "professional_care_ethics_018",
+      "module": "professional_care_ethics",
       "english": "documentation",
       "norwegian": "dokumentasjon",
       "acceptedEnglish": [
@@ -3688,10 +3538,32 @@
       "questions": []
     },
     {
-      "id": "workplace_equipment_041",
-      "module": "workplace_equipment",
+      "id": "professional_care_ethics_019",
+      "module": "professional_care_ethics",
+      "english": "handoff / handover",
+      "norwegian": "rapport / vaktoverlevering",
+      "acceptedEnglish": [
+        "handoff",
+        "handover",
+        "hand-off",
+        "hand-over",
+        "shift report"
+      ],
+      "acceptedNorwegian": [
+        "rapport",
+        "vaktoverlevering",
+        "overlevering"
+      ],
+      "definition": "the transfer of important information and responsibility from one worker or team to another",
+      "example": "Give a clear handoff at the end of the shift.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "professional_care_ethics_020",
+      "module": "professional_care_ethics",
       "english": "appointment",
-      "norwegian": "timeavtale",
+      "norwegian": "time / avtale",
       "acceptedEnglish": [
         "appointment time",
         "medical appointment"
@@ -3699,7 +3571,8 @@
       "acceptedNorwegian": [
         "avtale",
         "legetime",
-        "time"
+        "time",
+        "timeavtale"
       ],
       "definition": "an arranged time to meet a professional or receive a service",
       "example": "The patient has a doctor’s appointment at two o’clock.",
@@ -3707,8 +3580,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_001",
-      "module": "safety_observation",
+      "id": "safety_first_aid_001",
+      "module": "safety_first_aid",
       "english": "emergency",
       "norwegian": "nødsituasjon",
       "acceptedEnglish": [
@@ -3725,8 +3598,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_002",
-      "module": "safety_observation",
+      "id": "safety_first_aid_002",
+      "module": "safety_first_aid",
       "english": "first aid",
       "norwegian": "førstehjelp",
       "acceptedEnglish": [
@@ -3741,8 +3614,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_003",
-      "module": "safety_observation",
+      "id": "safety_first_aid_003",
+      "module": "safety_first_aid",
       "english": "call for help",
       "norwegian": "tilkalle hjelp",
       "acceptedEnglish": [
@@ -3762,138 +3635,46 @@
       "questions": []
     },
     {
-      "id": "safety_observation_004",
-      "module": "safety_observation",
-      "english": "ambulance",
-      "norwegian": "ambulanse",
-      "acceptedEnglish": [
-        "an ambulance"
-      ],
-      "acceptedNorwegian": [
-        "ambulansen"
-      ],
-      "definition": "an emergency vehicle that transports sick or injured people",
-      "example": "The ambulance arrived within a few minutes.",
+      "id": "safety_first_aid_004",
+      "module": "safety_first_aid",
+      "english": "call an ambulance",
+      "norwegian": "ringe etter ambulanse",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "contact emergency medical services and request an ambulance",
+      "example": "Call an ambulance if the person needs urgent medical help.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "safety_observation_005",
-      "module": "safety_observation",
-      "english": "emergency number",
-      "norwegian": "nødnummer",
+      "id": "safety_first_aid_005",
+      "module": "safety_first_aid",
+      "english": "fire",
+      "norwegian": "brann",
       "acceptedEnglish": [
-        "emergency telephone number",
-        "emergency phone number"
+        "a fire"
       ],
       "acceptedNorwegian": [
-        "nødtelefonnummer",
-        "nødnummeret"
+        "brannen"
       ],
-      "definition": "a telephone number used to contact emergency services",
-      "example": "In Norway, the medical emergency number is 113.",
+      "definition": "uncontrolled burning that can cause injury and damage",
+      "example": "Follow the evacuation plan if there is a fire.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "safety_observation_006",
-      "module": "safety_observation",
-      "english": "danger",
-      "norwegian": "fare",
-      "acceptedEnglish": [
-        "a danger"
-      ],
-      "acceptedNorwegian": [
-        "faren"
-      ],
-      "definition": "the possibility that something harmful may happen",
-      "example": "Keep children away from immediate danger.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_007",
-      "module": "safety_observation",
-      "english": "risk",
-      "norwegian": "risiko",
-      "acceptedEnglish": [
-        "a risk"
-      ],
-      "acceptedNorwegian": [
-        "risikoen"
-      ],
-      "definition": "the chance that harm or an unwanted event may occur",
-      "example": "Assess the risk before moving the patient.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_008",
-      "module": "safety_observation",
-      "english": "hazard",
-      "norwegian": "farekilde",
-      "acceptedEnglish": [
-        "danger",
-        "safety hazard"
-      ],
-      "acceptedNorwegian": [
-        "risikokilde",
-        "faremoment"
-      ],
-      "definition": "something that can cause harm",
-      "example": "A wet floor is a slipping hazard.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_009",
-      "module": "safety_observation",
-      "english": "safe",
-      "norwegian": "trygg",
-      "acceptedEnglish": [
-        "secure",
-        "not dangerous"
-      ],
-      "acceptedNorwegian": [
-        "sikker",
-        "trygt"
-      ],
-      "definition": "protected from danger or harm",
-      "example": "Make sure the child is safe.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_010",
-      "module": "safety_observation",
-      "english": "unsafe",
-      "norwegian": "utrygg",
-      "acceptedEnglish": [
-        "not safe",
-        "dangerous"
-      ],
-      "acceptedNorwegian": [
-        "usikker",
-        "farlig",
-        "utrygt"
-      ],
-      "definition": "not adequately protected from danger or harm",
-      "example": "Report any unsafe equipment.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_011",
-      "module": "safety_observation",
+      "id": "safety_first_aid_006",
+      "module": "safety_first_aid",
       "english": "accident",
-      "norwegian": "ulykke",
+      "norwegian": "ulykke / uhell",
       "acceptedEnglish": [
         "an accident",
         "incident"
       ],
       "acceptedNorwegian": [
         "ulykken",
-        "uhell"
+        "uhell",
+        "ulykke"
       ],
       "definition": "an unexpected event that causes or may cause injury or damage",
       "example": "Document the accident according to workplace routines.",
@@ -3901,8 +3682,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_012",
-      "module": "safety_observation",
+      "id": "safety_first_aid_007",
+      "module": "safety_first_aid",
       "english": "fall",
       "norwegian": "fall",
       "acceptedEnglish": [
@@ -3919,43 +3700,10 @@
       "questions": []
     },
     {
-      "id": "safety_observation_013",
-      "module": "safety_observation",
-      "english": "fire",
-      "norwegian": "brann",
-      "acceptedEnglish": [
-        "a fire"
-      ],
-      "acceptedNorwegian": [
-        "brannen"
-      ],
-      "definition": "uncontrolled burning that can cause injury and damage",
-      "example": "Follow the evacuation plan if there is a fire.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_014",
-      "module": "safety_observation",
-      "english": "evacuation",
-      "norwegian": "evakuering",
-      "acceptedEnglish": [
-        "evacuating",
-        "emergency evacuation"
-      ],
-      "acceptedNorwegian": [
-        "evakueringen"
-      ],
-      "definition": "moving people away from a dangerous place to safety",
-      "example": "Know the evacuation route at your workplace.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_015",
-      "module": "safety_observation",
+      "id": "safety_first_aid_008",
+      "module": "safety_first_aid",
       "english": "choking",
-      "norwegian": "kvelning",
+      "norwegian": "sette i halsen / kvelning",
       "acceptedEnglish": [
         "choke",
         "to choke",
@@ -3964,7 +3712,8 @@
       "acceptedNorwegian": [
         "sette i halsen",
         "kveles",
-        "luftveisstans"
+        "luftveisstans",
+        "kvelning"
       ],
       "definition": "difficulty breathing because the airway is blocked",
       "example": "A person who is choking may be unable to speak or breathe.",
@@ -3972,8 +3721,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_016",
-      "module": "safety_observation",
+      "id": "safety_first_aid_009",
+      "module": "safety_first_aid",
       "english": "airway",
       "norwegian": "luftvei",
       "acceptedEnglish": [
@@ -3990,97 +3739,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_017",
-      "module": "safety_observation",
-      "english": "breathing",
-      "norwegian": "pust",
-      "acceptedEnglish": [
-        "respiration",
-        "to breathe",
-        "breathing pattern"
-      ],
-      "acceptedNorwegian": [
-        "pusting",
-        "åndedrett",
-        "respirasjon"
-      ],
-      "definition": "the process of taking air into and out of the lungs",
-      "example": "Check whether the person is breathing normally.",
-      "confusions": [
-        {
-          "answer": "breath",
-          "feedback": "«Breath» is a noun meaning one breath. «Breathe» is the verb, while «breathing» describes the process."
-        }
-      ],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_018",
-      "module": "safety_observation",
-      "english": "circulation",
-      "norwegian": "blodsirkulasjon",
-      "acceptedEnglish": [
-        "blood circulation"
-      ],
-      "acceptedNorwegian": [
-        "sirkulasjon",
-        "blodomløp"
-      ],
-      "definition": "the movement of blood around the body",
-      "example": "Circulation carries oxygen and nutrients around the body.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_019",
-      "module": "safety_observation",
-      "english": "CPR",
-      "norwegian": "hjerte-lunge-redning",
-      "acceptedEnglish": [
-        "cardiopulmonary resuscitation",
-        "cardio pulmonary resuscitation",
-        "HLR"
-      ],
-      "acceptedNorwegian": [
-        "hjerte lungeredning",
-        "hjerte-lungeredning",
-        "hlr"
-      ],
-      "definition": "emergency chest compressions, often with rescue breaths, used when a person has no normal breathing",
-      "example": "Start CPR if the person is unresponsive and not breathing normally.",
-      "confusions": [],
-      "questions": [
-        {
-          "type": "fillBlank",
-          "prompt": "If a person is unresponsive and not breathing normally, you may need to start _____.",
-          "answer": "CPR",
-          "accepted": [
-            "cardiopulmonary resuscitation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "safety_observation_020",
-      "module": "safety_observation",
-      "english": "recovery position",
-      "norwegian": "sideleie",
-      "acceptedEnglish": [
-        "the recovery position",
-        "stable side position"
-      ],
-      "acceptedNorwegian": [
-        "stabilt sideleie",
-        "sideleiet"
-      ],
-      "definition": "a safe side-lying position for an unconscious person who is breathing normally",
-      "example": "Place the unconscious person in the recovery position if appropriate.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_021",
-      "module": "safety_observation",
+      "id": "safety_first_aid_010",
+      "module": "safety_first_aid",
       "english": "unconscious",
       "norwegian": "bevisstløs",
       "acceptedEnglish": [
@@ -4097,33 +3757,26 @@
       "questions": []
     },
     {
-      "id": "safety_observation_022",
-      "module": "safety_observation",
-      "english": "conscious",
-      "norwegian": "ved bevissthet",
+      "id": "safety_first_aid_011",
+      "module": "safety_first_aid",
+      "english": "recovery position",
+      "norwegian": "stabilt sideleie",
       "acceptedEnglish": [
-        "awake",
-        "responsive",
-        "alert"
+        "the recovery position",
+        "stable side position"
       ],
       "acceptedNorwegian": [
-        "bevisst",
-        "våken",
-        "kontaktbar"
+        "sideleiet",
+        "sideleie"
       ],
-      "definition": "awake and aware of yourself and your surroundings",
-      "example": "The patient is conscious and able to answer questions.",
-      "confusions": [
-        {
-          "answer": "conscience",
-          "feedback": "«Conscious» means awake/aware. «Conscience» means samvittighet."
-        }
-      ],
+      "definition": "a safe side-lying position for an unconscious person who is breathing normally",
+      "example": "Place the unconscious person in the recovery position if appropriate.",
+      "confusions": [],
       "questions": []
     },
     {
-      "id": "safety_observation_023",
-      "module": "safety_observation",
+      "id": "safety_first_aid_012",
+      "module": "safety_first_aid",
       "english": "severe bleeding",
       "norwegian": "kraftig blødning",
       "acceptedEnglish": [
@@ -4142,46 +3795,54 @@
       "questions": []
     },
     {
-      "id": "safety_observation_024",
-      "module": "safety_observation",
-      "english": "seizure",
-      "norwegian": "anfall",
+      "id": "safety_first_aid_013",
+      "module": "safety_first_aid",
+      "english": "CPR",
+      "norwegian": "hjerte-lunge-redning / HLR",
       "acceptedEnglish": [
-        "epileptic seizure",
-        "convulsion",
-        "fit"
+        "cardiopulmonary resuscitation",
+        "cardio pulmonary resuscitation",
+        "HLR"
       ],
       "acceptedNorwegian": [
-        "krampeanfall",
-        "epileptisk anfall",
-        "kramper"
+        "hjerte lungeredning",
+        "hjerte-lungeredning",
+        "hlr",
+        "hjerte-lunge-redning"
       ],
-      "definition": "a sudden episode of abnormal electrical activity in the brain that may affect movement or awareness",
-      "example": "Protect the person from injury during a seizure.",
+      "definition": "emergency chest compressions, often with rescue breaths, used when a person has no normal breathing",
+      "example": "Start CPR if the person is unresponsive and not breathing normally.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "If a person is unresponsive and not breathing normally, you may need to start _____.",
+          "answer": "CPR",
+          "accepted": [
+            "cardiopulmonary resuscitation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety_first_aid_014",
+      "module": "safety_first_aid",
+      "english": "defibrillator / AED",
+      "norwegian": "hjertestarter",
+      "acceptedEnglish": [
+        "defibrillator",
+        "AED",
+        "automated external defibrillator"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a device that can analyze heart rhythm and deliver an electric shock when indicated during cardiac arrest",
+      "example": "Bring the defibrillator while another person starts CPR.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "safety_observation_025",
-      "module": "safety_observation",
-      "english": "shock",
-      "norwegian": "sirkulasjonssvikt",
-      "acceptedEnglish": [
-        "medical shock",
-        "circulatory shock"
-      ],
-      "acceptedNorwegian": [
-        "sjokk",
-        "sjokktilstand"
-      ],
-      "definition": "a dangerous condition in which the body’s organs do not receive enough blood and oxygen",
-      "example": "Shock requires urgent medical attention.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_026",
-      "module": "safety_observation",
+      "id": "safety_first_aid_015",
+      "module": "safety_first_aid",
       "english": "poisoning",
       "norwegian": "forgiftning",
       "acceptedEnglish": [
@@ -4197,8 +3858,73 @@
       "questions": []
     },
     {
-      "id": "safety_observation_027",
-      "module": "safety_observation",
+      "id": "safety_first_aid_016",
+      "module": "safety_first_aid",
+      "english": "evacuation",
+      "norwegian": "evakuering",
+      "acceptedEnglish": [
+        "evacuating",
+        "emergency evacuation"
+      ],
+      "acceptedNorwegian": [
+        "evakueringen"
+      ],
+      "definition": "moving people away from a dangerous place to safety",
+      "example": "Know the evacuation route at your workplace.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "safety_first_aid_017",
+      "module": "safety_first_aid",
+      "english": "Have you fallen?",
+      "norwegian": "Har du falt?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used to find out whether someone has had a fall",
+      "example": "Have you fallen today?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "safety_first_aid_018",
+      "module": "safety_first_aid",
+      "english": "Did you hit your head?",
+      "norwegian": "Slo du hodet?",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a question used after a fall or accident to check for a possible head injury",
+      "example": "Did you hit your head when you fell?",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "safety_first_aid_019",
+      "module": "safety_first_aid",
+      "english": "Please keep pressure on the wound.",
+      "norwegian": "Hold trykk på såret, takk.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an instruction used to help control bleeding by maintaining pressure",
+      "example": "Please keep pressure on the wound while I call for help.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "safety_first_aid_020",
+      "module": "safety_first_aid",
+      "english": "Stay with the person.",
+      "norwegian": "Bli hos personen.",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "an instruction to remain with someone who needs observation, reassurance, or help",
+      "example": "Stay with the person until help arrives.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_001",
+      "module": "observation_medication",
       "english": "observe",
       "norwegian": "observere",
       "acceptedEnglish": [
@@ -4212,33 +3938,15 @@
         "legge merke til"
       ],
       "definition": "watch carefully in order to notice important information or changes",
-      "example": "Observe the patient’s breathing and skin colour.",
+      "example": "Observe the patient’s breathing and skin color.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "safety_observation_028",
-      "module": "safety_observation",
-      "english": "observation",
-      "norwegian": "observasjon",
-      "acceptedEnglish": [
-        "an observation",
-        "finding"
-      ],
-      "acceptedNorwegian": [
-        "observasjonen",
-        "iakttakelse"
-      ],
-      "definition": "information noticed by watching, listening, measuring or speaking with a person",
-      "example": "Record important observations clearly.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_029",
-      "module": "safety_observation",
+      "id": "observation_medication_002",
+      "module": "observation_medication",
       "english": "monitor",
-      "norwegian": "overvåke",
+      "norwegian": "overvåke / følge med på",
       "acceptedEnglish": [
         "to monitor",
         "keep track of",
@@ -4247,7 +3955,8 @@
       "acceptedNorwegian": [
         "å overvåke",
         "følge med på",
-        "monitorere"
+        "monitorere",
+        "overvåke"
       ],
       "definition": "observe or measure something over time to detect changes",
       "example": "Monitor the patient’s condition.",
@@ -4255,30 +3964,10 @@
       "questions": []
     },
     {
-      "id": "safety_observation_030",
-      "module": "safety_observation",
-      "english": "check",
-      "norwegian": "sjekke",
-      "acceptedEnglish": [
-        "to check",
-        "assess",
-        "inspect"
-      ],
-      "acceptedNorwegian": [
-        "kontrollere",
-        "undersøke",
-        "å sjekke"
-      ],
-      "definition": "look at or measure something to make sure it is correct or safe",
-      "example": "Check the patient’s temperature.",
-      "confusions": [],
-      "questions": []
-    },
-    {
-      "id": "safety_observation_031",
-      "module": "safety_observation",
+      "id": "observation_medication_003",
+      "module": "observation_medication",
       "english": "report",
-      "norwegian": "rapportere",
+      "norwegian": "rapportere / melde fra",
       "acceptedEnglish": [
         "to report",
         "inform",
@@ -4287,7 +3976,8 @@
       "acceptedNorwegian": [
         "melde fra",
         "gi beskjed",
-        "å rapportere"
+        "å rapportere",
+        "rapportere"
       ],
       "definition": "give important information to another person, often a colleague or supervisor",
       "example": "Report any sudden change in the patient’s condition.",
@@ -4305,10 +3995,10 @@
       ]
     },
     {
-      "id": "safety_observation_032",
-      "module": "safety_observation",
+      "id": "observation_medication_004",
+      "module": "observation_medication",
       "english": "document",
-      "norwegian": "dokumentere",
+      "norwegian": "dokumentere / journalføre",
       "acceptedEnglish": [
         "to document",
         "record",
@@ -4317,7 +4007,8 @@
       "acceptedNorwegian": [
         "journalføre",
         "skrive ned",
-        "å dokumentere"
+        "å dokumentere",
+        "dokumentere"
       ],
       "definition": "make a written or digital record of important information",
       "example": "Document what you observed and what action you took.",
@@ -4325,8 +4016,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_033",
-      "module": "safety_observation",
+      "id": "observation_medication_005",
+      "module": "observation_medication",
       "english": "change in condition",
       "norwegian": "endring i tilstand",
       "acceptedEnglish": [
@@ -4345,17 +4036,18 @@
       "questions": []
     },
     {
-      "id": "safety_observation_034",
-      "module": "safety_observation",
+      "id": "observation_medication_006",
+      "module": "observation_medication",
       "english": "vital signs",
-      "norwegian": "vitale tegn",
+      "norwegian": "vitale tegn / vitalverdier",
       "acceptedEnglish": [
         "vital measurements",
         "observations"
       ],
       "acceptedNorwegian": [
         "vitalverdier",
-        "vitale målinger"
+        "vitale målinger",
+        "vitale tegn"
       ],
       "definition": "basic measurements that show important body functions",
       "example": "Temperature, pulse and breathing are examples of vital signs.",
@@ -4363,8 +4055,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_035",
-      "module": "safety_observation",
+      "id": "observation_medication_007",
+      "module": "observation_medication",
       "english": "body temperature",
       "norwegian": "kroppstemperatur",
       "acceptedEnglish": [
@@ -4381,8 +4073,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_036",
-      "module": "safety_observation",
+      "id": "observation_medication_008",
+      "module": "observation_medication",
       "english": "pulse",
       "norwegian": "puls",
       "acceptedEnglish": [
@@ -4399,8 +4091,8 @@
       "questions": []
     },
     {
-      "id": "safety_observation_037",
-      "module": "safety_observation",
+      "id": "observation_medication_009",
+      "module": "observation_medication",
       "english": "blood pressure",
       "norwegian": "blodtrykk",
       "acceptedEnglish": [
@@ -4416,46 +4108,117 @@
       "questions": []
     },
     {
-      "id": "safety_observation_040",
-      "module": "safety_observation",
-      "english": "infection control",
-      "norwegian": "smittevern",
-      "acceptedEnglish": [
-        "infection prevention",
-        "infection prevention and control",
-        "IPC"
-      ],
-      "acceptedNorwegian": [
-        "infeksjonskontroll",
-        "smitteverntiltak"
-      ],
-      "definition": "measures used to prevent infections from spreading",
-      "example": "Hand hygiene is a central part of infection control.",
+      "id": "observation_medication_010",
+      "module": "observation_medication",
+      "english": "blood sugar",
+      "norwegian": "blodsukker",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the amount of glucose present in the blood",
+      "example": "The patient checks their blood sugar regularly.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "safety_observation_042",
-      "module": "safety_observation",
-      "english": "dose",
-      "norwegian": "dose",
+      "id": "observation_medication_011",
+      "module": "observation_medication",
+      "english": "blood oxygen level / oxygen saturation",
+      "norwegian": "oksygenmetning",
+      "acceptedEnglish": [
+        "blood oxygen level",
+        "oxygen saturation",
+        "SpO2"
+      ],
+      "acceptedNorwegian": [
+        "SpO2"
+      ],
+      "definition": "the percentage of hemoglobin in the blood that is carrying oxygen",
+      "example": "The nurse checked the patient's oxygen saturation.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_012",
+      "module": "observation_medication",
+      "english": "breathing rate",
+      "norwegian": "pustefrekvens",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "the number of breaths a person takes in one minute",
+      "example": "Record the breathing rate along with the other vital signs.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_013",
+      "module": "observation_medication",
+      "english": "oxygen",
+      "norwegian": "oksygen",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a gas the body needs for normal cell function and that may also be given as medical treatment",
+      "example": "The patient is receiving oxygen through a nasal tube.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_014",
+      "module": "observation_medication",
+      "english": "medication",
+      "norwegian": "medisin / legemiddel",
+      "acceptedEnglish": [
+        "medicine",
+        "medications",
+        "medicines",
+        "drug"
+      ],
+      "acceptedNorwegian": [
+        "legemiddel",
+        "legemidler",
+        "medisiner",
+        "medisin"
+      ],
+      "definition": "a substance used to prevent, treat or relieve illness or symptoms",
+      "example": "Medication must be handled according to workplace routines.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_015",
+      "module": "observation_medication",
+      "english": "prescription",
+      "norwegian": "resept",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a medical order for a medication or treatment, or the document containing that order",
+      "example": "The medication requires a prescription.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_016",
+      "module": "observation_medication",
+      "english": "dose / dosage",
+      "norwegian": "dose / dosering",
       "acceptedEnglish": [
         "dosage",
         "medicine dose",
-        "medication dose"
+        "medication dose",
+        "dose"
       ],
       "acceptedNorwegian": [
         "dosering",
-        "dosen"
+        "dosen",
+        "dose"
       ],
-      "definition": "a measured amount of medicine intended to be taken at one time",
-      "example": "Always check the prescribed dose.",
+      "definition": "a measured amount of medication intended to be taken or given at one time",
+      "example": "Always check the prescribed dose before medication is given.",
       "confusions": [],
       "questions": []
     },
     {
-      "id": "safety_observation_043",
-      "module": "safety_observation",
+      "id": "observation_medication_017",
+      "module": "observation_medication",
       "english": "side effect",
       "norwegian": "bivirkning",
       "acceptedEnglish": [
@@ -4471,86 +4234,375 @@
       "example": "Report a possible side effect according to workplace routines.",
       "confusions": [],
       "questions": []
+    },
+    {
+      "id": "observation_medication_018",
+      "module": "observation_medication",
+      "english": "pain reliever",
+      "norwegian": "smertestillende",
+      "acceptedEnglish": [
+        "painkiller",
+        "analgesic"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "a medication used to reduce or relieve pain",
+      "example": "The patient asked whether a pain reliever was available.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_019",
+      "module": "observation_medication",
+      "english": "confusion",
+      "norwegian": "forvirring",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "difficulty thinking clearly, understanding, remembering, or knowing where you are",
+      "example": "Sudden confusion can be an important change in condition.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "observation_medication_020",
+      "module": "observation_medication",
+      "english": "pressure ulcer / pressure sore",
+      "norwegian": "trykksår",
+      "acceptedEnglish": [
+        "pressure ulcer",
+        "pressure sore",
+        "bed sore",
+        "bedsore"
+      ],
+      "acceptedNorwegian": [],
+      "definition": "damage to skin and underlying tissue caused by prolonged pressure or pressure combined with friction",
+      "example": "Regular repositioning can help prevent a pressure ulcer.",
+      "confusions": [],
+      "questions": []
     }
   ],
   "challenges": {
-    "body-basics": {
-      "title": "Body basics",
+    "body-anatomy": {
+      "title": "Body and Anatomy",
       "mode": "challenge",
       "questionCount": 12,
       "words": [
-        "anatomy_001",
-        "anatomy_002",
-        "anatomy_003",
-        "anatomy_004",
-        "anatomy_005",
-        "anatomy_006",
-        "anatomy_007",
-        "anatomy_008",
-        "anatomy_009",
-        "anatomy_010",
-        "anatomy_011",
-        "anatomy_012"
+        "body_anatomy_001",
+        "body_anatomy_002",
+        "body_anatomy_003",
+        "body_anatomy_004",
+        "body_anatomy_005",
+        "body_anatomy_006",
+        "body_anatomy_007",
+        "body_anatomy_008",
+        "body_anatomy_009",
+        "body_anatomy_010",
+        "body_anatomy_011",
+        "body_anatomy_012",
+        "body_anatomy_013",
+        "body_anatomy_014",
+        "body_anatomy_015",
+        "body_anatomy_016",
+        "body_anatomy_017",
+        "body_anatomy_018",
+        "body_anatomy_019",
+        "body_anatomy_020"
       ]
     },
-    "symptoms-basics": {
-      "title": "Symptoms basics",
-      "mode": "challenge",
-      "questionCount": 15,
-      "words": [
-        "health_conditions_001",
-        "health_conditions_002",
-        "health_conditions_003",
-        "health_conditions_004",
-        "health_conditions_005",
-        "health_conditions_006",
-        "health_conditions_007",
-        "health_conditions_008",
-        "health_conditions_009",
-        "health_conditions_010",
-        "health_conditions_011",
-        "health_conditions_012",
-        "health_conditions_013",
-        "health_conditions_014",
-        "health_conditions_015"
-      ]
-    },
-    "care-basics": {
-      "title": "Care basics",
+    "symptoms-common-illness": {
+      "title": "Symptoms and Common Illness",
       "mode": "challenge",
       "questionCount": 12,
       "words": [
-        "daily_care_001",
-        "daily_care_002",
-        "daily_care_003",
-        "daily_care_004",
-        "daily_care_005",
-        "daily_care_006",
-        "daily_care_007",
-        "daily_care_008",
-        "daily_care_009",
-        "daily_care_010",
-        "daily_care_011",
-        "daily_care_012"
+        "symptoms_common_illness_001",
+        "symptoms_common_illness_002",
+        "symptoms_common_illness_003",
+        "symptoms_common_illness_004",
+        "symptoms_common_illness_005",
+        "symptoms_common_illness_006",
+        "symptoms_common_illness_007",
+        "symptoms_common_illness_008",
+        "symptoms_common_illness_009",
+        "symptoms_common_illness_010",
+        "symptoms_common_illness_011",
+        "symptoms_common_illness_012",
+        "symptoms_common_illness_013",
+        "symptoms_common_illness_014",
+        "symptoms_common_illness_015",
+        "symptoms_common_illness_016",
+        "symptoms_common_illness_017",
+        "symptoms_common_illness_018",
+        "symptoms_common_illness_019",
+        "symptoms_common_illness_020"
       ]
     },
-    "safety-basics": {
-      "title": "Safety basics",
+    "injuries-health-conditions": {
+      "title": "Injuries and Health Conditions",
       "mode": "challenge",
       "questionCount": 12,
       "words": [
-        "safety_observation_001",
-        "safety_observation_002",
-        "safety_observation_003",
-        "safety_observation_004",
-        "safety_observation_005",
-        "safety_observation_006",
-        "safety_observation_007",
-        "safety_observation_008",
-        "safety_observation_009",
-        "safety_observation_010",
-        "safety_observation_011",
-        "safety_observation_012"
+        "injuries_health_conditions_001",
+        "injuries_health_conditions_002",
+        "injuries_health_conditions_003",
+        "injuries_health_conditions_004",
+        "injuries_health_conditions_005",
+        "injuries_health_conditions_006",
+        "injuries_health_conditions_007",
+        "injuries_health_conditions_008",
+        "injuries_health_conditions_009",
+        "injuries_health_conditions_010",
+        "injuries_health_conditions_011",
+        "injuries_health_conditions_012",
+        "injuries_health_conditions_013",
+        "injuries_health_conditions_014",
+        "injuries_health_conditions_015",
+        "injuries_health_conditions_016",
+        "injuries_health_conditions_017",
+        "injuries_health_conditions_018",
+        "injuries_health_conditions_019",
+        "injuries_health_conditions_020"
+      ]
+    },
+    "personal-care-hygiene": {
+      "title": "Personal Care and Hygiene",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "personal_care_hygiene_001",
+        "personal_care_hygiene_002",
+        "personal_care_hygiene_003",
+        "personal_care_hygiene_004",
+        "personal_care_hygiene_005",
+        "personal_care_hygiene_006",
+        "personal_care_hygiene_007",
+        "personal_care_hygiene_008",
+        "personal_care_hygiene_009",
+        "personal_care_hygiene_010",
+        "personal_care_hygiene_011",
+        "personal_care_hygiene_012",
+        "personal_care_hygiene_013",
+        "personal_care_hygiene_014",
+        "personal_care_hygiene_015",
+        "personal_care_hygiene_016",
+        "personal_care_hygiene_017",
+        "personal_care_hygiene_018",
+        "personal_care_hygiene_019",
+        "personal_care_hygiene_020"
+      ]
+    },
+    "food-sleep-mobility-toileting": {
+      "title": "Food, Sleep, Mobility and Toileting",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "food_sleep_mobility_toileting_001",
+        "food_sleep_mobility_toileting_002",
+        "food_sleep_mobility_toileting_003",
+        "food_sleep_mobility_toileting_004",
+        "food_sleep_mobility_toileting_005",
+        "food_sleep_mobility_toileting_006",
+        "food_sleep_mobility_toileting_007",
+        "food_sleep_mobility_toileting_008",
+        "food_sleep_mobility_toileting_009",
+        "food_sleep_mobility_toileting_010",
+        "food_sleep_mobility_toileting_011",
+        "food_sleep_mobility_toileting_012",
+        "food_sleep_mobility_toileting_013",
+        "food_sleep_mobility_toileting_014",
+        "food_sleep_mobility_toileting_015",
+        "food_sleep_mobility_toileting_016",
+        "food_sleep_mobility_toileting_017",
+        "food_sleep_mobility_toileting_018",
+        "food_sleep_mobility_toileting_019",
+        "food_sleep_mobility_toileting_020"
+      ]
+    },
+    "basic-communication": {
+      "title": "Basic Communication",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "basic_communication_001",
+        "basic_communication_002",
+        "basic_communication_003",
+        "basic_communication_004",
+        "basic_communication_005",
+        "basic_communication_006",
+        "basic_communication_007",
+        "basic_communication_008",
+        "basic_communication_009",
+        "basic_communication_010",
+        "basic_communication_011",
+        "basic_communication_012",
+        "basic_communication_013",
+        "basic_communication_014",
+        "basic_communication_015",
+        "basic_communication_016",
+        "basic_communication_017",
+        "basic_communication_018",
+        "basic_communication_019",
+        "basic_communication_020"
+      ]
+    },
+    "asking-explaining-reassuring": {
+      "title": "Asking, Explaining and Reassuring",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "asking_explaining_reassuring_001",
+        "asking_explaining_reassuring_002",
+        "asking_explaining_reassuring_003",
+        "asking_explaining_reassuring_004",
+        "asking_explaining_reassuring_005",
+        "asking_explaining_reassuring_006",
+        "asking_explaining_reassuring_007",
+        "asking_explaining_reassuring_008",
+        "asking_explaining_reassuring_009",
+        "asking_explaining_reassuring_010",
+        "asking_explaining_reassuring_011",
+        "asking_explaining_reassuring_012",
+        "asking_explaining_reassuring_013",
+        "asking_explaining_reassuring_014",
+        "asking_explaining_reassuring_015",
+        "asking_explaining_reassuring_016",
+        "asking_explaining_reassuring_017",
+        "asking_explaining_reassuring_018",
+        "asking_explaining_reassuring_019",
+        "asking_explaining_reassuring_020"
+      ]
+    },
+    "childcare-development-safeguarding": {
+      "title": "Childcare, Development and Safeguarding",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "childcare_development_safeguarding_001",
+        "childcare_development_safeguarding_002",
+        "childcare_development_safeguarding_003",
+        "childcare_development_safeguarding_004",
+        "childcare_development_safeguarding_005",
+        "childcare_development_safeguarding_006",
+        "childcare_development_safeguarding_007",
+        "childcare_development_safeguarding_008",
+        "childcare_development_safeguarding_009",
+        "childcare_development_safeguarding_010",
+        "childcare_development_safeguarding_011",
+        "childcare_development_safeguarding_012",
+        "childcare_development_safeguarding_013",
+        "childcare_development_safeguarding_014",
+        "childcare_development_safeguarding_015",
+        "childcare_development_safeguarding_016",
+        "childcare_development_safeguarding_017",
+        "childcare_development_safeguarding_018",
+        "childcare_development_safeguarding_019",
+        "childcare_development_safeguarding_020"
+      ]
+    },
+    "workplace-roles-equipment": {
+      "title": "Workplace, Roles and Equipment",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "workplace_roles_equipment_001",
+        "workplace_roles_equipment_002",
+        "workplace_roles_equipment_003",
+        "workplace_roles_equipment_004",
+        "workplace_roles_equipment_005",
+        "workplace_roles_equipment_006",
+        "workplace_roles_equipment_007",
+        "workplace_roles_equipment_008",
+        "workplace_roles_equipment_009",
+        "workplace_roles_equipment_010",
+        "workplace_roles_equipment_011",
+        "workplace_roles_equipment_012",
+        "workplace_roles_equipment_013",
+        "workplace_roles_equipment_014",
+        "workplace_roles_equipment_015",
+        "workplace_roles_equipment_016",
+        "workplace_roles_equipment_017",
+        "workplace_roles_equipment_018",
+        "workplace_roles_equipment_019",
+        "workplace_roles_equipment_020"
+      ]
+    },
+    "professional-care-ethics": {
+      "title": "Professional Care and Ethics",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "professional_care_ethics_001",
+        "professional_care_ethics_002",
+        "professional_care_ethics_003",
+        "professional_care_ethics_004",
+        "professional_care_ethics_005",
+        "professional_care_ethics_006",
+        "professional_care_ethics_007",
+        "professional_care_ethics_008",
+        "professional_care_ethics_009",
+        "professional_care_ethics_010",
+        "professional_care_ethics_011",
+        "professional_care_ethics_012",
+        "professional_care_ethics_013",
+        "professional_care_ethics_014",
+        "professional_care_ethics_015",
+        "professional_care_ethics_016",
+        "professional_care_ethics_017",
+        "professional_care_ethics_018",
+        "professional_care_ethics_019",
+        "professional_care_ethics_020"
+      ]
+    },
+    "safety-first-aid": {
+      "title": "Safety and First Aid",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "safety_first_aid_001",
+        "safety_first_aid_002",
+        "safety_first_aid_003",
+        "safety_first_aid_004",
+        "safety_first_aid_005",
+        "safety_first_aid_006",
+        "safety_first_aid_007",
+        "safety_first_aid_008",
+        "safety_first_aid_009",
+        "safety_first_aid_010",
+        "safety_first_aid_011",
+        "safety_first_aid_012",
+        "safety_first_aid_013",
+        "safety_first_aid_014",
+        "safety_first_aid_015",
+        "safety_first_aid_016",
+        "safety_first_aid_017",
+        "safety_first_aid_018",
+        "safety_first_aid_019",
+        "safety_first_aid_020"
+      ]
+    },
+    "observation-medication": {
+      "title": "Observation and Medication",
+      "mode": "challenge",
+      "questionCount": 12,
+      "words": [
+        "observation_medication_001",
+        "observation_medication_002",
+        "observation_medication_003",
+        "observation_medication_004",
+        "observation_medication_005",
+        "observation_medication_006",
+        "observation_medication_007",
+        "observation_medication_008",
+        "observation_medication_009",
+        "observation_medication_010",
+        "observation_medication_011",
+        "observation_medication_012",
+        "observation_medication_013",
+        "observation_medication_014",
+        "observation_medication_015",
+        "observation_medication_016",
+        "observation_medication_017",
+        "observation_medication_018",
+        "observation_medication_019",
+        "observation_medication_020"
       ]
     }
   }

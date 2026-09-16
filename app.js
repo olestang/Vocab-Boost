@@ -1039,10 +1039,16 @@ function showCorrectFeedback(classification, entered) {
   let body = `<div class="fw-semibold fs-5">✓ Riktig</div>`;
 
   if (classification.type === 'likelyTypo') {
-    body = `
-      <div class="fw-semibold fs-5">✓ Riktig ord</div>
-      <div class="mt-1">Staving: <strong>${escapeHtml(classification.corrected || CURRENT_QUESTION.canonicalAnswer)}</strong></div>
-      ${classification.feedback ? `<div class="small text-secondary mt-1">${escapeHtml(classification.feedback)}</div>` : ''}`;
+    body = ` 
+    <div class="p-3 rounded" style="background-color: #fff3cd;">
+      <div class="fw-semibold fs-5">✓ Riktig ord</div> 
+      <div class="mt-1">
+        Staving: <strong>${escapeHtml(classification.corrected || CURRENT_QUESTION.canonicalAnswer)}</strong>
+      </div> 
+      ${classification.feedback 
+        ? `<div class="small text-secondary mt-1">${escapeHtml(classification.feedback)}</div>` 
+        : ''}
+    </div>`; 
   }
 
   if (word.registerPair) {

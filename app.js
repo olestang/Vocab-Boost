@@ -30,7 +30,7 @@ const CONFIG = {
   fiveMinuteMs: 5 * 60 * 1000,
   rareCelebrationProbability: 0.025,
   reviewIntervalsDays: [1, 3, 7, 14, 30],
-  audioQuestionChance: 0.08,
+  audioQuestionChance: 0.15,
 };
 
 let CONTENT = null;

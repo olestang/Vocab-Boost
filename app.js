@@ -31,6 +31,7 @@ const CONFIG = {
   rareCelebrationProbability: 0.025,
   reviewIntervalsDays: [1, 3, 7, 14, 30],
   audioQuestionChance: 0.15,
+  trainEasterEggProbability: 0.002,
 };
 
 let CONTENT = null;
@@ -945,6 +946,8 @@ function recordAttempt({ entered, classification, correct, feedback }) {
   if (correct) {
     applyCorrectResult(word.id, classification, CURRENT_QUESTION.direction);
     SESSION.wordWrongCounts[word.id] = 0;
+
+    window.TrainEasterEgg?.maybeTrigger();
   } else {
     applyWrongResult(word.id, classification);
     SESSION.failedWordIds.add(word.id);

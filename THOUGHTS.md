@@ -273,3 +273,31 @@
 * **pain reliever** – smertestillende
 * **confusion** – forvirring
 * **pressure ulcer / pressure sore** – trykksår
+
+## Merged practices / samleøving
+
+`vocabulary.json` now supports an optional top-level `mergedPractices` array. A merged practice does **not** copy words and does **not** have its own mastery state. Instead it refers to existing entries in `challenges` by ID. The words are resolved from those source tests at runtime, so every word keeps the same `localStorage` progress everywhere it appears.
+
+Example:
+
+```json
+"mergedPractices": [
+  {
+    "id": "review_tests_1_3",
+    "titleNo": "Samleøving: test 1–3",
+    "titleEn": "Combined practice: tests 1–3",
+    "description": "Ord fra de tre første testene.",
+    "accent": "#5b6fb5",
+    "challengeIds": [
+      "body-anatomy",
+      "symptoms-common-illness",
+      "injuries-health-conditions"
+    ],
+    "sessionSize": 20
+  }
+]
+```
+
+`challengeIds` is the important part: it references existing tests under `challenges`. If the same word appears in more than one source test, it is de-duplicated automatically. `sessionSize` is optional; if omitted, the normal session size (20) is used. Unknown challenge IDs or word IDs are ignored safely.
+
+Backward compatibility: do not rename existing word IDs, module IDs, or challenge IDs after release. The storage schema and storage key are unchanged, and merged practices add no new required localStorage fields. Existing pupil progress therefore remains readable as before.

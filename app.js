@@ -37,6 +37,7 @@ const CONFIG = {
 let CONTENT = null;
 let WORDS_BY_ID = new Map();
 let MODULES_BY_ID = new Map();
+let MERGED_PRACTICES_BY_ID = new Map();
 let ALL_ENGLISH_ANSWERS = new Map();
 let STORE = null;
 let SESSION = null;
@@ -91,6 +92,7 @@ async function init() {
 function indexContent() {
   WORDS_BY_ID = new Map((CONTENT.words || []).map(word => [word.id, word]));
   MODULES_BY_ID = new Map((CONTENT.modules || []).map(module => [module.id, module]));
+  MERGED_PRACTICES_BY_ID = new Map((CONTENT.mergedPractices || []).map(practice => [practice.id, practice]));
   ALL_ENGLISH_ANSWERS = new Map();
 
   for (const word of CONTENT.words || []) {
@@ -253,6 +255,8 @@ function renderHome() {
       </div>
     </section>
 
+    ${renderMergedPracticesSection()}
+
     <section>
       <h2 class="h5 mb-3">Temaer</h2>
       <div class="row g-3" id="moduleGrid">
@@ -271,6 +275,10 @@ function renderHome() {
   app.querySelector('[data-action="starred"]')?.addEventListener('click', startStarred);
   app.querySelector('#settingsBtn')?.addEventListener('click', renderSettings);
 
+  app.querySelectorAll('[data-merged-start]').forEach(button => {
+    button.addEventListener('click', () => startMergedPractice(button.dataset.mergedStart));
+  });
+
   app.querySelectorAll('[data-module-start]').forEach(button => {
     button.addEventListener('click', () => startModule(button.dataset.moduleStart, 'standard'));
   });
@@ -283,6 +291,52 @@ function renderHome() {
   app.querySelectorAll('[data-module-context]').forEach(button => {
     button.addEventListener('click', () => startModule(button.dataset.moduleContext, 'context'));
   });
+}
+
+function renderMergedPracticesSection() {
+  const practices = CONTENT.mergedPractices || [];
+  if (!practices.length) return '';
+
+  return `
+    <section class="mb-4 mb-md-5">
+      <div class="mb-3">
+        <h2 class="h5 mb-1">Samleøving</h2>
+        <p class="text-secondary small mb-0">Øv på ord fra flere temaer i én økt. Framgangen deles med de vanlige temaene.</p>
+      </div>
+      <div class="row g-3">
+        ${practices.map(renderMergedPracticeCard).join('')}
+      </div>
+    </section>`;
+}
+
+function renderMergedPracticeCard(practice) {
+  const words = wordsForMergedPractice(practice);
+  const learned = words.filter(w => isLearned(w.id)).length;
+  const pct = words.length ? Math.round((learned / words.length) * 100) : 0;
+  const sourceNames = (practice.challengeIds || [])
+    .map(id => CONTENT.challenges?.[id]?.title || id)
+    .filter(Boolean);
+  const sourceText = sourceNames.length ? `Fra: ${sourceNames.join(' · ')}` : '';
+
+  return `
+    <div class="col-12 col-md-6">
+      <article class="app-card module-card h-100 p-4" style="--module-accent:${escapeAttr(practice.accent || '#6c757d')}">
+        <div class="d-flex justify-content-between gap-3 align-items-start mb-3">
+          <div>
+            ${practice.titleEn ? `<div class="small-caps text-secondary">${escapeHtml(practice.titleEn)}</div>` : ''}
+            <h3 class="h4 mb-1">${escapeHtml(practice.titleNo || practice.title || 'Samleøving')}</h3>
+            <div class="small text-secondary">${learned} av ${words.length} ord mestret</div>
+          </div>
+          <div class="fw-semibold">${pct}%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Framgang" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width:${pct}%; background:${escapeAttr(practice.accent || '#6c757d')}"></div>
+        </div>
+        ${practice.description ? `<p class="small text-secondary mb-2">${escapeHtml(practice.description)}</p>` : ''}
+        ${sourceText ? `<p class="small text-secondary mb-3">${escapeHtml(sourceText)}</p>` : ''}
+        <button class="btn btn-primary" data-merged-start="${escapeAttr(practice.id)}" ${words.length ? '' : 'disabled'}>Start samleøving</button>
+      </article>
+    </div>`;
 }
 
 function renderModuleCard(module) {
@@ -390,6 +444,26 @@ function startModule(moduleId, mode = 'standard') {
     moduleIds: [moduleId],
     words: selected,
     timed: mode === 'timed',
+  });
+}
+
+function startMergedPractice(practiceId) {
+  const practice = MERGED_PRACTICES_BY_ID.get(practiceId);
+  if (!practice) return;
+
+  const candidates = wordsForMergedPractice(practice);
+  const selected = selectWeightedWords(candidates, Math.min(practice.sessionSize || CONFIG.sessionSize, candidates.length));
+
+  if (!selected.length) {
+    renderMessage('Ingen ord tilgjengelig', 'Denne samleøvingen inneholder ingen gyldige ord.', 'Til forsiden');
+    return;
+  }
+
+  beginSession({
+    title: practice.titleNo || practice.title || 'Samleøving',
+    mode: 'merged',
+    moduleIds: unique(selected.map(w => w.module)),
+    words: selected,
   });
 }
 
@@ -1286,6 +1360,14 @@ function speak(text) {
 
 function wordsForModule(moduleId) {
   return CONTENT.words.filter(word => word.module === moduleId);
+}
+
+function wordsForMergedPractice(practice) {
+  const wordIds = unique((practice?.challengeIds || []).flatMap(challengeId => {
+    const challenge = CONTENT.challenges?.[challengeId];
+    return challenge?.words || [];
+  }));
+  return wordIds.map(id => WORDS_BY_ID.get(id)).filter(Boolean);
 }
 
 function englishAnswers(word) {

@@ -102,6 +102,20 @@
       "order": 12
     }
   ],
+  "mergedPractices": [
+    {
+      "id": "review_tests_1_2",
+      "titleNo": "Samleøving: test 1–2",
+      "titleEn": "Combined practice: tests 1–2",
+      "description": "Ord fra de to første testene.",
+      "accent": "#5b6fb5",
+      "challengeIds": [
+        "body-anatomy",
+        "symptoms-common-illness"
+      ],
+      "sessionSize": 20
+    }
+  ],
   "words": [
     {
       "id": "body_anatomy_001",

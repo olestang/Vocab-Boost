@@ -104,14 +104,14 @@
   ],
   "mergedPractices": [
     {
-      "id": "review_tests_1_2",
-      "titleNo": "Samleøving: test 1–2",
-      "titleEn": "Combined practice: tests 1–2",
-      "description": "Ord fra de to første testene.",
+      "id": "glossary_test_1_week_42",
+      "titleNo": "Glosetest 1 – uke 42",
+      "titleEn": "Glossary Test 1 – Week 42",
+      "description": "Samleøving med ord fra Symptomer og vanlige plager og Skader og helsetilstander.",
       "accent": "#5b6fb5",
       "challengeIds": [
-        "body-anatomy",
-        "symptoms-common-illness"
+        "symptoms-common-illness",
+        "injuries-health-conditions"
       ],
       "sessionSize": 20
     }
@@ -492,23 +492,29 @@
       "questions": []
     },
     {
-      "id": "symptoms_common_illness_002",
-      "module": "symptoms_common_illness",
-      "english": "illness",
-      "norwegian": "sykdom",
-      "acceptedEnglish": [
-        "disease",
-        "sickness"
-      ],
-      "acceptedNorwegian": [
-        "sykdommen",
-        "lidelse"
-      ],
-      "definition": "a condition that makes a person unwell",
-      "example": "The illness may last for several days.",
-      "confusions": [],
-      "questions": []
-    },
+    "id": "symptoms_common_illness_002",
+    "module": "symptoms_common_illness",
+    "english": "loss of appetite",
+    "norwegian": "nedsatt matlyst / appetittløshet",
+    "acceptedEnglish": [
+      "reduced appetite",
+      "decreased appetite",
+      "poor appetite",
+      "lack of appetite"
+    ],
+    "acceptedNorwegian": [
+      "nedsatt matlyst",
+      "dårlig matlyst",
+      "manglende matlyst",
+      "appetittløshet",
+      "nedsatt appetitt",
+      "manglende appetitt"
+    ],
+    "definition": "having less desire to eat than usual",
+    "example": "Loss of appetite can be a sign that a person is unwell.",
+    "confusions": [],
+    "questions": []
+  },
     {
       "id": "symptoms_common_illness_003",
       "module": "symptoms_common_illness",
@@ -1117,18 +1123,24 @@
     {
       "id": "injuries_health_conditions_012",
       "module": "injuries_health_conditions",
-      "english": "allergy",
-      "norwegian": "allergi",
+      "english": "pressure sore",
+      "norwegian": "trykksår",
       "acceptedEnglish": [
-        "allergies",
-        "an allergy"
+        "pressure ulcer",
+        "pressure injury",
+        "pressure sore",
+        "bed sore",
+        "bedsore",
+        "decubitus ulcer"
       ],
       "acceptedNorwegian": [
-        "allergien",
-        "allergier"
+        "trykksåret",
+        "liggesår",
+        "liggesåret",
+        "trykkskade"
       ],
-      "definition": "an immune reaction to a substance that is usually harmless",
-      "example": "She has an allergy to peanuts.",
+      "definition": "an area of damaged skin and tissue caused by prolonged pressure on the body",
+      "example": "Regular repositioning can help prevent pressure sores.",
       "confusions": [],
       "questions": []
     },
@@ -1249,23 +1261,27 @@
       "confusions": [],
       "questions": []
     },
-    {
-      "id": "injuries_health_conditions_020",
-      "module": "injuries_health_conditions",
-      "english": "depression",
-      "norwegian": "depresjon",
-      "acceptedEnglish": [
-        "depressive illness"
-      ],
-      "acceptedNorwegian": [
-        "depresjonen",
-        "nedstemthet"
-      ],
-      "definition": "a mental health condition involving persistent low mood and loss of interest",
-      "example": "Depression can affect sleep, energy and motivation.",
-      "confusions": [],
-      "questions": []
-    },
+   {
+    "id": "injuries_health_conditions_020",
+    "module": "injuries_health_conditions",
+    "english": "dislocation",
+    "norwegian": "ute av ledd",
+    "acceptedEnglish": [
+      "joint dislocation",
+      "dislocated joint",
+      "a dislocation"
+    ],
+    "acceptedNorwegian": [
+      "ledd ute av stilling",
+      "luksasjon",
+      "luksasjonen",
+      "ute av ledd"
+    ],
+    "definition": "an injury in which the bones in a joint are forced out of their normal position",
+    "example": "The fall caused a dislocation of the shoulder.",
+    "confusions": [],
+    "questions": []
+  },
     {
       "id": "personal_care_hygiene_001",
       "module": "personal_care_hygiene",

@@ -1,0 +1,40 @@
+{
+      "id": "glossary_test_1_week_44",
+      "titleNo": "Glosetest 1 – uke 44",
+      "titleEn": "Glossary Test 1 – Week 44",
+      "description": "Samleøving med ord fra Symptomer og vanlige plager og Skader og helsetilstander.",
+      "accent": "#5b6fb5",
+      "challengeIds": [
+        "symptoms-common-illness",
+        "injuries-health-conditions"
+      ],
+      "sessionSize": 20
+
+      
+    }
+
+
+{
+      "id": "body_anatomy",
+      "titleNo": "Kroppen og anatomi",
+      "titleEn": "Body and Anatomy",
+      "description": "Kroppsdeler og grunnleggende anatomi som er nyttig i helse- og omsorgssituasjoner.",
+      "accent": "#3478c5",
+      "order": 1
+    },
+    {
+      "id": "symptoms_common_illness",
+      "titleNo": "Symptomer og vanlige plager",
+      "titleEn": "Symptoms and Common Illness",
+      "description": "Vanlige symptomer, plager og sykdomstegn du kan møte i helse- og omsorgsarbeid.",
+      "accent": "#d95c63",
+      "order": 2
+    },
+    {
+      "id": "injuries_health_conditions",
+      "titleNo": "Skader og helsetilstander",
+      "titleEn": "Injuries and Health Conditions",
+      "description": "Skader, kroniske tilstander og andre helseproblemer som er viktige å kunne beskrive.",
+      "accent": "#b84a62",
+      "order": 3
+    },

@@ -4,7 +4,23 @@
     {"id": "vg1_2026w47_emotions_social_support", "titleNo": "Følelser, atferd og sosial kompetanse", "titleEn": "Emotions, Behaviour and Social Skills", "description": "Ord og uttrykk for å forstå følelser, støtte barn, håndtere konflikter og fremme inkludering i barnehage og skole.", "accent": "#7b61b3", "order": 1},
     {"id": "vg1_2026w47_childcare_parent_dialogue", "titleNo": "Barnehage, utvikling og kommunikasjon med foresatte", "titleEn": "Childcare, Development and Parent Communication", "description": "Ord og uttrykk for hverdagsrutiner, barns utvikling, samarbeid med foresatte og profesjonell kommunikasjon.", "accent": "#2f9c95", "order": 2},
     {"id": "vg1_2026w48_linking_contrast_causes", "titleNo": "Bindeord: motsetninger, årsaker og konsekvenser", "titleEn": "Linking Words: Contrast, Cause and Consequence", "description": "Bindeord og uttrykk for å sammenligne, uttrykke motsetninger og forklare årsaker, vilkår og konsekvenser i muntlig og skriftlig engelsk.", "accent": "#476fad", "order": 3},
-    {"id": "vg1_2026w48_structuring_developing_ideas", "titleNo": "Å strukturere og utdype tanker og meninger", "titleEn": "Structuring and Developing Ideas", "description": "Nyttige uttrykk for å utdype, presisere og organisere tanker i samtaler, presentasjoner og skriftlige tekster.", "accent": "#bc7952", "order": 4}
+    {"id": "vg1_2026w48_structuring_developing_ideas", "titleNo": "Å strukturere og utdype tanker og meninger", "titleEn": "Structuring and Developing Ideas", "description": "Nyttige uttrykk for å utdype, presisere og organisere tanker i samtaler, presentasjoner og skriftlige tekster.", "accent": "#bc7952", "order": 4},
+    {
+      "id": "symptoms_common_illness",
+      "titleNo": "Symptomer og vanlige plager",
+      "titleEn": "Symptoms and Common Illness",
+      "description": "Vanlige symptomer, plager og sykdomstegn du kan møte i helse- og omsorgsarbeid.",
+      "accent": "#d95c63",
+      "order": 5
+    },
+    {
+      "id": "injuries_health_conditions",
+      "titleNo": "Skader og helsetilstander",
+      "titleEn": "Injuries and Health Conditions",
+      "description": "Skader, kroniske tilstander og andre helseproblemer som er viktige å kunne beskrive.",
+      "accent": "#b84a62",
+      "order": 6
+    }
   ],
   "mergedPractices": [
     {
@@ -762,7 +778,816 @@
       "definition": "used to introduce a contrast or qualification to the point just made",
       "example": "The presentation was short. That being said, it explained the topic clearly.",
       "confusions": [], "questions": []
-    }
+    },
+    {
+      "id": "symptoms_common_illness_001",
+      "module": "symptoms_common_illness",
+      "english": "symptom",
+      "norwegian": "symptom",
+      "acceptedEnglish": [
+        "symptoms"
+      ],
+      "acceptedNorwegian": [
+        "symptomet",
+        "symptomer",
+        "symptomene"
+      ],
+      "definition": "a change in the body or mind that may show illness or injury",
+      "example": "Fever can be a symptom of infection.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+    "id": "symptoms_common_illness_002",
+    "module": "symptoms_common_illness",
+    "english": "loss of appetite",
+    "norwegian": "nedsatt matlyst / appetittløshet",
+    "acceptedEnglish": [
+      "reduced appetite",
+      "decreased appetite",
+      "poor appetite",
+      "lack of appetite"
+    ],
+    "acceptedNorwegian": [
+      "nedsatt matlyst",
+      "dårlig matlyst",
+      "manglende matlyst",
+      "appetittløshet",
+      "nedsatt appetitt",
+      "manglende appetitt"
+    ],
+    "definition": "having less desire to eat than usual",
+    "example": "Loss of appetite can be a sign that a person is unwell.",
+    "confusions": [],
+    "questions": []
+  },
+    {
+      "id": "symptoms_common_illness_003",
+      "module": "symptoms_common_illness",
+      "english": "pain",
+      "norwegian": "smerte / vondt",
+      "acceptedEnglish": [
+        "painful feeling",
+        "ache"
+      ],
+      "acceptedNorwegian": [
+        "smerter",
+        "vondt",
+        "verk",
+        "smerte"
+      ],
+      "definition": "an unpleasant physical feeling caused by illness or injury",
+      "example": "Tell me where you feel pain.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_004",
+      "module": "symptoms_common_illness",
+      "english": "fever",
+      "norwegian": "feber",
+      "acceptedEnglish": [
+        "high temperature",
+        "temperature"
+      ],
+      "acceptedNorwegian": [
+        "feberen",
+        "høy temperatur",
+        "forhøyet temperatur"
+      ],
+      "definition": "a body temperature that is higher than normal",
+      "example": "The patient has a fever.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "naturalSentence",
+          "prompt": "Hvilken setning høres mest naturlig ut?",
+          "options": [
+            "She has a fever.",
+            "She is having a fever."
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "symptoms_common_illness_005",
+      "module": "symptoms_common_illness",
+      "english": "cough",
+      "norwegian": "hoste",
+      "acceptedEnglish": [
+        "a cough",
+        "coughing"
+      ],
+      "acceptedNorwegian": [
+        "hosten",
+        "hosting"
+      ],
+      "definition": "a sudden action that forces air out of the lungs",
+      "example": "He has had a bad cough for three days.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_006",
+      "module": "symptoms_common_illness",
+      "english": "sore throat",
+      "norwegian": "sår hals",
+      "acceptedEnglish": [
+        "a sore throat",
+        "throat pain"
+      ],
+      "acceptedNorwegian": [
+        "vondt i halsen",
+        "halsvondt",
+        "sår i halsen"
+      ],
+      "definition": "pain or irritation in the throat",
+      "example": "He has a sore throat and a cough.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_007",
+      "module": "symptoms_common_illness",
+      "english": "headache",
+      "norwegian": "hodepine",
+      "acceptedEnglish": [
+        "head ache",
+        "a headache"
+      ],
+      "acceptedNorwegian": [
+        "vondt i hodet",
+        "hodeverk"
+      ],
+      "definition": "pain in the head",
+      "example": "She has a headache and needs to rest.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_008",
+      "module": "symptoms_common_illness",
+      "english": "stomachache",
+      "norwegian": "vondt i magen / magesmerter",
+      "acceptedEnglish": [
+        "stomach pain",
+        "abdominal pain",
+        "tummy ache",
+        "stomach ache"
+      ],
+      "acceptedNorwegian": [
+        "vondt i magen",
+        "magevondt",
+        "magesmerte",
+        "magepine",
+        "magesmerter"
+      ],
+      "definition": "pain or discomfort in the stomach or abdominal area",
+      "example": "The child says she has a stomachache.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_009",
+      "module": "symptoms_common_illness",
+      "english": "cold",
+      "norwegian": "forkjølelse",
+      "acceptedEnglish": [
+        "a cold",
+        "common cold"
+      ],
+      "acceptedNorwegian": [
+        "forkjølet",
+        "forkjølelsen"
+      ],
+      "definition": "a common mild viral illness affecting the nose and throat",
+      "example": "She has a cold and a runny nose.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_010",
+      "module": "symptoms_common_illness",
+      "english": "nausea",
+      "norwegian": "kvalme",
+      "acceptedEnglish": [
+        "feeling sick",
+        "feeling nauseous",
+        "nauseousness"
+      ],
+      "acceptedNorwegian": [
+        "kvalmen",
+        "uggenhet"
+      ],
+      "definition": "the feeling that you may vomit",
+      "example": "The patient is experiencing nausea.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_011",
+      "module": "symptoms_common_illness",
+      "english": "vomiting",
+      "norwegian": "oppkast / å kaste opp",
+      "acceptedEnglish": [
+        "vomit",
+        "throwing up",
+        "being sick",
+        "to vomit"
+      ],
+      "acceptedNorwegian": [
+        "oppkastet",
+        "å kaste opp",
+        "kaster opp",
+        "brekninger",
+        "oppkast",
+        "kaste opp"
+      ],
+      "definition": "bringing food or liquid up from the stomach and out through the mouth",
+      "example": "Vomiting can lead to dehydration.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_012",
+      "module": "symptoms_common_illness",
+      "english": "diarrhea",
+      "norwegian": "diaré",
+      "acceptedEnglish": [
+        "loose stools",
+        "runny stools",
+        "diarrhoea",
+        "watery stools"
+      ],
+      "acceptedNorwegian": [
+        "diaréen",
+        "løs mage",
+        "løs avføring"
+      ],
+      "definition": "frequent loose or watery bowel movements",
+      "example": "The patient has had diarrhea since yesterday.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_013",
+      "module": "symptoms_common_illness",
+      "english": "constipation",
+      "norwegian": "forstoppelse",
+      "acceptedEnglish": [
+        "being constipated"
+      ],
+      "acceptedNorwegian": [
+        "forstoppelsen",
+        "hard mage",
+        "treg mage"
+      ],
+      "definition": "difficulty emptying the bowels or having hard stools",
+      "example": "Drinking enough water can help prevent constipation.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_014",
+      "module": "symptoms_common_illness",
+      "english": "dizziness",
+      "norwegian": "svimmelhet",
+      "acceptedEnglish": [
+        "dizzy",
+        "feeling dizzy",
+        "light-headedness",
+        "lightheadedness"
+      ],
+      "acceptedNorwegian": [
+        "svimmel",
+        "svimmelheten",
+        "ørhet"
+      ],
+      "definition": "the feeling that you are unsteady or that things are spinning",
+      "example": "Sit down if you experience dizziness.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_015",
+      "module": "symptoms_common_illness",
+      "english": "tiredness / fatigue",
+      "norwegian": "tretthet / utmattelse",
+      "acceptedEnglish": [
+        "tiredness",
+        "extreme tiredness",
+        "exhaustion",
+        "fatigue"
+      ],
+      "acceptedNorwegian": [
+        "tretthet",
+        "slitenhet",
+        "utmattet",
+        "veldig trøtt",
+        "utmattelse"
+      ],
+      "definition": "a feeling of being tired or lacking physical or mental energy",
+      "example": "Tiredness or fatigue can occur during illness.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_016",
+      "module": "symptoms_common_illness",
+      "english": "rash",
+      "norwegian": "utslett",
+      "acceptedEnglish": [
+        "skin rash",
+        "a rash"
+      ],
+      "acceptedNorwegian": [
+        "utslettet",
+        "hudutslett"
+      ],
+      "definition": "an area of irritated or changed skin",
+      "example": "The child has a red rash on both arms.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_017",
+      "module": "symptoms_common_illness",
+      "english": "itching",
+      "norwegian": "kløe",
+      "acceptedEnglish": [
+        "itch",
+        "itchiness",
+        "itchy skin"
+      ],
+      "acceptedNorwegian": [
+        "kløen",
+        "det klør",
+        "kløende hud"
+      ],
+      "definition": "an uncomfortable feeling that makes you want to scratch the skin",
+      "example": "The allergy is causing itching.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_018",
+      "module": "symptoms_common_illness",
+      "english": "swelling",
+      "norwegian": "hevelse",
+      "acceptedEnglish": [
+        "swollen area",
+        "swollenness"
+      ],
+      "acceptedNorwegian": [
+        "hevelsen",
+        "opphovning",
+        "hovenhet",
+        "hovent"
+      ],
+      "definition": "an area becoming larger because of injury, inflammation or illness",
+      "example": "There is swelling around the ankle.",
+      "confusions": [],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "There is some _____ around the injured ankle.",
+          "answer": "swelling"
+        }
+      ]
+    },
+    {
+      "id": "symptoms_common_illness_019",
+      "module": "symptoms_common_illness",
+      "english": "infection",
+      "norwegian": "infeksjon",
+      "acceptedEnglish": [
+        "an infection"
+      ],
+      "acceptedNorwegian": [
+        "infeksjonen"
+      ],
+      "definition": "an illness caused by harmful microorganisms entering the body",
+      "example": "The wound shows signs of infection.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "symptoms_common_illness_020",
+      "module": "symptoms_common_illness",
+      "english": "feeling unwell",
+      "norwegian": "føle seg uvel / dårlig",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [
+        "føle seg uvel",
+        "dårlig",
+        "føle seg dårlig",
+        "uvel"
+      ],
+      "definition": "feeling sick, weak, or not as healthy as usual",
+      "example": "Tell a colleague if a resident is feeling unwell.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_001",
+      "module": "injuries_health_conditions",
+      "english": "injury",
+      "norwegian": "skade",
+      "acceptedEnglish": [
+        "injuries",
+        "physical injury"
+      ],
+      "acceptedNorwegian": [
+        "skaden",
+        "personskade"
+      ],
+      "definition": "physical damage to the body caused by an accident or other event",
+      "example": "The patient has an injury to the ankle.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_002",
+      "module": "injuries_health_conditions",
+      "english": "wound",
+      "norwegian": "sår",
+      "acceptedEnglish": [
+        "wounds",
+        "open wound"
+      ],
+      "acceptedNorwegian": [
+        "såret",
+        "åpent sår"
+      ],
+      "definition": "damage to the skin or body tissue",
+      "example": "Keep the wound clean and dry.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_003",
+      "module": "injuries_health_conditions",
+      "english": "bleeding",
+      "norwegian": "blødning / å blø",
+      "acceptedEnglish": [
+        "to bleed",
+        "bleed",
+        "blood loss"
+      ],
+      "acceptedNorwegian": [
+        "blør",
+        "å blø",
+        "blodtap",
+        "blødningen",
+        "blødning"
+      ],
+      "definition": "blood coming out of a damaged blood vessel",
+      "example": "Apply pressure to stop the bleeding.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_004",
+      "module": "injuries_health_conditions",
+      "english": "bruise",
+      "norwegian": "blåmerke",
+      "acceptedEnglish": [
+        "bruising",
+        "a bruise"
+      ],
+      "acceptedNorwegian": [
+        "blåmerket",
+        "bloduttredelse"
+      ],
+      "definition": "a dark mark on the skin caused by bleeding under the surface",
+      "example": "A bruise appeared after the fall.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_005",
+      "module": "injuries_health_conditions",
+      "english": "burn",
+      "norwegian": "brannskade",
+      "acceptedEnglish": [
+        "burn injury",
+        "a burn"
+      ],
+      "acceptedNorwegian": [
+        "brannsår",
+        "forbrenning",
+        "brannskaden"
+      ],
+      "definition": "an injury caused by heat, chemicals, electricity or radiation",
+      "example": "Cool a minor burn with running water.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_006",
+      "module": "injuries_health_conditions",
+      "english": "fracture / broken bone",
+      "norwegian": "brudd / beinbrudd",
+      "acceptedEnglish": [
+        "broken bone",
+        "bone fracture",
+        "fracture"
+      ],
+      "acceptedNorwegian": [
+        "beinbrudd",
+        "benbrudd",
+        "knokkelbrudd",
+        "bruddet",
+        "brudd"
+      ],
+      "definition": "a crack or break in a bone",
+      "example": "The X-ray confirmed a fracture, or broken bone.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_007",
+      "module": "injuries_health_conditions",
+      "english": "sprain",
+      "norwegian": "forstuing",
+      "acceptedEnglish": [
+        "sprained joint",
+        "a sprain"
+      ],
+      "acceptedNorwegian": [
+        "forstuelse",
+        "overtråkk",
+        "forstuingen"
+      ],
+      "definition": "an injury to the ligaments around a joint",
+      "example": "He has a sprain in his ankle.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_008",
+      "module": "injuries_health_conditions",
+      "english": "shortness of breath",
+      "norwegian": "tungpust / pustevansker",
+      "acceptedEnglish": [
+        "breathlessness",
+        "difficulty breathing",
+        "short of breath",
+        "breathing difficulty",
+        "breathing difficulties"
+      ],
+      "acceptedNorwegian": [
+        "tungpust",
+        "pustevansker",
+        "kortpustethet",
+        "vanskelig for å puste",
+        "problemer med å puste",
+        "tungpustethet"
+      ],
+      "definition": "difficulty breathing or the feeling that you cannot get enough air",
+      "example": "Call for help if the patient develops shortness of breath.",
+      "confusions": [
+        {
+          "answer": "shortness of breathe",
+          "feedback": "Use «breath» here. «Breathe» is the verb; «breath» is the noun."
+        }
+      ],
+      "questions": [
+        {
+          "type": "fillBlank",
+          "prompt": "The patient has _____ and needs to stop walking.",
+          "answer": "shortness of breath",
+          "accepted": [
+            "breathlessness",
+            "difficulty breathing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "injuries_health_conditions_009",
+      "module": "injuries_health_conditions",
+      "english": "chest pain",
+      "norwegian": "brystsmerter",
+      "acceptedEnglish": [
+        "pain in the chest",
+        "chest ache"
+      ],
+      "acceptedNorwegian": [
+        "brystsmerte",
+        "vondt i brystet",
+        "smerter i brystet"
+      ],
+      "definition": "pain or discomfort in the chest",
+      "example": "Sudden chest pain can require urgent assessment.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_010",
+      "module": "injuries_health_conditions",
+      "english": "fainting",
+      "norwegian": "besvimelse",
+      "acceptedEnglish": [
+        "faint",
+        "passing out",
+        "pass out",
+        "loss of consciousness"
+      ],
+      "acceptedNorwegian": [
+        "besvime",
+        "besvimte",
+        "å besvime",
+        "besvimelsen"
+      ],
+      "definition": "briefly losing consciousness because not enough blood reaches the brain",
+      "example": "Fainting can happen if a person becomes very weak or dehydrated.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_011",
+      "module": "injuries_health_conditions",
+      "english": "dehydration",
+      "norwegian": "dehydrering / væskemangel",
+      "acceptedEnglish": [
+        "being dehydrated",
+        "dehydrated"
+      ],
+      "acceptedNorwegian": [
+        "væskemangel",
+        "uttørking",
+        "dehydrert",
+        "dehydrering"
+      ],
+      "definition": "a condition caused by losing more fluid than the body takes in",
+      "example": "Vomiting and diarrhea can cause dehydration.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_012",
+      "module": "injuries_health_conditions",
+      "english": "pressure sore",
+      "norwegian": "trykksår",
+      "acceptedEnglish": [
+        "pressure ulcer",
+        "pressure injury",
+        "pressure sore",
+        "bed sore",
+        "bedsore",
+        "decubitus ulcer"
+      ],
+      "acceptedNorwegian": [
+        "trykksåret",
+        "liggesår",
+        "liggesåret",
+        "trykkskade"
+      ],
+      "definition": "an area of damaged skin and tissue caused by prolonged pressure on the body",
+      "example": "Regular repositioning can help prevent pressure sores.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_013",
+      "module": "injuries_health_conditions",
+      "english": "allergic reaction",
+      "norwegian": "allergisk reaksjon",
+      "acceptedEnglish": [
+        "allergy reaction"
+      ],
+      "acceptedNorwegian": [
+        "allergireaksjon"
+      ],
+      "definition": "a physical response caused by an allergy",
+      "example": "A severe allergic reaction can affect breathing.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_014",
+      "module": "injuries_health_conditions",
+      "english": "asthma",
+      "norwegian": "astma",
+      "acceptedEnglish": [
+        "asthma condition"
+      ],
+      "acceptedNorwegian": [
+        "astmaen"
+      ],
+      "definition": "a long-term condition that can make the airways narrow and breathing difficult",
+      "example": "The child uses an inhaler for asthma.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_015",
+      "module": "injuries_health_conditions",
+      "english": "diabetes",
+      "norwegian": "diabetes",
+      "acceptedEnglish": [
+        "diabetes mellitus"
+      ],
+      "acceptedNorwegian": [
+        "sukkersyke"
+      ],
+      "definition": "a condition that affects how the body controls blood sugar",
+      "example": "People with diabetes may need to monitor their blood sugar.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_016",
+      "module": "injuries_health_conditions",
+      "english": "high blood pressure",
+      "norwegian": "høyt blodtrykk",
+      "acceptedEnglish": [
+        "hypertension"
+      ],
+      "acceptedNorwegian": [
+        "forhøyet blodtrykk",
+        "hypertensjon"
+      ],
+      "definition": "blood pressure that stays higher than the healthy range",
+      "example": "High blood pressure often has no obvious symptoms.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_017",
+      "module": "injuries_health_conditions",
+      "english": "seizure",
+      "norwegian": "krampeanfall",
+      "acceptedEnglish": [
+        "epileptic seizure",
+        "convulsion",
+        "fit"
+      ],
+      "acceptedNorwegian": [
+        "epileptisk anfall",
+        "kramper",
+        "anfall"
+      ],
+      "definition": "a sudden episode of abnormal electrical activity in the brain that may affect movement or awareness",
+      "example": "Protect the person from injury during a seizure.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_018",
+      "module": "injuries_health_conditions",
+      "english": "dementia",
+      "norwegian": "demens",
+      "acceptedEnglish": [],
+      "acceptedNorwegian": [],
+      "definition": "a group of conditions that affect memory, thinking, behavior, and the ability to manage daily life",
+      "example": "A person with dementia may need extra time and clear communication.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+      "id": "injuries_health_conditions_019",
+      "module": "injuries_health_conditions",
+      "english": "anxiety",
+      "norwegian": "angst / uro",
+      "acceptedEnglish": [
+        "anxiousness",
+        "feeling anxious"
+      ],
+      "acceptedNorwegian": [
+        "engstelse",
+        "uro",
+        "engstelig",
+        "angst"
+      ],
+      "definition": "strong worry or fear that can affect daily life",
+      "example": "The patient feels anxiety before the procedure.",
+      "confusions": [],
+      "questions": []
+    },
+    {
+    "id": "injuries_health_conditions_020",
+    "module": "injuries_health_conditions",
+    "english": "dislocation",
+    "norwegian": "ute av ledd",
+    "acceptedEnglish": [
+      "joint dislocation",
+      "dislocated joint",
+      "a dislocation"
+    ],
+    "acceptedNorwegian": [
+      "ledd ute av stilling",
+      "luksasjon",
+      "luksasjonen",
+      "ute av ledd"
+    ],
+    "definition": "an injury in which the bones in a joint are forced out of their normal position",
+    "example": "The fall caused a dislocation of the shoulder.",
+    "confusions": [],
+    "questions": []
+  }
   ],
   "challenges": {
     "glossary-test-week-47-2026": {
